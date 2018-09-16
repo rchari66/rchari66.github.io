@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>techtaste</title>
-    <link>https://techtaste.in/</link>
-    <description>Recent content on techtaste</description>
+    <title>Techtaste</title>
+    <link>https://techtaste.me/</link>
+    <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.in/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project 1</title>
-      <link>https://techtaste.in/projects/project1/</link>
+      <link>https://techtaste.me/projects/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/projects/project1/</guid>
+      <guid>https://techtaste.me/projects/project1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Second</title>
-      <link>https://techtaste.in/post/second/</link>
+      <link>https://techtaste.me/post/second/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/second/</guid>
+      <guid>https://techtaste.me/post/second/</guid>
       <description>Tesitng second post~</description>
     </item>
     
     <item>
       <title>First</title>
-      <link>https://techtaste.in/post/first/</link>
+      <link>https://techtaste.me/post/first/</link>
       <pubDate>Sat, 01 Sep 2018 23:38:20 +0529</pubDate>
       
-      <guid>https://techtaste.in/post/first/</guid>
+      <guid>https://techtaste.me/post/first/</guid>
       <description>Hi there. My first Hugo post</description>
     </item>
     

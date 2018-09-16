@@ -3,76 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://techtaste.in/projects/project1/</loc>
+    <loc>https://techtaste.me/projects/project1/</loc>
   </url>
   
   <url>
-    <loc>https://techtaste.in/post/second/</loc>
+    <loc>https://techtaste.me/post/second/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://techtaste.in/post/first/</loc>
+    <loc>https://techtaste.me/post/first/</loc>
     <lastmod>2018-09-01T23:38:20+05:29</lastmod>
   </url>
   
   <url>
-    <loc>https://techtaste.in/categories/</loc>
+    <loc>https://techtaste.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/tags/first/</loc>
-    <lastmod>2018-09-01T23:38:20+05:29</lastmod>
+    <loc>https://techtaste.me/tags/cloud9/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/tags/go/</loc>
+    <loc>https://techtaste.me/tags/docker-cloud9/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/tags/golang/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.in/tags/hugo/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.in/categories/hugo/</loc>
+    <loc>https://techtaste.me/tags/first-test/</loc>
     <lastmod>2018-09-01T23:38:20+05:29</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/tags/hugo-test/</loc>
+    <loc>https://techtaste.me/categories/hugo/</loc>
+    <lastmod>2018-09-01T23:38:20+05:29</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/tags/hugo-test/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/post/</loc>
+    <loc>https://techtaste.me/post/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/projects/</loc>
+    <loc>https://techtaste.me/projects/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/tags/</loc>
+    <loc>https://techtaste.me/tags/</loc>
     <lastmod>2018-09-01T23:38:20+05:29</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://techtaste.in/</loc>
+    <loc>https://techtaste.me/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
