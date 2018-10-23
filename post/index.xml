@@ -6,10 +6,77 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Oct 2018 14:39:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Oct 2018 16:08:08 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vdock Test1</title>
+      <link>https://techtaste.me/post/vdock-test1/</link>
+      <pubDate>Tue, 23 Oct 2018 16:08:08 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/vdock-test1/</guid>
+      <description>&lt;p&gt;Below are the basic syntaxes for writing &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;markdown&lt;/a&gt; pages.&lt;/p&gt;
+
+&lt;h3 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;**bold**
+__bold__
+
+*Emphasis*
+_Emphasis_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Emphasis&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Emphasis&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
+
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;* list item 1
+* list item 2
+	* sub list item 1
+	* sub list item 2
+		* nested sub list item 1
+		* nested sub list item 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;list item 1&lt;/li&gt;
+&lt;li&gt;list item 2
+
+&lt;ul&gt;
+&lt;li&gt;sub list item 1&lt;/li&gt;
+&lt;li&gt;sub list item 2
+
+&lt;ul&gt;
+&lt;li&gt;nested sub list item 1&lt;/li&gt;
+&lt;li&gt;nested sub list item 2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;1. list item 1
+2. list item 2
+	1. sub list item 1
+	2. sub list item 2
+		1. nested sub list item 1
+		2. nested sub list item 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Vdock Hugo</title>
