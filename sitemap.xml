@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/newpost/</loc>
+    <lastmod>2018-10-25T09:21:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/test-post1/</loc>
     <lastmod>2018-10-24T04:06:49+00:00</lastmod>
   </url>
@@ -66,7 +71,7 @@
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2018-10-24T04:06:49+00:00</lastmod>
+    <lastmod>2018-10-25T09:21:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +88,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2018-10-24T04:06:49+00:00</lastmod>
+    <lastmod>2018-10-25T09:21:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
