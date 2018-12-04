@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://techtaste.me/projects/project2/</loc>
-  </url>
-  
-  <url>
     <loc>https://techtaste.me/projects/project1/</loc>
   </url>
   
   <url>
-    <loc>https://techtaste.me/post/morkdown-guide/</loc>
+    <loc>https://techtaste.me/projects/project2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/post/markdown-guide/</loc>
     <lastmod>2018-10-23T16:08:08+00:00</lastmod>
   </url>
   
@@ -26,7 +26,7 @@
   </url>
   
   <url>
-    <loc>https://techtaste.me/tags/cloud9-ide/</loc>
+    <loc>https://techtaste.me/tags/docker-cloud9/</loc>
     <priority>0</priority>
   </url>
   
