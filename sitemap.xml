@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/test/</loc>
+    <lastmod>2018-12-05T14:35:34+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/markdown-guide/</loc>
     <lastmod>2018-10-23T16:08:08+00:00</lastmod>
   </url>
@@ -32,7 +37,7 @@
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2018-10-23T16:08:08+00:00</lastmod>
+    <lastmod>2018-12-05T14:35:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,7 +53,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2018-10-23T16:08:08+00:00</lastmod>
+    <lastmod>2018-12-05T14:35:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
