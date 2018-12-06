@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Oct 2018 16:08:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Dec 2018 07:44:48 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Use Vdock-Hugo</title>
+      <link>https://techtaste.me/post/vdock-tool-usage/</link>
+      <pubDate>Thu, 06 Dec 2018 07:44:48 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/vdock-tool-usage/</guid>
+      <description> </description>
+    </item>
     
     <item>
       <title>Markdown guide</title>

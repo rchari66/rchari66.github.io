@@ -19,5 +19,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>New_post</title>
+      <link>https://techtaste.me/categories/new_post/</link>
+      <pubDate>Thu, 06 Dec 2018 07:44:48 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/new_post/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
