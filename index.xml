@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techtaste</title>
-    <link>techtaste.me/</link>
+    <link>https://techtaste.me/</link>
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Dec 2018 21:19:55 +0000</lastBuildDate>
     
-	<atom:link href="techtaste.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vdock for Static Site</title>
-      <link>techtaste.me/projects/project1/</link>
+      <link>https://techtaste.me/projects/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>techtaste.me/projects/project1/</guid>
+      <guid>https://techtaste.me/projects/project1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dock-c9</title>
-      <link>techtaste.me/projects/project2/</link>
+      <link>https://techtaste.me/projects/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>techtaste.me/projects/project2/</guid>
+      <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How To Use Vdock Tool</title>
-      <link>techtaste.me/post/vdock-tool/</link>
+      <link>https://techtaste.me/post/vdock-tool/</link>
       <pubDate>Thu, 06 Dec 2018 21:19:55 +0000</pubDate>
       
-      <guid>techtaste.me/post/vdock-tool/</guid>
+      <guid>https://techtaste.me/post/vdock-tool/</guid>
       <description> How to vdock  </description>
     </item>
     
     <item>
       <title>Markdown guide</title>
-      <link>techtaste.me/post/markdown-guide/</link>
+      <link>https://techtaste.me/post/markdown-guide/</link>
       <pubDate>Tue, 23 Oct 2018 16:08:08 +0000</pubDate>
       
-      <guid>techtaste.me/post/markdown-guide/</guid>
+      <guid>https://techtaste.me/post/markdown-guide/</guid>
       <description>&lt;p&gt;Below are the basic syntaxes for writing &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;markdown&lt;/a&gt; pages.&lt;/p&gt;
 
 &lt;h3 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h3&gt;
