@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker Cloud9 on Techtaste</title>
-    <link>https://techtaste.me/tags/docker-cloud9/</link>
+    <link>techtaste.in/tags/docker-cloud9/</link>
     <description>Recent content in Docker Cloud9 on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://techtaste.me/tags/docker-cloud9/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="techtaste.in/tags/docker-cloud9/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dock-c9</title>
-      <link>https://techtaste.me/projects/project2/</link>
+      <link>techtaste.in/projects/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://techtaste.me/projects/project2/</guid>
+      <guid>techtaste.in/projects/project2/</guid>
       <description></description>
     </item>
     
