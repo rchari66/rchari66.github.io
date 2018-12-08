@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Techtaste</title>
-    <link>techtaste.in/categories/</link>
+    <link>techtaste.me/categories/</link>
     <description>Recent content in Categories on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="techtaste.in/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="techtaste.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown</title>
-      <link>techtaste.in/categories/markdown/</link>
+      <link>techtaste.me/categories/markdown/</link>
       <pubDate>Tue, 23 Oct 2018 16:08:08 +0000</pubDate>
       
-      <guid>techtaste.in/categories/markdown/</guid>
+      <guid>techtaste.me/categories/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New_post</title>
-      <link>techtaste.in/categories/new_post/</link>
+      <link>techtaste.me/categories/new_post/</link>
       <pubDate>Thu, 06 Dec 2018 21:19:55 +0000</pubDate>
       
-      <guid>techtaste.in/categories/new_post/</guid>
+      <guid>techtaste.me/categories/new_post/</guid>
       <description></description>
     </item>
     

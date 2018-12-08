@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Techtaste</title>
-    <link>techtaste.in/categories/markdown/</link>
+    <link>techtaste.me/categories/markdown/</link>
     <description>Recent content in Markdown on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Oct 2018 16:08:08 +0000</lastBuildDate>
     
-	<atom:link href="techtaste.in/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="techtaste.me/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown guide</title>
-      <link>techtaste.in/post/markdown-guide/</link>
+      <link>techtaste.me/post/markdown-guide/</link>
       <pubDate>Tue, 23 Oct 2018 16:08:08 +0000</pubDate>
       
-      <guid>techtaste.in/post/markdown-guide/</guid>
+      <guid>techtaste.me/post/markdown-guide/</guid>
       <description>&lt;p&gt;Below are the basic syntaxes for writing &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;markdown&lt;/a&gt; pages.&lt;/p&gt;
 
 &lt;h3 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h3&gt;
