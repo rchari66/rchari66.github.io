@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jan 2019 15:19:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 07:53:12 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,14 +30,30 @@
     </item>
     
     <item>
-      <title>Testpost</title>
-      <link>https://techtaste.me/post/testpost/</link>
-      <pubDate>Tue, 08 Jan 2019 15:19:46 +0000</pubDate>
+      <title>TCPDUMP cmd</title>
+      <link>https://techtaste.me/post/tcpdump/</link>
+      <pubDate>Sun, 19 May 2019 07:53:12 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/testpost/</guid>
-      <description>Write content Here Heading5 table data |
-table data |
-data |</description>
+      <guid>https://techtaste.me/post/tcpdump/</guid>
+      <description>tcpdump -i any To get the network packets from all network interfaces, run the following command,  get packets on localhost with port 8288 tcpdump -i lo0 port 8288  tcpdump -i eth0 get the network packets from a single interface  tcpdump -i eth0 -w wirte_file_name write all the captured packets to a file, use the ‘-w’ option,  tcpdump -r packets_file read an already created, old tcpdump file.</description>
+    </item>
+    
+    <item>
+      <title>Sys Admin Cmds</title>
+      <link>https://techtaste.me/post/sys-admin-cmds/</link>
+      <pubDate>Sun, 19 May 2019 06:34:32 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sys-admin-cmds/</guid>
+      <description>lscpu list of cpus.  lsmem list of memory.  lsof (list open files) lsof -i tcp:80  df (disk free space) Display free disk space Filesystem Size Used Avail Use% Mounted on /dev/xvda1 32G 4.7G 26G 16% / tmpfs 1.9G 0 1.9G 0% /dev/shm  du (disk space usage) du - estimate file space usage du -sh /var/*  id $ id uid=501(operations) gid=100(users) groups=100(users)  curl curl -I -s google.</description>
+    </item>
+    
+    <item>
+      <title>Linux network commands</title>
+      <link>https://techtaste.me/post/linux-network-commands/</link>
+      <pubDate>Sat, 18 May 2019 05:30:33 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/linux-network-commands/</guid>
+      <description>Ifconfig Used to configure network interface parameters. Checking ip of the machine.  traceroute Print the route packets take to network host.  dig(Domain information groper) Dig (domain information groper) query DNS related information like A Record, CNAME, MX Record etc  telnet Connects to host on given port using telnet protocal. If connection successful then host is working fine.  nslookup It queries internet domain name servers.  Options</description>
     </item>
     
     <item>

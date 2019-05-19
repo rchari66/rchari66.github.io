@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>New_post</title>
+        <title>TCPDUMP cmd</title>
         
         <link rel="icon" href="https://techtaste.me/img/logo.jpg">
         
@@ -63,9 +63,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://techtaste.me/categories/new_post/index.xml" rel="alternate" type="application/rss+xml" title="Techtaste" />
-        <link href="https://techtaste.me/categories/new_post/index.xml" rel="feed" type="application/rss+xml" title="Techtaste" />
-        
 
         
     </head>
@@ -85,7 +82,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">New_post</a>
+                    <a class="navbar-brand visible-xs" href="#">TCPDUMP cmd</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,9 +133,7 @@
 
 <main>
 
-    <h2>New_post</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -152,25 +147,76 @@
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/post/vdock-tool/">How To Use Vdock Tool</a></h4>
-    <h5>December 6, 2018</h5>
-    
+<h2 id="tcpdump-i-any">tcpdump -i any</h2>
 
+<pre><code class="language-language">To get the network packets from all network interfaces, run the following command,
+</code></pre>
+
+<h2 id="get-packets-on-localhost-with-port-8288">get packets on localhost with port 8288</h2>
+
+<pre><code class="language-language">tcpdump -i lo0 port 8288
+</code></pre>
+
+<h2 id="tcpdump-i-eth0">tcpdump -i eth0</h2>
+
+<pre><code class="language-language">get the network packets from a single interface
+</code></pre>
+
+<h2 id="tcpdump-i-eth0-w-wirte-file-name">tcpdump -i eth0 -w wirte_file_name</h2>
+
+<pre><code class="language-language">write all the captured packets to a file, use the ‘-w’ option,
+</code></pre>
+
+<h2 id="tcpdump-r-packets-file">tcpdump -r packets_file</h2>
+
+<pre><code class="language-language">read an already created, old tcpdump file.
+</code></pre>
+
+<h2 id="tcpdump-net-192-168-1-0-24">tcpdump net 192.168.1.0/24</h2>
+
+<pre><code class="language-language">get packets from a whole netwrok
+</code></pre>
+
+<h2 id="tcpdump-host-192-168-1-100">tcpdump host 192.168.1.100</h2>
+
+<pre><code class="language-language">Get all the packets based on the IP address, whether source or destination or both
+</code></pre>
+
+<h2 id="tcpdump-ssh">tcpdump ssh</h2>
+
+<pre><code class="language-language">check all the packets used based on the protocol
+</code></pre>
+
+<h2 id="to-get-packets-for-a-single-port-ot-for-a-range-of-ports-use">To get packets for a single port ot for a range of ports, use</h2>
+
+<pre><code class="language-language">$ tcpdump port 22
+$ tcpdump portrange 22-8080
+</code></pre>
+
+<h2 id="more">More..</h2>
+
+<pre><code class="language-language">To get packets based on source or destination of an IP address, use
+
+$ tcpdump src 192.168.1.100
+$ tcpdump dst 192.168.1.100
+$ tcpdump src 192.168.1.100 &amp;&amp; port 22 -w ssh_packets
+$ tcpdump port 443 or 80 -w http_packets
+$ tcpdump -i eth0 src port not 22
+</code></pre>
 </div>
- 
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 

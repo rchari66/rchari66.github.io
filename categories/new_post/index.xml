@@ -6,20 +6,18 @@
     <description>Recent content in New_post on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jan 2019 15:19:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 07:53:12 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/categories/new_post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Testpost</title>
-      <link>https://techtaste.me/post/testpost/</link>
-      <pubDate>Tue, 08 Jan 2019 15:19:46 +0000</pubDate>
+      <title>TCPDUMP cmd</title>
+      <link>https://techtaste.me/post/tcpdump/</link>
+      <pubDate>Sun, 19 May 2019 07:53:12 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/testpost/</guid>
-      <description>Write content Here Heading5 table data |
-table data |
-data |</description>
+      <guid>https://techtaste.me/post/tcpdump/</guid>
+      <description>tcpdump -i any To get the network packets from all network interfaces, run the following command,  get packets on localhost with port 8288 tcpdump -i lo0 port 8288  tcpdump -i eth0 get the network packets from a single interface  tcpdump -i eth0 -w wirte_file_name write all the captured packets to a file, use the ‘-w’ option,  tcpdump -r packets_file read an already created, old tcpdump file.</description>
     </item>
     
     <item>

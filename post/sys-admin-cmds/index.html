@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>New_post</title>
+        <title>Sys Admin Cmds</title>
         
         <link rel="icon" href="https://techtaste.me/img/logo.jpg">
         
@@ -63,9 +63,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://techtaste.me/categories/new_post/index.xml" rel="alternate" type="application/rss+xml" title="Techtaste" />
-        <link href="https://techtaste.me/categories/new_post/index.xml" rel="feed" type="application/rss+xml" title="Techtaste" />
-        
 
         
     </head>
@@ -85,7 +82,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">New_post</a>
+                    <a class="navbar-brand visible-xs" href="#">Sys Admin Cmds</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,9 +133,7 @@
 
 <main>
 
-    <h2>New_post</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -147,30 +142,115 @@
     
     
 
-    <h4><a href="/post/tcpdump/">TCPDUMP cmd</a></h4>
+    <h4><a href="/post/sys-admin-cmds/">Sys Admin Cmds</a></h4>
     <h5>May 19, 2019</h5>
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/post/vdock-tool/">How To Use Vdock Tool</a></h4>
-    <h5>December 6, 2018</h5>
-    
+<h2 id="lscpu">lscpu</h2>
 
+<pre><code class="language-language">list of cpus.
+</code></pre>
+
+<h2 id="lsmem">lsmem</h2>
+
+<pre><code class="language-language">list of memory.
+</code></pre>
+
+<h2 id="lsof-list-open-files">lsof (list open files)</h2>
+
+<pre><code class="language-language">lsof -i tcp:80
+</code></pre>
+
+<h2 id="df-disk-free-space">df (disk free space)</h2>
+
+<pre><code class="language-language">Display free disk space  
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda1       32G  4.7G   26G  16% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+
+</code></pre>
+
+<h2 id="du-disk-space-usage">du (disk space usage)</h2>
+
+<pre><code class="language-language"> du - estimate file space usage
+ du -sh /var/*
+</code></pre>
+
+<h2 id="id">id</h2>
+
+<pre><code class="language-language">$ id
+uid=501(operations) gid=100(users) groups=100(users)
+</code></pre>
+
+<h2 id="curl">curl</h2>
+
+<pre><code class="language-language">curl -I -s google.com
+
+-I : Header information.
+-s : silence body response.
+-k : insecure
+-v : verbose
+-V : version
+</code></pre>
+
+<h2 id="ps">ps</h2>
+
+<pre><code class="language-language">$ ps -ef 
+$ ps -u &lt;username&gt; (display all user processes)
+$ sudo ps aux
+a = show processes for all users
+u = display the process's user/owner
+x = also show processes not attached to a terminal
+</code></pre>
+
+<h2 id="docker-stats">docker stats</h2>
+
+<pre><code class="language-language">$ docker stats &lt;container-id&gt;
+CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
+5e1485ac499f        zen_khayyam         0.17%               147.5MiB / 9.251GiB   1.56%               14.3MB / 18.4MB     113MB / 8.66MB      64
+</code></pre>
+
+<h2 id="basic-comamnds">basic comamnds</h2>
+
+<pre><code>&gt; cat, ls, tail, env
+</code></pre>
+
+<h2 id="chmod">chmod</h2>
+
+<pre><code class="language-language">chmod 400 shh_key.pem
+</code></pre>
+
+<h2 id="history-display-history-commands">history (display history commands)</h2>
+
+<pre><code class="language-language">$ history 
+   63  kubectl describe pv pvc-b3123e13-51e3-11e9-b709-124cac572d38 
+   64  kubectl delete pv pvc-b3123e13-51e3-11e9-b709-124cac572d38 
+   65  clear
+   66  kubectl get pods
+   67  kubectl get pods
+   68  clear
+   69  kubectl get pods
+   70  kubectl get pods
+   71  kubectl get ns
+   72  kubectl get pod
+
+</code></pre>
 </div>
- 
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 
