@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2019 17:48:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 19:14:32 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>To Do</title>
+      <link>https://techtaste.me/post/to-do/</link>
+      <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/to-do/</guid>
+      <description>List of cmds/concepts to refer  user ids, groups, permissions  ps * list all process by current user * list all processes by all users * list all processes by given user * list process tree * list cpu, memory usage for the process  kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
+    </item>
     
     <item>
       <title>Portforward on Windows 10</title>
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>Process commands in linux</title>
+      <title>Process(ps) cmd in linux</title>
       <link>https://techtaste.me/post/process/</link>
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
