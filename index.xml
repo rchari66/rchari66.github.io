@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2019 16:51:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 17:48:16 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Portforward on Windows</title>
+      <link>https://techtaste.me/post/windows-portforward/</link>
+      <pubDate>Tue, 11 Jun 2019 17:48:16 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/windows-portforward/</guid>
+      <description>Port forward on Windows 10 &amp;gt; netsh interface portproxy add v4tov4 listenaddress=localhost listenport=8286 connectaddress=192.168.56.101 connectport=8286  List all port forward rules on Windows 10 &amp;gt; netsh interface portproxy show all  Delete specific port forward rule &amp;gt; netsh interface portproxy delete v4tov4 listenaddress=localhost listenport=8286  Clear all port forward rules &amp;gt; netsh interface portproxy reset  Note: netsh is network shell for windows to configure routings/port forwarding(something like iptables is for linux)</description>
     </item>
     
     <item>

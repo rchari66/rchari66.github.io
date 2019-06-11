@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/windows-portforward/</loc>
+    <lastmod>2019-06-11T17:48:16+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/process/</loc>
     <lastmod>2019-06-11T16:51:00+00:00</lastmod>
   </url>
@@ -81,7 +86,7 @@
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-11T16:51:00+00:00</lastmod>
+    <lastmod>2019-06-11T17:48:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,7 +108,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-11T16:51:00+00:00</lastmod>
+    <lastmod>2019-06-11T17:48:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,6 +120,12 @@
   
   <url>
     <loc>https://techtaste.me/tags/vdock-hugo/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/categories/windows-10-networks/</loc>
+    <lastmod>2019-06-11T17:48:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
