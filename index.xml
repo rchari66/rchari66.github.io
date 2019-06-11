@@ -57,20 +57,20 @@
     </item>
     
     <item>
-      <title>Sys Admin Cmds</title>
-      <link>https://techtaste.me/post/sys-admin-cmds/</link>
+      <title>Sys Admin Cmds 1</title>
+      <link>https://techtaste.me/post/sys-admin-cmds-1/</link>
       <pubDate>Sun, 19 May 2019 06:34:32 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/sys-admin-cmds/</guid>
+      <guid>https://techtaste.me/post/sys-admin-cmds-1/</guid>
       <description>lscpu list of cpus.  lsmem list of memory.  lsof (list open files) lsof -i tcp:80  df (disk free space) Display free disk space Filesystem Size Used Avail Use% Mounted on /dev/xvda1 32G 4.7G 26G 16% / tmpfs 1.9G 0 1.9G 0% /dev/shm  du (disk space usage) du - estimate file space usage du -sh /var/*  id $ id uid=501(operations) gid=100(users) groups=100(users)  curl curl -I -s google.</description>
     </item>
     
     <item>
-      <title>Linux network commands</title>
-      <link>https://techtaste.me/post/linux-network-commands/</link>
+      <title>Linux network commands 1</title>
+      <link>https://techtaste.me/post/linux-network-commands-1/</link>
       <pubDate>Sat, 18 May 2019 05:30:33 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/linux-network-commands/</guid>
+      <guid>https://techtaste.me/post/linux-network-commands-1/</guid>
       <description>Ifconfig Used to configure network interface parameters. Checking ip of the machine.  traceroute Print the route packets take to network host.  dig(Domain information groper) Dig (domain information groper) query DNS related information like A Record, CNAME, MX Record etc  telnet Connects to host on given port using telnet protocal. If connection successful then host is working fine.  nslookup It queries internet domain name servers.  Options</description>
     </item>
     
@@ -82,73 +82,6 @@
       <guid>https://techtaste.me/post/vdock-tool/</guid>
       <description> Vdock for quickly deploying a site on to Github   Go to Vdock Github project
  </description>
-    </item>
-    
-    <item>
-      <title>Markdown guide</title>
-      <link>https://techtaste.me/post/markdown-guide/</link>
-      <pubDate>Tue, 23 Oct 2018 16:08:08 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/markdown-guide/</guid>
-      <description>&lt;p&gt;Below are the basic syntaxes for writing &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;markdown&lt;/a&gt; pages.&lt;/p&gt;
-
-&lt;h3 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;**bold**
-__bold__
-
-*Emphasis*
-_Emphasis_
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Emphasis&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Emphasis&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
-
-&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;* list item 1
-* list item 2
-	* sub list item 1
-	* sub list item 2
-		* nested sub list item 1
-		* nested sub list item 2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;list item 1&lt;/li&gt;
-&lt;li&gt;list item 2
-
-&lt;ul&gt;
-&lt;li&gt;sub list item 1&lt;/li&gt;
-&lt;li&gt;sub list item 2
-
-&lt;ul&gt;
-&lt;li&gt;nested sub list item 1&lt;/li&gt;
-&lt;li&gt;nested sub list item 2&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;1. list item 1
-2. list item 2
-	1. sub list item 1
-	2. sub list item 2
-		1. nested sub list item 1
-		2. nested sub list item 2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
