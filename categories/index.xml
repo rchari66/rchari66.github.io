@@ -11,11 +11,11 @@
     
     
     <item>
-      <title>K8s</title>
-      <link>https://techtaste.me/categories/k8s/</link>
-      <pubDate>Sat, 18 May 2019 05:30:33 +0000</pubDate>
+      <title>Debug</title>
+      <link>https://techtaste.me/categories/debug/</link>
+      <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
-      <guid>https://techtaste.me/categories/k8s/</guid>
+      <guid>https://techtaste.me/categories/debug/</guid>
       <description></description>
     </item>
     
@@ -38,11 +38,29 @@
     </item>
     
     <item>
-      <title>New_post</title>
-      <link>https://techtaste.me/categories/new_post/</link>
+      <title>Network Cmds</title>
+      <link>https://techtaste.me/categories/network-cmds/</link>
       <pubDate>Sun, 19 May 2019 07:53:12 +0000</pubDate>
       
-      <guid>https://techtaste.me/categories/new_post/</guid>
+      <guid>https://techtaste.me/categories/network-cmds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://techtaste.me/categories/process/</link>
+      <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vdock</title>
+      <link>https://techtaste.me/categories/vdock/</link>
+      <pubDate>Thu, 06 Dec 2018 21:19:55 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/vdock/</guid>
       <description></description>
     </item>
     

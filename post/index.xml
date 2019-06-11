@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 07:53:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 16:51:00 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Process commands in linux</title>
+      <link>https://techtaste.me/post/process/</link>
+      <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/process/</guid>
+      <description> Write content Here </description>
+    </item>
     
     <item>
       <title>TCPDUMP cmd</title>

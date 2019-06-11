@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Cmds on Techtaste</title>
+    <link>https://techtaste.me/categories/network-cmds/</link>
+    <description>Recent content in Network Cmds on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 May 2019 07:53:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/network-cmds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TCPDUMP cmd</title>
+      <link>https://techtaste.me/post/tcpdump/</link>
+      <pubDate>Sun, 19 May 2019 07:53:12 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/tcpdump/</guid>
+      <description>tcpdump -i any To get the network packets from all network interfaces, run the following command,  get packets on localhost with port 8288 tcpdump -i lo0 port 8288  tcpdump -i eth0 get the network packets from a single interface  tcpdump -i eth0 -w wirte_file_name write all the captured packets to a file, use the ‘-w’ option,  tcpdump -r packets_file read an already created, old tcpdump file.</description>
+    </item>
+    
+    <item>
+      <title>Linux network commands</title>
+      <link>https://techtaste.me/post/linux-network-commands/</link>
+      <pubDate>Sat, 18 May 2019 05:30:33 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/linux-network-commands/</guid>
+      <description>Ifconfig Used to configure network interface parameters. Checking ip of the machine.  traceroute Print the route packets take to network host.  dig(Domain information groper) Dig (domain information groper) query DNS related information like A Record, CNAME, MX Record etc  telnet Connects to host on given port using telnet protocal. If connection successful then host is working fine.  nslookup It queries internet domain name servers.  Options</description>
+    </item>
+    
+  </channel>
+</rss>
