@@ -17,7 +17,7 @@
       <pubDate>Wed, 12 Jun 2019 17:57:21 +0000</pubDate>
       
       <guid>https://techtaste.me/post/sys-admin-cmds-4/</guid>
-      <description> Write content Here </description>
+      <description>Run levels are Run level 0 is matched by poweroff.target (and runlevel0.target is a symbolic link to poweroff.target). Run level 1 is matched by rescue.target (and runlevel1.target is a symbolic link to rescue.target). Run level 3 is emulated by multi-user.target (and runlevel3.target is a symbolic link to multi-user.target). Run level 5 is emulated by graphical.target (and runlevel5.target is a symbolic link to graphical.target). Run level 6 is emulated by reboot.</description>
     </item>
     
     <item>

@@ -17,7 +17,7 @@
       <pubDate>Wed, 12 Jun 2019 17:57:21 +0000</pubDate>
       
       <guid>https://techtaste.me/post/sys-admin-cmds-4/</guid>
-      <description> Write content Here </description>
+      <description>Run levels are Run level 0 is matched by poweroff.target (and runlevel0.target is a symbolic link to poweroff.target). Run level 1 is matched by rescue.target (and runlevel1.target is a symbolic link to rescue.target). Run level 3 is emulated by multi-user.target (and runlevel3.target is a symbolic link to multi-user.target). Run level 5 is emulated by graphical.target (and runlevel5.target is a symbolic link to graphical.target). Run level 6 is emulated by reboot.</description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@ mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 moun
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>List of cmds/concepts to refer Note: https://fedoramagazine.org/inspect-manage-processes-ps/ nginx setup and configure for two sites on same host kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
+      <description>List of cmds/concepts to refer nginx setup and configure for two sites on same host Web Server vs Application Server * examples  Ssh key gen and host a nginx server(with multiple static sites) tcp vs udp thread dump heap dump tcp dump https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work sed vs awk Docker root user vs host root CNAME, A recodrs * https://unix.stackexchange.com/questions/127723/what-are-the-benefits-of-using-several-ip-addresses-on-a-server  Linux interview questoins ISO model brief(All people seem to need data processing) java memory model file descriptors, system calls, dup, fork #### Java coding exercise OR coding(check wit HR) #### foreground &amp;amp; background process (creation)</description>
     </item>
     
     <item>
