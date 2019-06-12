@@ -220,6 +220,26 @@ $ ps -e f
 </code></pre>
 
 <p>Note: <strong>htop</strong> can be used to view process tree as well.</p>
+
+<h4 id="find-out-thread-details-of-a-process">Find out thread details of a process</h4>
+
+<pre><code>$ ps -p &lt;PID&gt; -T -o pid,tid
+
+  PID   TID
+ 3926  3926
+ 3927  3927
+ 4602  4602
+ 
+(OR)
+
+$ ps -p &lt;PID&gt; -L -o pid,lwp
+ 
+  PID   LWP
+ 3926  3926
+ 3927  3927
+ 4602  4602
+ 
+</code></pre>
 </div>
 
     
