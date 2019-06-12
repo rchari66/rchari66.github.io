@@ -174,9 +174,41 @@ $ find -name &lt;name&gt;
 
 -- find not matching name
 
-$ find -not -name &lt;name&gt;
+$ find -not -name &lt;name-to-avoid&gt;
 
+-- find by type
+$ find / -type &lt;type&gt; &lt;name&gt;
+
+&lt;type&gt; could be one of
+f = file
+d = directory
+l = symbolic link
+c = character devices
+b = block devices
+
+e.g.
+$ find / -type f -name &quot;*.html&quot;
 </code></pre>
+
+<h4 id="find-by-size">Find by size</h4>
+
+<pre><code>c: bytes
+k: Kilobytes
+M: Megabytes
+G: Gigabytes
+b: 512-byte blocks
+
+-- find exactly 100 bytes file/directories
+$ find / -size 100c
+
+-- find less than 50Mb files in current directory
+$ find -size -50M
+
+-- all files more than 1Gb
+$ find -size +1G
+</code></pre>
+
+<h4 id="find-by-time">Find by Time</h4>
 </div>
 
     

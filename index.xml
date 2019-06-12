@@ -35,7 +35,7 @@
       <pubDate>Wed, 12 Jun 2019 15:53:19 +0000</pubDate>
       
       <guid>https://techtaste.me/post/sys-admin-cmds-3/</guid>
-      <description> extend volume mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 mountDestDir --- list all mount points $ mount -l --- list all mount points of given type. $ mount -l -t &amp;lt;type&amp;gt;  find -- find by name $ find -name &amp;lt;name&amp;gt; -- find not matching name $ find -not -name &amp;lt;name&amp;gt;  </description>
+      <description>extend volume mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 mountDestDir --- list all mount points $ mount -l --- list all mount points of given type. $ mount -l -t &amp;lt;type&amp;gt;  find -- find by name $ find -name &amp;lt;name&amp;gt; -- find not matching name $ find -not -name &amp;lt;name-to-avoid&amp;gt; -- find by type $ find / -type &amp;lt;type&amp;gt; &amp;lt;name&amp;gt; &amp;lt;type&amp;gt; could be one of f = file d = directory l = symbolic link c = character devices b = block devices e.</description>
     </item>
     
     <item>
