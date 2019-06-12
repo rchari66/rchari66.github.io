@@ -35,7 +35,7 @@
       <pubDate>Wed, 12 Jun 2019 15:53:19 +0000</pubDate>
       
       <guid>https://techtaste.me/post/sys-admin-cmds-3/</guid>
-      <description> extend volume mount </description>
+      <description> extend volume mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 mountDestDir --- list all mount points $ mount -l --- list all mount points of given type. $ mount -l -t &amp;lt;type&amp;gt;  </description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Wed, 12 Jun 2019 04:04:44 +0000</pubDate>
       
       <guid>https://techtaste.me/post/questions/</guid>
-      <description>$ Who does SRE stuff? $ Day to day work ? * Is there performance team? * SLO, SLA who decides? * whats the deployment strategy do u use?  </description>
+      <description>$ Who does SRE stuff? $ Day to day work ? * Is there performance team? * SLO, SLA who decides? * whats the deployment strategy do u use? * People are migrating to it from slack?  </description>
     </item>
     
     <item>
