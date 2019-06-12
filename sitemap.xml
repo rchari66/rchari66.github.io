@@ -11,6 +11,26 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/iso-model/</loc>
+    <lastmod>2019-06-12T04:39:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/post/questions/</loc>
+    <lastmod>2019-06-12T04:04:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/post/sys-admin-cmds-2/</loc>
+    <lastmod>2019-06-12T01:22:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/post/terminology/</loc>
+    <lastmod>2019-06-11T22:28:52+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/to-do/</loc>
     <lastmod>2019-06-11T19:14:32+00:00</lastmod>
   </url>
@@ -74,6 +94,18 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/categories/iso/</loc>
+    <lastmod>2019-06-12T04:39:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/categories/network/</loc>
+    <lastmod>2019-06-12T04:39:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/categories/network-cmds-1/</loc>
     <lastmod>2019-05-19T07:53:12+00:00</lastmod>
     <priority>0</priority>
@@ -81,7 +113,7 @@
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-11T19:14:32+00:00</lastmod>
+    <lastmod>2019-06-12T04:39:33+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,8 +123,14 @@
   </url>
   
   <url>
-    <loc>https://techtaste.me/categories/system-admin-cmds-1/</loc>
-    <lastmod>2019-05-19T06:34:32+00:00</lastmod>
+    <loc>https://techtaste.me/categories/questions/</loc>
+    <lastmod>2019-06-12T04:04:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/categories/system-admin-cmds/</loc>
+    <lastmod>2019-06-12T01:22:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,7 +141,13 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-11T19:14:32+00:00</lastmod>
+    <lastmod>2019-06-12T04:39:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/categories/terminology/</loc>
+    <lastmod>2019-06-11T22:28:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   

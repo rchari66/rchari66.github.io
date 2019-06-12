@@ -6,10 +6,47 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2019 19:14:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 04:39:33 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ISO Model</title>
+      <link>https://techtaste.me/post/iso-model/</link>
+      <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/iso-model/</guid>
+      <description> Layer 7 to Layer 1 All People Seem To Need Domino Pizza
+ Physical Layer Data Link Lyaer Network Layer Transport Layer Session Presentation Layer Application Layer  </description>
+    </item>
+    
+    <item>
+      <title>Questions</title>
+      <link>https://techtaste.me/post/questions/</link>
+      <pubDate>Wed, 12 Jun 2019 04:04:44 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/questions/</guid>
+      <description>$ Who does SRE stuff?  </description>
+    </item>
+    
+    <item>
+      <title>Sys Admin Cmds 2</title>
+      <link>https://techtaste.me/post/sys-admin-cmds-2/</link>
+      <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sys-admin-cmds-2/</guid>
+      <description>public static void main(String arg[]) ..  </description>
+    </item>
+    
+    <item>
+      <title>Terminology 1</title>
+      <link>https://techtaste.me/post/terminology/</link>
+      <pubDate>Tue, 11 Jun 2019 22:28:52 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/terminology/</guid>
+      <description>* placeholder * abstract it out * Symantics of a command  * filesytem is on disk data structure  </description>
+    </item>
     
     <item>
       <title>To Do</title>
@@ -17,7 +54,7 @@
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>List of cmds/concepts to refer  user ids, groups, permissions  ps * list all process by current user * list all processes by all users * list all processes by given user * list process tree * list cpu, memory usage for the process  Note: https://fedoramagazine.org/inspect-manage-processes-ps/ kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
+      <description>List of cmds/concepts to refer  user ids, groups, permissions  ps * list all process by current user * list all processes by all users * list all processes by given user * list process tree * list cpu, memory usage for the process  Note: https://fedoramagazine.org/inspect-manage-processes-ps/ nginx setup and configure for two sites on same host kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
     </item>
     
     <item>
@@ -35,7 +72,8 @@
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
       <guid>https://techtaste.me/post/process/</guid>
-      <description> Write content Here </description>
+      <description> fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
+ </description>
     </item>
     
     <item>

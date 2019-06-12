@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Admin Cmds on Techtaste</title>
+    <link>https://techtaste.me/categories/system-admin-cmds/</link>
+    <description>Recent content in System Admin Cmds on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jun 2019 01:22:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/system-admin-cmds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sys Admin Cmds 2</title>
+      <link>https://techtaste.me/post/sys-admin-cmds-2/</link>
+      <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sys-admin-cmds-2/</guid>
+      <description>public static void main(String arg[]) ..  </description>
+    </item>
+    
+    <item>
+      <title>Sys Admin Cmds 1</title>
+      <link>https://techtaste.me/post/sys-admin-cmds-1/</link>
+      <pubDate>Sun, 19 May 2019 06:34:32 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sys-admin-cmds-1/</guid>
+      <description>lscpu list of cpus.  lsmem list of memory.  lsof (list open files) lsof -i tcp:80  df (disk free space) Display free disk space Filesystem Size Used Avail Use% Mounted on /dev/xvda1 32G 4.7G 26G 16% / tmpfs 1.9G 0 1.9G 0% /dev/shm  du (disk space usage) du - estimate file space usage du -sh /var/*  id $ id uid=501(operations) gid=100(users) groups=100(users)  curl curl -I -s google.</description>
+    </item>
+    
+  </channel>
+</rss>

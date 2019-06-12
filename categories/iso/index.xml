@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iso on Techtaste</title>
+    <link>https://techtaste.me/categories/iso/</link>
+    <description>Recent content in Iso on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jun 2019 04:39:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/iso/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ISO Model</title>
+      <link>https://techtaste.me/post/iso-model/</link>
+      <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/iso-model/</guid>
+      <description> Layer 7 to Layer 1 All People Seem To Need Domino Pizza
+ Physical Layer Data Link Lyaer Network Layer Transport Layer Session Presentation Layer Application Layer  </description>
+    </item>
+    
+  </channel>
+</rss>

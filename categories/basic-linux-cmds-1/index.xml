@@ -17,7 +17,8 @@
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
       <guid>https://techtaste.me/post/process/</guid>
-      <description> Write content Here </description>
+      <description> fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
+ </description>
     </item>
     
   </channel>

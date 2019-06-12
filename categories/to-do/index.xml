@@ -17,7 +17,7 @@
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>List of cmds/concepts to refer  user ids, groups, permissions  ps * list all process by current user * list all processes by all users * list all processes by given user * list process tree * list cpu, memory usage for the process  Note: https://fedoramagazine.org/inspect-manage-processes-ps/ kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
+      <description>List of cmds/concepts to refer  user ids, groups, permissions  ps * list all process by current user * list all processes by all users * list all processes by given user * list process tree * list cpu, memory usage for the process  Note: https://fedoramagazine.org/inspect-manage-processes-ps/ nginx setup and configure for two sites on same host kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
     </item>
     
   </channel>

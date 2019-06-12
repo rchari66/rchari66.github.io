@@ -30,6 +30,24 @@
     </item>
     
     <item>
+      <title>Iso</title>
+      <link>https://techtaste.me/categories/iso/</link>
+      <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/iso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://techtaste.me/categories/network/</link>
+      <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Network Cmds 1</title>
       <link>https://techtaste.me/categories/network-cmds-1/</link>
       <pubDate>Sun, 19 May 2019 07:53:12 +0000</pubDate>
@@ -39,11 +57,29 @@
     </item>
     
     <item>
-      <title>System Admin Cmds 1</title>
-      <link>https://techtaste.me/categories/system-admin-cmds-1/</link>
-      <pubDate>Sun, 19 May 2019 06:34:32 +0000</pubDate>
+      <title>Questions</title>
+      <link>https://techtaste.me/categories/questions/</link>
+      <pubDate>Wed, 12 Jun 2019 04:04:44 +0000</pubDate>
       
-      <guid>https://techtaste.me/categories/system-admin-cmds-1/</guid>
+      <guid>https://techtaste.me/categories/questions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>System Admin Cmds</title>
+      <link>https://techtaste.me/categories/system-admin-cmds/</link>
+      <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/system-admin-cmds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminology</title>
+      <link>https://techtaste.me/categories/terminology/</link>
+      <pubDate>Tue, 11 Jun 2019 22:28:52 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/terminology/</guid>
       <description></description>
     </item>
     

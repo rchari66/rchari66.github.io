@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminology on Techtaste</title>
+    <link>https://techtaste.me/categories/terminology/</link>
+    <description>Recent content in Terminology on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 22:28:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/terminology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Terminology 1</title>
+      <link>https://techtaste.me/post/terminology/</link>
+      <pubDate>Tue, 11 Jun 2019 22:28:52 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/terminology/</guid>
+      <description>* placeholder * abstract it out * Symantics of a command  * filesytem is on disk data structure  </description>
+    </item>
+    
+  </channel>
+</rss>
