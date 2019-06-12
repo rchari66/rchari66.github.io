@@ -242,7 +242,33 @@ $ find / -perm 400
 $ find -perm 777
 </code></pre>
 
-<h4 id="find-by-depth">find by depth</h4>
+<h4 id="find-by-depth">Find by depth</h4>
+
+<pre><code>-- find by max depth of 2; means search only two sub-directory levels.
+$ find -maxdepth 2 -name &lt;name&gt;
+
+-- find by min depth 3
+$ find -mindepth 3 -name &lt;name&gt;
+</code></pre>
+
+<h4 id="finding-and-executing-commands-on-those-files">Finding and executing commands on those files.</h4>
+
+<pre><code>-- find by permissions and change owner to different user.
+$ find -perm 755 -exec chown &lt;user&gt;: {}\;
+e.g.
+$ find . -type f -perm 644 -exec chmod 664 {} \;
+
+
+Note:   The &quot;{}&quot; is used as a placeholder for the files that find matches. 
+        The &quot;\;&quot; is used so that find knows where the command ends.
+</code></pre>
+
+<h4 id="combine-results-using-and-or">Combine results using -and/-or</h4>
+
+<pre><code>$ find -name file1 -or -name file2
+
+$ find -name file1 -and -perm 600
+</code></pre>
 </div>
 
     
