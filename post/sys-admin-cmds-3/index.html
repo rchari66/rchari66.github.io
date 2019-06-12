@@ -209,6 +209,24 @@ $ find -size +1G
 </code></pre>
 
 <h4 id="find-by-time">Find by Time</h4>
+
+<pre><code>Access Time: Last time a file was read or written to.
+Modification Time: Last time the contents of the file were modified.
+Change Time: Last time the file's inode meta-data was changed.
+
+-- find files accessed less than two days
+$ find / -atime -2
+
+-- find files whose permissoins changes in last one day.
+$ find / -ctime -1
+
+-- find files modified in last two minutes
+$ find / -mmin -2
+
+** find can also used to compare with another file
+$ find -newer &lt;file-reference&gt;
+
+</code></pre>
 </div>
 
     
