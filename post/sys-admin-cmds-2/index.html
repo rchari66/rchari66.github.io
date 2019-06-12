@@ -149,7 +149,130 @@
 </div>
 
 
-    <br> <div class="text-justify"><pre><code>public static void main(String arg[]) ..
+    <br> <div class="text-justify">
+
+<h4 id="display-inode-details-for-a-file">display inode details for a file</h4>
+
+<pre><code>$ stat &lt;file&gt;
+</code></pre>
+
+<hr />
+
+<pre><code>$ stat /etc/passwd
+
+--- Output ---
+File: `/etc/passwd'
+  Size: 2026            Blocks: 8          IO Block: 4096   regular file
+Device: 811h/2065d      Inode: 752010      Links: 1
+Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2007-08-20 23:19:20.000000000 +0530
+Modify: 2007-07-07 00:06:56.000000000 +0530
+Change: 2007-07-07 00:06:56.000000000 +0530
+</code></pre>
+
+<h4 id="create-a-user-group">Create a user &amp; group</h4>
+
+<pre><code>--- create a user &amp; group
+$ sudo useradd -m testuser
+
+--- set passwd for the user
+$ sudo passwd testuser
+
+
+--- create a group
+sudo groupadd &lt;groupname&gt;
+$ sudo groupadd testgroup
+
+</code></pre>
+
+<h4 id="adding-user-to-a-group">Adding user to a group</h4>
+
+<pre><code>sudo usermod -a -G &lt;group&gt; &lt;user&gt;
+$ sudo usermod -a -G testgroup testuser
+</code></pre>
+
+<h4 id="list-users-for-a-given-group">list users for a given group</h4>
+
+<pre><code>$ grep &lt;username&gt; /etc/group
+$ grep testuser /etc/group
+
+</code></pre>
+
+<h4 id="user-passwords">User passwords</h4>
+
+<pre><code>User encrypted passwords are stored in /etc/shadow.
+
+$ cat /etc/shadow
+
+Note: This file contains passwords of users with second field 'x' only in /etc/passwd 
+</code></pre>
+
+<h4 id="delete-user-or-group">Delete user or group</h4>
+
+<pre><code>$ sudo userdel testuser
+Note: above cmd deletes the primary group 'testuser' of user 'testuser'
+ 
+$sudo groupdel &lt;groupname&gt;
+</code></pre>
+
+<h4 id="chown-cmd">Chown cmd</h4>
+
+<pre><code>$ chown &lt;new_user&gt;:&lt;new_group&gt; &lt;filename&gt;
+
+$ chown testuser:testgroup example.txt
+
+
+ This command picks group of the specified user.
+$ chown &lt;user&gt;: &lt;file&gt;
+
+
+$ chown :&lt;Group&gt; &lt;file&gt;
+</code></pre>
+
+<h4 id="recursively-change-ownership">Recursively change ownership</h4>
+
+<pre><code>$ chown -R USER:GROUP DIRECTORY
+
+$ chown -R testuser: /var/www
+</code></pre>
+
+<h4 id="chmod">Chmod</h4>
+
+<pre><code>chmod [reference][operator][mode] &lt;file&gt;
+ 
+
+ 
+7 = rwx
+6 = rw-
+5 = r-x
+4 = r--
+3 = -wx
+2 = -w-
+1 = --x
+0 = ---
+
+
+$ chmod g+rw &lt;file&gt;
+$ chmod a=r &lt;file&gt;
+
+
+Note: 
+ 
+[reference] can be one of
+u - user
+g - group
+o - other
+a - all
+
+[operator]
+ +  - append permissions
+ -  - remove permissions
+ =  - match exact permissions
+ 
+[mode]
+r  - read
+w  - write
+x  - execute
 </code></pre>
 </div>
 

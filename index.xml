@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2019 04:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 15:53:19 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Sys Admin Cmds 3</title>
+      <link>https://techtaste.me/post/sys-admin-cmds-3/</link>
+      <pubDate>Wed, 12 Jun 2019 15:53:19 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sys-admin-cmds-3/</guid>
+      <description> extend volume mount </description>
+    </item>
+    
+    <item>
       <title>ISO Model</title>
       <link>https://techtaste.me/post/iso-model/</link>
       <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
@@ -45,7 +54,7 @@
       <pubDate>Wed, 12 Jun 2019 04:04:44 +0000</pubDate>
       
       <guid>https://techtaste.me/post/questions/</guid>
-      <description>$ Who does SRE stuff?  </description>
+      <description>$ Who does SRE stuff? $ Day to day work ? * Is there performance team? * SLO, SLA who decides? * whats the deployment strategy do u use?  </description>
     </item>
     
     <item>
@@ -54,7 +63,7 @@
       <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
       
       <guid>https://techtaste.me/post/sys-admin-cmds-2/</guid>
-      <description>public static void main(String arg[]) ..  </description>
+      <description>display inode details for a file $ stat &amp;lt;file&amp;gt;  $ stat /etc/passwd --- Output --- File: `/etc/passwd&#39; Size: 2026 Blocks: 8 IO Block: 4096 regular file Device: 811h/2065d Inode: 752010 Links: 1 Access: (0644/-rw-r--r--) Uid: ( 0/ root) Gid: ( 0/ root) Access: 2007-08-20 23:19:20.000000000 +0530 Modify: 2007-07-07 00:06:56.000000000 +0530 Change: 2007-07-07 00:06:56.000000000 +0530  Create a user &amp;amp; group --- create a user &amp;amp; group $ sudo useradd -m testuser --- set passwd for the user $ sudo passwd testuser --- create a group sudo groupadd &amp;lt;groupname&amp;gt; $ sudo groupadd testgroup  Adding user to a group sudo usermod -a -G &amp;lt;group&amp;gt; &amp;lt;user&amp;gt; $ sudo usermod -a -G testgroup testuser  list users for a given group $ grep &amp;lt;username&amp;gt; /etc/group $ grep testuser /etc/group  User passwords User encrypted passwords are stored in /etc/shadow.</description>
     </item>
     
     <item>
@@ -72,7 +81,7 @@
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>List of cmds/concepts to refer  user ids, groups, permissions  ps * list all process by current user * list all processes by all users * list all processes by given user * list process tree * list cpu, memory usage for the process  Note: https://fedoramagazine.org/inspect-manage-processes-ps/ nginx setup and configure for two sites on same host kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
+      <description>List of cmds/concepts to refer Note: https://fedoramagazine.org/inspect-manage-processes-ps/ nginx setup and configure for two sites on same host kill options Web Server vs Application Server * examples  https://www.youtube.com/watch?v=mpQZVYPuDGU http &amp;amp; https protocal work ISO model brief tcp vs udp thread dump heap dump tcp dump java memory model Java coding exercise OR coding(check wit HR) foreground &amp;amp; background process (creation) Docker root user vs host root file descriptors, system calls, dup, fork CNAME, A recodrs  https://unix.</description>
     </item>
     
     <item>
@@ -90,8 +99,11 @@
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
       <guid>https://techtaste.me/post/process/</guid>
-      <description> fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
- </description>
+      <description>fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
+child process gets zero as returned value from fork.
+ list by user $ ps -u $USER  Ref: https://fedoramagazine.org/inspect-manage-processes-ps/
+list processes by group $ ps -G groupname1 groupname2 e.g. $ ps -G root  Inverse selection (Using -N option)  Select all the process those not started by root(group);
+ $ ps -u root -N  Note: htop or top to see how much cpu, ram used for the processes</description>
     </item>
     
     <item>

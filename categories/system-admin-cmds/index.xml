@@ -6,10 +6,19 @@
     <description>Recent content in System Admin Cmds on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2019 01:22:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 15:53:19 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/categories/system-admin-cmds/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sys Admin Cmds 3</title>
+      <link>https://techtaste.me/post/sys-admin-cmds-3/</link>
+      <pubDate>Wed, 12 Jun 2019 15:53:19 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sys-admin-cmds-3/</guid>
+      <description> extend volume mount </description>
+    </item>
     
     <item>
       <title>Sys Admin Cmds 2</title>
@@ -17,7 +26,7 @@
       <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
       
       <guid>https://techtaste.me/post/sys-admin-cmds-2/</guid>
-      <description>public static void main(String arg[]) ..  </description>
+      <description>display inode details for a file $ stat &amp;lt;file&amp;gt;  $ stat /etc/passwd --- Output --- File: `/etc/passwd&#39; Size: 2026 Blocks: 8 IO Block: 4096 regular file Device: 811h/2065d Inode: 752010 Links: 1 Access: (0644/-rw-r--r--) Uid: ( 0/ root) Gid: ( 0/ root) Access: 2007-08-20 23:19:20.000000000 +0530 Modify: 2007-07-07 00:06:56.000000000 +0530 Change: 2007-07-07 00:06:56.000000000 +0530  Create a user &amp;amp; group --- create a user &amp;amp; group $ sudo useradd -m testuser --- set passwd for the user $ sudo passwd testuser --- create a group sudo groupadd &amp;lt;groupname&amp;gt; $ sudo groupadd testgroup  Adding user to a group sudo usermod -a -G &amp;lt;group&amp;gt; &amp;lt;user&amp;gt; $ sudo usermod -a -G testgroup testuser  list users for a given group $ grep &amp;lt;username&amp;gt; /etc/group $ grep testuser /etc/group  User passwords User encrypted passwords are stored in /etc/shadow.</description>
     </item>
     
     <item>

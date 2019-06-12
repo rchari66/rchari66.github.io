@@ -17,8 +17,11 @@
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
       <guid>https://techtaste.me/post/process/</guid>
-      <description> fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
- </description>
+      <description>fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
+child process gets zero as returned value from fork.
+ list by user $ ps -u $USER  Ref: https://fedoramagazine.org/inspect-manage-processes-ps/
+list processes by group $ ps -G groupname1 groupname2 e.g. $ ps -G root  Inverse selection (Using -N option)  Select all the process those not started by root(group);
+ $ ps -u root -N  Note: htop or top to see how much cpu, ram used for the processes</description>
     </item>
     
   </channel>

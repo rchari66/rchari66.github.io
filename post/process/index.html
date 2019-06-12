@@ -155,7 +155,71 @@
 
 <blockquote>
 <p>fork creates child process and returns child&rsquo;s pid</p>
+
+<p>child process gets zero as returned value from fork.</p>
 </blockquote>
+
+<h4 id="list-by-user">list by user</h4>
+
+<pre><code class="language-bash">$ ps -u $USER
+</code></pre>
+
+<p>Ref:  <a href="https://fedoramagazine.org/inspect-manage-processes-ps/">https://fedoramagazine.org/inspect-manage-processes-ps/</a></p>
+
+<h4 id="list-processes-by-group">list processes by group</h4>
+
+<pre><code class="language-bash">
+$ ps -G groupname1 groupname2
+e.g.
+$ ps -G root
+</code></pre>
+
+<h4 id="inverse-selection-using-n-option">Inverse selection (Using <strong>-N</strong> option)</h4>
+
+<blockquote>
+<p>Select all the process those not started by root(group);</p>
+</blockquote>
+
+<pre><code>$ ps -u root -N
+</code></pre>
+
+<hr />
+
+<p>Note: htop or top to see how much cpu, ram used for the processes</p>
+
+<hr />
+
+<h4 id="process-states">Process states</h4>
+
+<ul>
+<li>RUNNING</li>
+<li>WAITING</li>
+<li>STOPPED</li>
+<li>ZOMBIE</li>
+</ul>
+
+<h4 id="process-filters">Process filters</h4>
+
+<pre><code>ps -C firefox -L -o pid,tid,pcpu,state,nlwp,cmd 
+
+</code></pre>
+
+<h4 id="sort-output">Sort output</h4>
+
+<pre><code>$ ps -eF --sort -rss
+</code></pre>
+
+<h4 id="process-tree">process tree</h4>
+
+<pre><code>--- display process tree of current user processes
+$ ps f
+
+
+-- display process tree of all user processes
+$ ps -e f
+</code></pre>
+
+<p>Note: <strong>htop</strong> can be used to view process tree as well.</p>
 </div>
 
     
