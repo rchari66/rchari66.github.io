@@ -227,6 +227,22 @@ $ find / -mmin -2
 $ find -newer &lt;file-reference&gt;
 
 </code></pre>
+
+<h4 id="finding-by-owner-and-permissoins">Finding by Owner and permissoins</h4>
+
+<pre><code>-- find files owned by given user
+$ find / -user &lt;user&gt;
+
+-- owner
+$ find / -group &lt;group&gt;
+
+---- find by permissions
+$ find / -perm 400
+
+$ find -perm 777
+</code></pre>
+
+<h4 id="find-by-depth">find by depth</h4>
 </div>
 
     
