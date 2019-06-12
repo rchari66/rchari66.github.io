@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2019 15:53:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 17:57:21 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sys Admin Cmds 4</title>
+      <link>https://techtaste.me/post/sys-admin-cmds-4/</link>
+      <pubDate>Wed, 12 Jun 2019 17:57:21 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sys-admin-cmds-4/</guid>
+      <description> Write content Here </description>
+    </item>
     
     <item>
       <title>Sys Admin Cmds 3</title>
@@ -17,7 +26,8 @@
       <pubDate>Wed, 12 Jun 2019 15:53:19 +0000</pubDate>
       
       <guid>https://techtaste.me/post/sys-admin-cmds-3/</guid>
-      <description>extend volume mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 mountDestDir --- list all mount points $ mount -l --- list all mount points of given type. $ mount -l -t &amp;lt;type&amp;gt;  find -- find by name $ find -name &amp;lt;name&amp;gt; -- find not matching name $ find -not -name &amp;lt;name-to-avoid&amp;gt; -- find by type $ find / -type &amp;lt;type&amp;gt; &amp;lt;name&amp;gt; &amp;lt;type&amp;gt; could be one of f = file d = directory l = symbolic link c = character devices b = block devices e.</description>
+      <description>TODO : extend existing volumes
+mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 mountDestDir --- list all mount points $ mount -l --- list all mount points of given type. $ mount -l -t &amp;lt;type&amp;gt;  find -- find by name $ find -name &amp;lt;name&amp;gt; -- find not matching name $ find -not -name &amp;lt;name-to-avoid&amp;gt; -- find by type $ find / -type &amp;lt;type&amp;gt; &amp;lt;name&amp;gt; &amp;lt;type&amp;gt; could be one of f = file d = directory l = symbolic link c = character devices b = block devices e.</description>
     </item>
     
     <item>
