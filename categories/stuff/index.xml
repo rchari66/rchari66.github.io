@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stuff on Techtaste</title>
+    <link>https://techtaste.me/categories/stuff/</link>
+    <description>Recent content in Stuff on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 May 2019 19:29:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/stuff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reasons</title>
+      <link>https://techtaste.me/post/reasons/</link>
+      <pubDate>Tue, 14 May 2019 19:29:27 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/reasons/</guid>
+      <description> New management &amp;amp; communication gap. Given tasks to make enhancements to it. PR&amp;rsquo;s were not taken seriously (3 retrospective) Given star award to someone else for the whole story
+ Wanted to move to devops &amp;amp; platform side.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
