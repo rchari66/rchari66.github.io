@@ -177,6 +177,14 @@ $ sed -i 's/&lt;word&gt;/&lt;new-word&gt;/g' &lt;file-name&gt;
 $ sed -i 's/&lt;word&gt;/&lt;new-word&gt;/gi' &lt;file-name&gt;
 </code></pre>
 
+<pre><code>-- Replace a word or characters in a range
+$ sed '30,50 s/&lt;word&gt;/&lt;new-word/g'
+$ sed -i '30,50 s/&lt;word&gt;/&lt;new-word/g'
+
+-- swiching multiple matches
+$ sed -i 's/ \(.*\):\(.*\)/\2, \1 /g'
+</code></pre>
+
 <p>Ref: <a href="https://www.tecmint.com/linux-sed-command-tips-tricks/">https://www.tecmint.com/linux-sed-command-tips-tricks/</a></p>
 
 <h4 id="awk-command">awk command</h4>
