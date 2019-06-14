@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sed vs Awk on Techtaste</title>
+    <link>https://techtaste.me/categories/sed-vs-awk/</link>
+    <description>Recent content in Sed vs Awk on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2019 16:45:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/sed-vs-awk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sed vs Awk</title>
+      <link>https://techtaste.me/post/sed-vs-awk/</link>
+      <pubDate>Fri, 14 Jun 2019 16:45:35 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sed-vs-awk/</guid>
+      <description>sed command  Basics
+-- Replace all &#39;foo&#39; with &#39;bar&#39; globally. $ sed -i &#39;s/foo/bar/g&#39; &amp;lt;filename&amp;gt; -- print line from 4 through 15 $ sed -n &#39;4,15p&#39; &amp;lt;file name&amp;gt; -- exclude lines from 10 through 15 $ sed &#39;10,15d&#39; &amp;lt;file-name&amp;gt; -- Display lines from different ranges $ sed -n -e &#39;10,15p&#39;-e &#39;25,35p&#39; &amp;lt;file-name&amp;gt; -- display content of a file after replacing a word $ sed &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/g&#39; &amp;lt;file-name&amp;gt; -- replacing a word in a file $ sed -i &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/g&#39; &amp;lt;file-name&amp;gt; -- replace a word and ignore case $ sed -i &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/gi&#39; &amp;lt;file-name&amp;gt;  -- Replace a word or characters in a range $ sed &#39;30,50 s/&amp;lt;word&amp;gt;/&amp;lt;new-word/g&#39; $ sed -i &#39;30,50 s/&amp;lt;word&amp;gt;/&amp;lt;new-word/g&#39; -- swiching multiple matches $ sed -i &#39;s/ \(.</description>
+    </item>
+    
+  </channel>
+</rss>

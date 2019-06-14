@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>File System</title>
+      <link>https://techtaste.me/categories/file-system/</link>
+      <pubDate>Fri, 14 Jun 2019 22:54:41 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/file-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Iso</title>
       <link>https://techtaste.me/categories/iso/</link>
       <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
@@ -57,11 +66,11 @@
     </item>
     
     <item>
-      <title>New_post</title>
-      <link>https://techtaste.me/categories/new_post/</link>
+      <title>Network Cmds 2   Telnet</title>
+      <link>https://techtaste.me/categories/network-cmds-2---telnet/</link>
       <pubDate>Fri, 14 Jun 2019 23:31:18 +0000</pubDate>
       
-      <guid>https://techtaste.me/categories/new_post/</guid>
+      <guid>https://techtaste.me/categories/network-cmds-2---telnet/</guid>
       <description></description>
     </item>
     
@@ -71,6 +80,15 @@
       <pubDate>Wed, 12 Jun 2019 04:04:44 +0000</pubDate>
       
       <guid>https://techtaste.me/categories/questions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sed vs Awk</title>
+      <link>https://techtaste.me/categories/sed-vs-awk/</link>
+      <pubDate>Fri, 14 Jun 2019 16:45:35 +0000</pubDate>
+      
+      <guid>https://techtaste.me/categories/sed-vs-awk/</guid>
       <description></description>
     </item>
     
