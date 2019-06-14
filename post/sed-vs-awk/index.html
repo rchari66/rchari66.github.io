@@ -153,26 +153,29 @@
 
 <h4 id="sed-command">sed command</h4>
 
+<ul>
+<li><p>Basics</p>
+
 <pre><code>-- Replace all 'foo' with 'bar' globally.
 $ sed -i 's/foo/bar/g' &lt;filename&gt;
-
+    
 -- print line from 4 through 15
 $ sed -n '4,15p' &lt;file name&gt;
-
+    
 -- exclude lines from 10 through 15
 $ sed '10,15d' &lt;file-name&gt;
-
-
+    
+    
 -- Display lines from different ranges
 $ sed -n -e '10,15p'-e '25,35p' &lt;file-name&gt;
-
+    
 -- display content of a file after replacing a word
 $ sed 's/&lt;word&gt;/&lt;new-word&gt;/g' &lt;file-name&gt;
-
+    
 -- replacing a word in a file
 $ sed -i 's/&lt;word&gt;/&lt;new-word&gt;/g' &lt;file-name&gt;
-
-
+    
+    
 -- replace a word and ignore case
 $ sed -i 's/&lt;word&gt;/&lt;new-word&gt;/gi' &lt;file-name&gt;
 </code></pre>
@@ -180,51 +183,53 @@ $ sed -i 's/&lt;word&gt;/&lt;new-word&gt;/gi' &lt;file-name&gt;
 <pre><code>-- Replace a word or characters in a range
 $ sed '30,50 s/&lt;word&gt;/&lt;new-word/g'
 $ sed -i '30,50 s/&lt;word&gt;/&lt;new-word/g'
-
+    
 -- swiching multiple matches
 $ sed -i 's/ \(.*\):\(.*\)/\2, \1 /g'
-
-
+    
+    
 -- Replacing words only if seperate match is found.
 $ sed '/&lt;pattern&gt;/ s/&lt;word&gt;/&lt;new-word&gt;/g' msg.txt
-
+    
 -- multiple replacements
 $ sed -i 's/that/this/gi;s/line/verse/gi' myfile.txt
-</code></pre>
+</code></pre></li>
 
-<p>Ref: <a href="https://www.tecmint.com/linux-sed-command-tips-tricks/">https://www.tecmint.com/linux-sed-command-tips-tricks/</a></p>
+<li><p>Ref: <a href="https://www.tecmint.com/linux-sed-command-tips-tricks/">https://www.tecmint.com/linux-sed-command-tips-tricks/</a></p></li>
+</ul>
 
-<h4 id="awk-command">awk command</h4>
+<h4 id="awk-command">AWK command</h4>
+
+<ul>
+<li><p>Awk basic usage</p>
 
 <pre><code>Awk can take the following options:
-
+    
 -F fs     To specify a file separator.
 -f file     To specify a file that contains awk script.
 -v var=value     To declare a variable.
 </code></pre>
 
 <pre><code>$ awk 'pattern {action}' input-file &gt; output-file
-
+    
 -- print 5th column from lines those match the pattern
 $ awk 'word {print $5}' input-file
-
-
+    
+    
 -- seperate by field(-F) and print 2nd column
 $ awk -F, '{print $2}'
-
+    
 -- If fieds are numbers, aws can run commands on them
 $ awk '{ print ($2 * $3) + $7 }' input-file
-
+    
 -- Replace second field
 $ echo &quot;Hello Tom&quot; | awk '{$2=&quot;Adam&quot;; print $0}'
 Hello Adam
 $
-
 </code></pre>
 
-<hr />
+<hr /></li>
 
-<ul>
 <li><p>Awk Preprocessing</p>
 
 <pre><code>-- Print first line &quot;The File Contents&quot; followed by content of the file.
@@ -271,23 +276,41 @@ $ awk 'BEGIN
                 
             delete array[&quot;key&quot;]
                 
-            # Below code prints nothing.
+            # Below line prints nothing.
             print array[&quot;key&quot;]
             
         }'
+            
+            
+-- Default value of array[key] is 0, when used in aithmatic operations
+$ awk 'BEGIN {array[&quot;key&quot;]++; print array[&quot;key&quot;]}'   
+1
+Ref here : https://www.gnu.org/software/gawk/manual/html_node/Uninitialized-Subscripts.html#Uninitialized-Subscripts
+</code></pre></li>
+
+<li><p>Multidimentional Arrays in Awk</p>
+
+<pre><code>$ awk 'BEGIN {vector[&quot;a&quot;, &quot;aa&quot;] = &quot;Hello World!&quot;;  print vector[&quot;a&quot;, &quot;aa&quot;]}'
     
 </code></pre></li>
-</ul>
+
+<li><p>Sorting Arrays</p>
+
+<pre><code>Ref: https://www.gnu.org/software/gawk/manual/html_node/Controlling-Scanning.html#Controlling-Scanning
+</code></pre>
 
 <p>Note:
-    Semicolon(;) is not required if one line is standalone statement.
-    Semicolon is needed to sperate multiple statements in one line.</p>
+Semicolon(;) is not required if one line is standalone statement.
+Semicolon is needed to sperate multiple statements in one line.</p></li>
+</ul>
 
-<p>Ref: <a href="https://likegeeks.com/awk-command/">https://likegeeks.com/awk-command/</a></p>
+<p>Ref:</p>
+
+<p><a href="https://likegeeks.com/awk-command/">https://likegeeks.com/awk-command/</a></p>
 
 <p><a href="https://www.lifewire.com/write-awk-commands-and-scripts-2200573">https://www.lifewire.com/write-awk-commands-and-scripts-2200573</a></p>
 
-<p><a href="https://www.gnu.org/software/gawk/manual/html_node/Arrays-of-Arrays.html">https://www.gnu.org/software/gawk/manual/html_node/Arrays-of-Arrays.html</a></p>
+<p><a href="https://www.gnu.org/software/gawk/manual/html_node/Arrays.html#Arrays">https://www.gnu.org/software/gawk/manual/html_node/Arrays.html#Arrays</a></p>
 </div>
 
     
