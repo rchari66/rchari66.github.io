@@ -199,6 +199,56 @@ $ echo !$
 echo World! 
 World!
 </code></pre>
+
+<h4 id="substitute-a-word-in-last-command-and-execute-it">Substitute a word in last command and execute it.</h4>
+
+<pre><code>$ echo Hello World!
+Hello World!
+
+$ ^Hello^New Hello
+echo New Hello World!
+New Hello World!
+
+
+Note: This is equilent to below command
+!!:s/Hello/New Hello/
+$ !!:s/New Hello/Hello
+echo Hello World!
+Hello World!
+$
+</code></pre>
+
+<h4 id="execute-view-nth-command-from-history">Execute/view nth command from history</h4>
+
+<pre><code>-- show &amp; execute 190th command
+$ !190
+
+-- only show 190th command
+$ !190:p
+</code></pre>
+
+<h4 id="view-last-10-commands-from-history">View last 10 commands from history</h4>
+
+<pre><code>$ history 10
+</code></pre>
+
+<h4 id="execute-last-5th-command-from-history">Execute last 5th command from history</h4>
+
+<pre><code>$ !-5
+
+-- only view last 5th command
+$ !-5:p
+</code></pre>
+
+<h4 id="repeat-entire-command-line">Repeat entire command line</h4>
+
+<pre><code>$ echo Hello World! !#
+Hello World! echo Hello World!
+
+-- Repeat only 2nd keyword
+$ echo Hello World! !#:2
+Hello World! World!
+</code></pre>
 </div>
 
     
