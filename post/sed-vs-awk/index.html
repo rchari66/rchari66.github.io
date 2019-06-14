@@ -251,10 +251,30 @@ FS     Specifies the field separator.
 OFS  Specifies the Output separator.
 ORS  Specifies the Output separator.
 </code></pre></li>
+
+<li><p>Awk Arrays</p>
+
+<pre><code>$ awk 'BEGIN
+        {
+            array[&quot;key1&quot;]=&quot;value1&quot;; 
+            array[&quot;key2&quot;][&quot;subkey1&quot;]=&quot;subvalue1&quot;;
+                
+            print array[&quot;key1&quot;];
+            print array[&quot;key2&quot;][&quot;subkey1&quot;];
+        }
+    
+</code></pre></li>
 </ul>
 
-<p>Ref: <a href="https://likegeeks.com/awk-command/">https://likegeeks.com/awk-command/</a>
-<a href="https://www.lifewire.com/write-awk-commands-and-scripts-2200573">https://www.lifewire.com/write-awk-commands-and-scripts-2200573</a></p>
+<p>Note:
+    Semicolon(;) is not required if one line is standalone statement.
+    Semicolon is needed to sperate multiple statements in one line.</p>
+
+<p>Ref: <a href="https://likegeeks.com/awk-command/">https://likegeeks.com/awk-command/</a></p>
+
+<p><a href="https://www.lifewire.com/write-awk-commands-and-scripts-2200573">https://www.lifewire.com/write-awk-commands-and-scripts-2200573</a></p>
+
+<p><a href="https://www.gnu.org/software/gawk/manual/html_node/Arrays-of-Arrays.html">https://www.gnu.org/software/gawk/manual/html_node/Arrays-of-Arrays.html</a></p>
 </div>
 
     
