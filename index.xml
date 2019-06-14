@@ -35,7 +35,7 @@
       <pubDate>Fri, 14 Jun 2019 09:20:00 +0000</pubDate>
       
       <guid>https://techtaste.me/post/bash-shortcuts/</guid>
-      <description> Show and execute most recent command $ echo Hello World! $ !! echo Hello World! Hello World!  Execute/View most recent command that starts with given key word $ echo Hello World! $ !echo echo Hello World! Hello World! -- Only view the command(Do not execute) $ !echo:p Option &amp;quot;:p&amp;quot; only prints the command without executing it.  Arguments of last command $ echo Hello World! $  </description>
+      <description>Show and execute most recent command $ echo Hello World! $ !! echo Hello World! Hello World!  Execute/View most recent command that starts with given key word $ echo Hello World! $ !echo echo Hello World! Hello World! -- Only view the command(Do not execute) $ !echo:p Option &amp;quot;:p&amp;quot; only prints the command without executing it.  Arguments of last command can be referred using &amp;lsquo;!*&amp;rsquo; $ echo Hello World!</description>
     </item>
     
     <item>

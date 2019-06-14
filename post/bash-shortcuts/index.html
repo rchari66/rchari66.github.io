@@ -173,10 +173,31 @@ $ !echo:p
 Option &quot;:p&quot; only prints the command without executing it.
 </code></pre>
 
-<h4 id="arguments-of-last-command">Arguments of last command</h4>
+<h4 id="arguments-of-last-command-can-be-referred-using">Arguments of last command can be referred using &lsquo;!*&rsquo;</h4>
 
 <pre><code>$ echo Hello World!
-$ 
+Hello World
+$ echo !*
+echo Hello World!
+Hello World!
+</code></pre>
+
+<h4 id="first-argument-of-last-command-can-be-referred-by">First argument of last command can be referred by &lsquo;!^&rsquo;</h4>
+
+<pre><code>$ echo Hello World!
+Hello World
+$ echo !^
+echo Hello 
+Hello
+</code></pre>
+
+<h4 id="last-argument-of-last-command-can-be-referred-by">Last argument of last command can be referred by &lsquo;!$&rsquo;</h4>
+
+<pre><code>$ echo Hello World!
+Hello World
+$ echo !$
+echo World! 
+World!
 </code></pre>
 </div>
 
