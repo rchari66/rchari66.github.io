@@ -91,9 +91,8 @@ mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 moun
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>List of cmds/concepts to refer nginx setup and configure for two sites on same host Web Server vs Application Server * examples  Ssh key gen and host a nginx server(with multiple static sites) #### tcp dump
-https://www.youtube.com/watch?v=mpQZVYPuDGU #### http &amp;amp; https protocal work
-sed vs awk Docker root user vs host root CNAME, A recodrs * https://unix.stackexchange.com/questions/127723/what-are-the-benefits-of-using-several-ip-addresses-on-a-server  Linux interview questoins tcp vs udp thread dump heap dump ISO model brief(All people seem to need data processing) java memory model file descriptors, system calls, dup, fork #### Java coding exercise OR coding(check wit HR) #### foreground &amp;amp; background process (creation)</description>
+      <description>List of cmds/concepts to refer nginx setup and configure for two sites on same host Ssh key gen and host a nginx server(with multiple static sites) https://www.youtube.com/watch?v=mpQZVYPuDGU #### http &amp;amp; https protocal work
+sed vs awk Docker root user vs host root CNAME, A recodrs * https://unix.stackexchange.com/questions/127723/what-are-the-benefits-of-using-several-ip-addresses-on-a-server  Linux interview questoins ISO model brief(All people seem to need data processing) Runtime - JVM Engine-- #### Java coding exercise OR coding(check wit HR) #### foreground &amp;amp; background process (creation)</description>
     </item>
     
     <item>
