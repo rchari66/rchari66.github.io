@@ -183,6 +183,13 @@ $ sed -i '30,50 s/&lt;word&gt;/&lt;new-word/g'
 
 -- swiching multiple matches
 $ sed -i 's/ \(.*\):\(.*\)/\2, \1 /g'
+
+
+-- Replacing words only if seperate match is found.
+$ sed '/&lt;pattern&gt;/ s/&lt;word&gt;/&lt;new-word&gt;/g' msg.txt
+
+-- multiple replacements
+$ sed -i 's/that/this/gi;s/line/verse/gi' myfile.txt
 </code></pre>
 
 <p>Ref: <a href="https://www.tecmint.com/linux-sed-command-tips-tricks/">https://www.tecmint.com/linux-sed-command-tips-tricks/</a></p>
