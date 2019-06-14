@@ -235,11 +235,15 @@ $ awk 'BEGIN {print &quot;The File Contents:&quot;}
 $ awk 'BEGIN {print &quot;The File Contents:&quot;}
     {print $0}
     END {print &quot;File footer&quot;}' myfile
-</code></pre></li>
-</ul>
+</code></pre>
+
+<pre><code>-- Count number of lines in a file
+ $ awk 'BEGIN {count=0;} {print $0; var++;} END {print count}' &lt;filename&gt;
+</code></pre>
 
 <p>Ref: <a href="https://likegeeks.com/awk-command/">https://likegeeks.com/awk-command/</a>
-<a href="https://www.lifewire.com/write-awk-commands-and-scripts-2200573">https://www.lifewire.com/write-awk-commands-and-scripts-2200573</a></p>
+<a href="https://www.lifewire.com/write-awk-commands-and-scripts-2200573">https://www.lifewire.com/write-awk-commands-and-scripts-2200573</a></p></li>
+</ul>
 </div>
 
     
