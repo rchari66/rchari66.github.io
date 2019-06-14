@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2019 16:45:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 23:31:18 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,25 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Telnet</title>
+      <link>https://techtaste.me/post/telnet/</link>
+      <pubDate>Fri, 14 Jun 2019 23:31:18 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/telnet/</guid>
+      <description> Write content Here </description>
+    </item>
+    
+    <item>
+      <title>File Attributes</title>
+      <link>https://techtaste.me/post/file-attributes/</link>
+      <pubDate>Fri, 14 Jun 2019 22:54:41 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/file-attributes/</guid>
+      <description>Ref:
+https://linoxide.com/how-tos/howto-show-file-attributes-in-linux/ https://wiki.archlinux.org/index.php/File_permissions_and_attributes</description>
     </item>
     
     <item>

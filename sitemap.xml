@@ -11,6 +11,16 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/telnet/</loc>
+    <lastmod>2019-06-14T23:31:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/post/file-attributes/</loc>
+    <lastmod>2019-06-14T22:54:41+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/sed-vs-awk/</loc>
     <lastmod>2019-06-14T16:45:35+00:00</lastmod>
   </url>
@@ -143,13 +153,13 @@
   
   <url>
     <loc>https://techtaste.me/categories/new_post/</loc>
-    <lastmod>2019-06-14T16:45:35+00:00</lastmod>
+    <lastmod>2019-06-14T23:31:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-14T16:45:35+00:00</lastmod>
+    <lastmod>2019-06-14T23:31:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -189,7 +199,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-14T16:45:35+00:00</lastmod>
+    <lastmod>2019-06-14T23:31:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
