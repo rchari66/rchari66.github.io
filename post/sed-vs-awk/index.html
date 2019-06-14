@@ -196,14 +196,19 @@ $ sed -i 's/that/this/gi;s/line/verse/gi' myfile.txt
 
 <h4 id="awk-command">awk command</h4>
 
-<pre><code>$ awk 
+<pre><code>$ awk 'pattern {action}' input-file &gt; output-file
+
+-- print 5th column from lines those match the pattern
+$ awk 'word {print $5}' input-file
+
+
+-- seperate by field(-F) and print 2nd column
+$ awk -F, '{print $2}'
 
 </code></pre>
 
 <p>Ref: <a href="https://likegeeks.com/awk-command/">https://likegeeks.com/awk-command/</a>
 <a href="https://www.lifewire.com/write-awk-commands-and-scripts-2200573">https://www.lifewire.com/write-awk-commands-and-scripts-2200573</a></p>
-
-<p>awk &lsquo;{print $0}&rsquo; file.name</p>
 </div>
 
     
