@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2019 12:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 16:45:35 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sed vs Awk</title>
+      <link>https://techtaste.me/post/sed-vs-awk/</link>
+      <pubDate>Fri, 14 Jun 2019 16:45:35 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sed-vs-awk/</guid>
+      <description>sed command -- Replace all &#39;foo&#39; with &#39;bar&#39; globally. $ sed -i &#39;s/foo/bar/g&#39; &amp;lt;filename&amp;gt;  Ref: https://www.tecmint.com/linux-sed-command-tips-tricks/
+awk command $ awk  Ref: https://likegeeks.com/awk-command/</description>
+    </item>
     
     <item>
       <title>Web Server vs App Server</title>

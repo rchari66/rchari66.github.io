@@ -6,28 +6,19 @@
     <description>Recent content in New_post on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 07:53:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 16:45:35 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/categories/new_post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>TCPDUMP cmd</title>
-      <link>https://techtaste.me/post/tcpdump/</link>
-      <pubDate>Sun, 19 May 2019 07:53:12 +0000</pubDate>
+      <title>Sed vs Awk</title>
+      <link>https://techtaste.me/post/sed-vs-awk/</link>
+      <pubDate>Fri, 14 Jun 2019 16:45:35 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/tcpdump/</guid>
-      <description>tcpdump -i any To get the network packets from all network interfaces, run the following command,  get packets on localhost with port 8288 tcpdump -i lo0 port 8288  tcpdump -i eth0 get the network packets from a single interface  tcpdump -i eth0 -w wirte_file_name write all the captured packets to a file, use the ‘-w’ option,  tcpdump -r packets_file read an already created, old tcpdump file.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Vdock Tool</title>
-      <link>https://techtaste.me/post/vdock-tool/</link>
-      <pubDate>Thu, 06 Dec 2018 21:19:55 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/vdock-tool/</guid>
-      <description> Vdock for quickly deploying a site on to Github   Go to Vdock Github project
- </description>
+      <guid>https://techtaste.me/post/sed-vs-awk/</guid>
+      <description>sed command -- Replace all &#39;foo&#39; with &#39;bar&#39; globally. $ sed -i &#39;s/foo/bar/g&#39; &amp;lt;filename&amp;gt;  Ref: https://www.tecmint.com/linux-sed-command-tips-tricks/
+awk command $ awk  Ref: https://likegeeks.com/awk-command/</description>
     </item>
     
   </channel>
