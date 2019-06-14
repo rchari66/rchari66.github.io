@@ -36,7 +36,7 @@
       
       <guid>https://techtaste.me/post/sed-vs-awk/</guid>
       <description>sed command -- Replace all &#39;foo&#39; with &#39;bar&#39; globally. $ sed -i &#39;s/foo/bar/g&#39; &amp;lt;filename&amp;gt;  Ref: https://www.tecmint.com/linux-sed-command-tips-tricks/
-awk command $ awk  Ref: https://likegeeks.com/awk-command/</description>
+awk command $ awk  Ref: https://likegeeks.com/awk-command/ https://www.lifewire.com/write-awk-commands-and-scripts-2200573</description>
     </item>
     
     <item>
