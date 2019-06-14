@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2019 17:57:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 09:20:00 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bash Shortcuts</title>
+      <link>https://techtaste.me/post/bash-shortcuts/</link>
+      <pubDate>Fri, 14 Jun 2019 09:20:00 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/bash-shortcuts/</guid>
+      <description> Show and execute most recent command $ echo Hello World! $ !! echo Hello World! Hello World!  Execute/View most recent command that starts with given key word $ echo Hello World! $ !echo echo Hello World! Hello World! -- Only view the command(Do not execute) $ !echo:p Option &amp;quot;:p&amp;quot; only prints the command without executing it.  Arguments of last command $ echo Hello World! $  </description>
+    </item>
     
     <item>
       <title>Sys Admin Cmds 4</title>
