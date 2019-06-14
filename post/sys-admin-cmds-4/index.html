@@ -197,14 +197,49 @@ Note: Best Practice: Keep this property configured in all the applications at al
 $ jcmd 1240 GC.heap_dump /tmp/heapdump.bin
 </code></pre></li>
 
-<li><p>UI based tools for taking heapdump</p>
-
-<pre><code>-- JvisualVM
--- JMX
-</code></pre></li>
+<li><p>UI based tools for taking heapdump
+```
+&ndash; JvisualVM
+&ndash; JMX</p></li>
 </ul>
 
 <h4 id="create-systemd-service">Create systemd service</h4>
+
+<ul>
+<li><p>Example .service file for systemd</p>
+
+<pre><code>[Unit]
+Description=A sample service
+After=network.target
+After=systemd-user-sessions.service
+After=network-online.target
+    
+[Service]
+User=testuser
+Type=forking
+ExecStart=/home/testuser/start-sample-service.sh
+ExecStop=/home/testuser/stop-sample-service.sh
+TimeoutSec=30
+Restart=on-failure
+RestartSec=30
+StartLimitInterval=350
+StartLimitBurst=10
+    
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+
+<pre><code>Note: The location of this .service file should be 
+/etc/systemd/system/sample.service
+
+&quot;/etc/systemd/system/&quot; contains all the .service files for systemd
+</code></pre></li>
+
+<li><p>Enable the service to run at system startup</p>
+
+<pre><code>$ systemctl enable sample.service
+</code></pre></li>
+</ul>
 </div>
 
     
