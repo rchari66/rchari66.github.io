@@ -261,7 +261,20 @@ ORS  Specifies the Output separator.
                 
             print array[&quot;key1&quot;];
             print array[&quot;key2&quot;][&quot;subkey1&quot;];
-        }
+        }'
+            
+-- tp delete array element
+$ awk 'BEGIN
+        {
+            array[&quot;key&quot;]=&quot;value&quot;
+            print array[&quot;key&quot;]
+                
+            delete array[&quot;key&quot;]
+                
+            # Below code prints nothing.
+            print array[&quot;key&quot;]
+            
+        }'
     
 </code></pre></li>
 </ul>
