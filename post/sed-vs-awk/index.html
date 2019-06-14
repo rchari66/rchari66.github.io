@@ -156,6 +156,25 @@
 <pre><code>-- Replace all 'foo' with 'bar' globally.
 $ sed -i 's/foo/bar/g' &lt;filename&gt;
 
+-- print line from 4 through 15
+$ sed -n '4,15p' &lt;file name&gt;
+
+-- exclude lines from 10 through 15
+$ sed '10,15d' &lt;file-name&gt;
+
+
+-- Display lines from different ranges
+$ sed -n -e '10,15p'-e '25,35p' &lt;file-name&gt;
+
+-- display content of a file after replacing a word
+$ sed 's/&lt;word&gt;/&lt;new-word&gt;/g' &lt;file-name&gt;
+
+-- replacing a word in a file
+$ sed -i 's/&lt;word&gt;/&lt;new-word&gt;/g' &lt;file-name&gt;
+
+
+-- replace a word and ignore case
+$ sed -i 's/&lt;word&gt;/&lt;new-word&gt;/gi' &lt;file-name&gt;
 </code></pre>
 
 <p>Ref: <a href="https://www.tecmint.com/linux-sed-command-tips-tricks/">https://www.tecmint.com/linux-sed-command-tips-tricks/</a></p>
