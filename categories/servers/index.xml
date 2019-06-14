@@ -17,7 +17,7 @@
       <pubDate>Fri, 14 Jun 2019 12:04:21 +0000</pubDate>
       
       <guid>https://techtaste.me/post/web-server-vs-app-server/</guid>
-      <description> Web Server  Servers only web pages. Could be static or Dynamic pages  Static Pages  HTML CSS JavaScript(Interactively)  Dynamic Pages  JSP, Servlet (JAVA + HTML + CSS + JavaScript) PHP (PHP + HTML + CSS + JavaScript) ASP.NET (C# + HTML + CSS + JavaScript)    </description>
+      <description>Web Server vs Applicatoin Server Web Server is designed to serve HTTP Content. App Server can also serve HTTP Content but is not limited to just HTTP. It can be provided other protocol support such as RMI/RPC  Web Server  Servers only web pages. Could be static or Dynamic pages  Static Pages  HTML CSS JavaScript(Interactively)  Dynamic Pages  JSP, Servlet (JAVA + HTML + CSS + JavaScript) PHP (PHP + HTML + CSS + JavaScript) ASP.</description>
     </item>
     
   </channel>
