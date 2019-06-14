@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servers on Techtaste</title>
+    <link>https://techtaste.me/categories/servers/</link>
+    <description>Recent content in Servers on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2019 12:04:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/servers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Server vs App Server</title>
+      <link>https://techtaste.me/post/web-server-vs-app-server/</link>
+      <pubDate>Fri, 14 Jun 2019 12:04:21 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/web-server-vs-app-server/</guid>
+      <description> Web Server  Servers only web pages. Could be static or Dynamic pages  Static Pages  HTML CSS JavaScript(Interactively)  Dynamic Pages  JSP, Servlet (JAVA + HTML + CSS + JavaScript) PHP (PHP + HTML + CSS + JavaScript) ASP.NET (C# + HTML + CSS + JavaScript)    </description>
+    </item>
+    
+  </channel>
+</rss>

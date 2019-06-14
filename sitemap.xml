@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/web-server-vs-app-server/</loc>
+    <lastmod>2019-06-14T12:04:21+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/bash-shortcuts/</loc>
     <lastmod>2019-06-14T09:20:00+00:00</lastmod>
   </url>
@@ -128,7 +133,7 @@
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-14T09:20:00+00:00</lastmod>
+    <lastmod>2019-06-14T12:04:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,6 +145,12 @@
   <url>
     <loc>https://techtaste.me/categories/questions/</loc>
     <lastmod>2019-06-12T04:04:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/categories/servers/</loc>
+    <lastmod>2019-06-14T12:04:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -156,7 +167,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-14T09:20:00+00:00</lastmod>
+    <lastmod>2019-06-14T12:04:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   
