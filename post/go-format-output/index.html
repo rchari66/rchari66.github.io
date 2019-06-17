@@ -199,6 +199,50 @@ For #v : main.rect{height:12, width:15}
 For +v : {height:12 width:15}
 main.rect
 %
+</code></pre>
+
+<pre><code class="language-go">func main() {
+flag := true
+    
+fmt.Println(flag)
+    
+fmt.Print(&quot;Boolean value of flag : &quot;, flag,  &quot;\n&quot;)
+    
+fmt.Printf(&quot;Boolean value of flag : %t \n&quot;, flag)
+}
+    
+-- Output --
+true
+Boolean value of flag : true
+Boolean value of flag : true
+</code></pre>
+
+<pre><code class="language-go">-- Integer
+%b  base 2
+%c  for char
+%d  base 10(for integer)
+%o  base 8(octa)
+%q  a single-quoted character literal safely escaped with Go syntax.
+%x  base 16, with lower-case letters for a-f
+%X  base 16, with upper-case letters for A-F
+%U  Unicode format: U+1234; same as &quot;U+%04X&quot;
+    
+-- Examples
+a := 4
+    
+fmt.Printf(&quot;Binary: %b\n&quot;, a)
+    
+fmt.Printf(&quot;Decimal : %d\n&quot;, a)
+    
+fmt.Printf(&quot;Hexa : %x\n&quot;, a)
+    
+fmt.Printf(&quot;Hexa : %X\n&quot;, a)
+    
+-- Output --
+Binary: 100
+Decimal : 4
+Hexa : 4
+Hexa : 4
 </code></pre></li>
 </ul>
 </div>
