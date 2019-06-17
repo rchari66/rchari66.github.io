@@ -59,15 +59,6 @@ package main import ( &amp;quot;os&amp;quot; &amp;quot;fmt&amp;quot; ) func main
     </item>
     
     <item>
-      <title>Snapy the Package Manager</title>
-      <link>https://techtaste.me/post/snapy-the-package-manager/</link>
-      <pubDate>Sun, 16 Jun 2019 16:49:20 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/snapy-the-package-manager/</guid>
-      <description> Write content Here </description>
-    </item>
-    
-    <item>
       <title>Golang Setup on Ubuntu</title>
       <link>https://techtaste.me/post/golang-setup/</link>
       <pubDate>Sun, 16 Jun 2019 16:07:54 +0000</pubDate>
