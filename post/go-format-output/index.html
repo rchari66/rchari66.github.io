@@ -151,7 +151,56 @@
 
     <br> <div class="text-justify">
 
-<h1 id="write-content-here">Write content Here</h1>
+<h4 id="printing-the-verbs"><strong>Printing the verbs</strong></h4>
+
+<ul>
+<li><p>General</p>
+
+<pre><code>%v  the value in a default format
+    when printing structs, the plus flag (%+v) adds field names
+%#v a Go-syntax representation of the value
+%T  a Go-syntax representation of the type of the value
+%%  a literal percent sign; consumes no value
+</code></pre>
+
+<hr />
+
+<pre><code class="language-go">// Examples
+    
+package main
+
+import (
+    &quot;fmt&quot;
+)
+    
+type rect struct {
+    height float64
+    width float64
+}
+    
+func main() {
+    r := rect{height : 12, width: 15}
+    fmt.Println(r)
+    fmt.Printf(&quot;%v\n&quot;, r)
+    fmt.Printf(&quot;For #v : %#v\n&quot;, r)
+    fmt.Printf(&quot;For +v : %+v\n&quot;, r)
+    fmt.Printf(&quot;%T \n&quot;, r)
+        
+    // Prints pecentage sign
+    fmt.Printf(&quot;%% \n&quot;)
+}
+    
+    
+-- Output --
+$ go run .\test\main.go
+{12 15}
+{12 15}
+For #v : main.rect{height:12, width:15}
+For +v : {height:12 width:15}
+main.rect
+%
+</code></pre></li>
+</ul>
 </div>
 
     

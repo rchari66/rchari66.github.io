@@ -17,7 +17,8 @@
       <pubDate>Mon, 17 Jun 2019 11:30:18 +0000</pubDate>
       
       <guid>https://techtaste.me/post/go-format-output/</guid>
-      <description> Write content Here </description>
+      <description>Printing the verbs  General
+%v the value in a default format when printing structs, the plus flag (%+v) adds field names %#v a Go-syntax representation of the value %T a Go-syntax representation of the type of the value %% a literal percent sign; consumes no value  // Examples package main import ( &amp;quot;fmt&amp;quot; ) type rect struct { height float64 width float64 } func main() { r := rect{height : 12, width: 15} fmt.</description>
     </item>
     
     <item>
