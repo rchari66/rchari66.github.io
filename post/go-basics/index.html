@@ -213,6 +213,86 @@ func main() {
 
 }
 </code></pre>
+
+<h4 id="executing-commands-in-go"><strong>Executing commands in go</strong></h4>
+
+<pre><code class="language-go">// execute and return output
+package main
+
+import (
+    &quot;os/exec&quot;
+    &quot;log&quot;
+    &quot;fmt&quot;
+)
+
+func main() {
+    output, err := exec.Command(&quot;date&quot;).Output()
+    
+    if err != nil {
+        log.Fatal(&quot;Failed to execute command&quot; + err)
+    }
+    
+    fmt.Println(output)
+}
+</code></pre>
+
+<pre><code class="language-go">// start and wait for the command to exit
+ 
+ func main() {
+     cmd := exec.Cmd(&quot;sleep&quot;, &quot;5&quot;)
+     
+     err := cmd.Start()
+     if err != nil {
+         log.Fatal(err)
+     }
+     
+     fmt.Println(&quot;Waiting for the command&quot;)
+     err := cmd.Wait()
+     
+     fmt.Printf(&quot;Command has been executed with error: %v&quot;, err)
+     
+ }
+</code></pre>
+
+<pre><code class="language-go">// Stdoutpipe
+func main() {
+    // tail from first line; and keep follow the file for any chagnes
+    // tail -Fn+1 &lt;filename&gt;
+    
+    cmd := exec.Cmd(&quot;tail&quot;, &quot;-Fn+1&quot;, &quot;logfile.log&quot;)
+    
+    stdout, err := cmd.StdoutPipe()
+    
+    if err != nil {
+        log.Fatal(err)
+    }
+    
+    // start the command
+    err = cmd.Start()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+    // io.Reader object.
+	r := bufio.NewReader(stdout)
+	
+	for {
+	    line, error := r.ReadString(&quot;\n&quot;)
+	    
+	    if error != nil {
+	        log.Fatal(error)
+	    }
+	    
+	    fmt.Println(line)
+	}
+    
+    // Wait for the command
+    err = cmd.Wait()
+    
+    log.Printf(&quot;Command finished with error: %v&quot;, err)
+    
+}
+</code></pre>
 </div>
 
     
