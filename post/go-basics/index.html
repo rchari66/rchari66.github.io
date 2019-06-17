@@ -151,7 +151,68 @@
 
     <br> <div class="text-justify">
 
-<h1 id="write-content-here">Write content Here</h1>
+<h4 id="command-line-args">command line args</h4>
+
+<p>&ndash; main.go</p>
+
+<pre><code class="language-go">package main
+
+import (
+    &quot;os&quot;
+    &quot;fmt&quot;
+)
+func main() {
+    argsWithProgramName := os.Args
+    argsWithoutProgramName := os.Args[1:]
+    
+    fmt.Println(argsWithProg)
+    fmt.Println(argsWithoutProg)
+}
+</code></pre>
+
+<pre><code>-- OUTPUT --
+PS C:\Users\INTEL\Desktop\golang&gt; go run .\main.go &quot;a b c&quot; &quot;sdf&quot;
+[C:\Users\INTEL\AppData\Local\Temp\go-build928898898\b001\exe\main.exe a b c sdf]
+[a b c sdf]
+</code></pre>
+
+<hr />
+
+<h4 id="reading-files"><strong>Reading Files</strong></h4>
+
+<pre><code class="language-go">package main
+
+import (
+    &quot;os&quot;
+    &quot;fmt&quot;
+    &quot;bufio&quot;
+    &quot;log&quot;
+)
+
+func main() { 
+
+    f, err := os.Open(&quot;logfile.log&quot;)
+    
+    if err != nil {
+        log.Fatal(&quot;Unable to open log file&quot;)
+    }
+    
+    defer f.Close()
+    
+    r := bufio.NewReader(f)
+    
+    for {
+        str, err := r.ReadString('\n')
+        
+        if err != nil {
+            break
+        }
+        
+        fmt.Println(str)
+    }
+
+}
+</code></pre>
 </div>
 
     

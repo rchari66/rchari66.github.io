@@ -227,6 +227,30 @@ On Unix, the value is a colon-separated string. On Windows, the value is a semic
 On Plan 9, the value is a list. GOPATH must be set to get, build and install packages outside the standard Go tree.
 </code></pre></li>
 </ul>
+
+<h4 id="goos-goarch-build-arguments"><strong>GOOS &amp; GOARCH</strong> build arguments</h4>
+
+<p>Go provides easy to build executable binary for any platform.</p>
+
+<p>For e.g: To build binary for windows</p>
+
+<pre><code>-- builds main.exe
+$ env GOOS=windows GOARCH=amd64 go build main.go 
+$ ls
+main.exe main.go
+</code></pre>
+
+<h4 id="go-cli"><strong>Go CLI</strong></h4>
+
+<ul>
+<li>Project initializatoin</li>
+<li>Build go project</li>
+<li><strong>go gen</strong> to generate go code</li>
+<li><strong>go get</strong> to retrieve dependencies</li>
+<li><strong>go test</strong></li>
+<li><strong>profiling</strong> (like cheking cpu, network usage, memory)</li>
+<li><strong>go doc</strong> for documentaion</li>
+</ul>
 </div>
 
     
