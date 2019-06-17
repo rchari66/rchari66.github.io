@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2019 06:49:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2019 11:30:18 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Go Format Output</title>
+      <link>https://techtaste.me/post/go-format-output/</link>
+      <pubDate>Mon, 17 Jun 2019 11:30:18 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/go-format-output/</guid>
+      <description> Write content Here </description>
     </item>
     
     <item>

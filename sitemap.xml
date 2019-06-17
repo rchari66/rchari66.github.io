@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/go-format-output/</loc>
+    <lastmod>2019-06-17T11:30:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/go-basics/</loc>
     <lastmod>2019-06-17T06:49:18+00:00</lastmod>
   </url>
@@ -196,8 +201,14 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/categories/new_post/</loc>
+    <lastmod>2019-06-17T11:30:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-17T06:49:18+00:00</lastmod>
+    <lastmod>2019-06-17T11:30:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -243,7 +254,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-17T06:49:18+00:00</lastmod>
+    <lastmod>2019-06-17T11:30:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
