@@ -6,38 +6,18 @@
     <description>Recent content in New_post on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2019 23:31:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2019 06:49:18 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/categories/new_post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Telnet</title>
-      <link>https://techtaste.me/post/telnet/</link>
-      <pubDate>Fri, 14 Jun 2019 23:31:18 +0000</pubDate>
+      <title>Go Basics</title>
+      <link>https://techtaste.me/post/go-basics/</link>
+      <pubDate>Mon, 17 Jun 2019 06:49:18 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/telnet/</guid>
+      <guid>https://techtaste.me/post/go-basics/</guid>
       <description> Write content Here </description>
-    </item>
-    
-    <item>
-      <title>File Attributes</title>
-      <link>https://techtaste.me/post/file-attributes/</link>
-      <pubDate>Fri, 14 Jun 2019 22:54:41 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/file-attributes/</guid>
-      <description>Ref:
-https://linoxide.com/how-tos/howto-show-file-attributes-in-linux/ https://wiki.archlinux.org/index.php/File_permissions_and_attributes</description>
-    </item>
-    
-    <item>
-      <title>Sed vs Awk</title>
-      <link>https://techtaste.me/post/sed-vs-awk/</link>
-      <pubDate>Fri, 14 Jun 2019 16:45:35 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/sed-vs-awk/</guid>
-      <description>sed command  Basics
--- Replace all &#39;foo&#39; with &#39;bar&#39; globally. $ sed -i &#39;s/foo/bar/g&#39; &amp;lt;filename&amp;gt; -- print line from 4 through 15 $ sed -n &#39;4,15p&#39; &amp;lt;file name&amp;gt; -- exclude lines from 10 through 15 $ sed &#39;10,15d&#39; &amp;lt;file-name&amp;gt; -- Display lines from different ranges $ sed -n -e &#39;10,15p&#39;-e &#39;25,35p&#39; &amp;lt;file-name&amp;gt; -- display content of a file after replacing a word $ sed &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/g&#39; &amp;lt;file-name&amp;gt; -- replacing a word in a file $ sed -i &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/g&#39; &amp;lt;file-name&amp;gt; -- replace a word and ignore case $ sed -i &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/gi&#39; &amp;lt;file-name&amp;gt;  -- Replace a word or characters in a range $ sed &#39;30,50 s/&amp;lt;word&amp;gt;/&amp;lt;new-word/g&#39; $ sed -i &#39;30,50 s/&amp;lt;word&amp;gt;/&amp;lt;new-word/g&#39; -- swiching multiple matches $ sed -i &#39;s/ \(.</description>
     </item>
     
   </channel>
