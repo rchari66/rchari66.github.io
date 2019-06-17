@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Techtaste</title>
+    <link>https://techtaste.me/categories/golang/</link>
+    <description>Recent content in Golang on Techtaste</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2019 16:07:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://techtaste.me/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang Setup on Ubuntu</title>
+      <link>https://techtaste.me/post/golang-setup/</link>
+      <pubDate>Sun, 16 Jun 2019 16:07:54 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/golang-setup/</guid>
+      <description>Installing Golang on Ubuntu  We will be using snappy tool to install go on ubuntu.
+ Ref: snappy
+ Get info for go packages availabe. ``` $ snap info go
+name: go summary: Go programming language compiler, linker, stdlib publisher: Michael Hudson-Doyle (mwhudson) contact: michael.hudson@ubuntu.com license: unset description: | This snap provides an assembler, compiler, linker, and compiled libraries for the Go programming language. commands:
+ go go.gofmt snap-id: Md1HBASHzP4i0bniScAjXGnOII9cEK6e tracking: stable refresh-date: 2 days ago, at 07:00 IST channels: stable: 1.</description>
+    </item>
+    
+  </channel>
+</rss>

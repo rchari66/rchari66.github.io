@@ -6,10 +6,32 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2019 23:31:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 16:49:20 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Snapy the Package Manager</title>
+      <link>https://techtaste.me/post/snapy-the-package-manager/</link>
+      <pubDate>Sun, 16 Jun 2019 16:49:20 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/snapy-the-package-manager/</guid>
+      <description> Write content Here </description>
+    </item>
+    
+    <item>
+      <title>Golang Setup on Ubuntu</title>
+      <link>https://techtaste.me/post/golang-setup/</link>
+      <pubDate>Sun, 16 Jun 2019 16:07:54 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/golang-setup/</guid>
+      <description>Installing Golang on Ubuntu  We will be using snappy tool to install go on ubuntu.
+ Ref: snappy
+ Get info for go packages availabe. ``` $ snap info go
+name: go summary: Go programming language compiler, linker, stdlib publisher: Michael Hudson-Doyle (mwhudson) contact: michael.hudson@ubuntu.com license: unset description: | This snap provides an assembler, compiler, linker, and compiled libraries for the Go programming language. commands:
+ go go.gofmt snap-id: Md1HBASHzP4i0bniScAjXGnOII9cEK6e tracking: stable refresh-date: 2 days ago, at 07:00 IST channels: stable: 1.</description>
+    </item>
     
     <item>
       <title>Telnet</title>
@@ -121,9 +143,8 @@ mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 moun
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>List of cmds/concepts to refer nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com
-/var/www/html/example-2.com Ssh key gen and host a nginx server(with multiple static sites) https://www.humankode.com/ssl/create-a-selfsigned-certificate-for-nginx-in-5-minutes How DNS works?  https://www.youtube.com/watch?v=mpQZVYPuDGU &amp;mdash; #### http &amp;amp; https protocal work  sed vs awk Docker root user vs host root CNAME, A recodrs  https://unix.stackexchange.com/questions/127723/what-are-the-benefits-of-using-several-ip-addresses-on-a-server
- To compensate for a host that&amp;rsquo;s down at that moment by adding its IP address to another one</description>
+      <description>List of cmds/concepts to refer  head vs tail command  tail -F -n+1 List Item 2  List Item 2  nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com
+/var/www/html/example-2.com Ssh key gen and host a nginx server(with multiple static sites) https://www.humankode.com/ssl/create-a-selfsigned-certificate-for-nginx-in-5-minutes How DNS works?  https://www.youtube.com/watch?v=mpQZVYPuDGU &amp;mdash; #### http &amp;amp; https protocal work  sed vs awk Docker root user vs host root CNAME, A recodrs  https://unix.</description>
     </item>
     
     <item>

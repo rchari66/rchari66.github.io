@@ -11,6 +11,16 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/snapy-the-package-manager/</loc>
+    <lastmod>2019-06-16T16:49:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/post/golang-setup/</loc>
+    <lastmod>2019-06-16T16:07:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/telnet/</loc>
     <lastmod>2019-06-14T23:31:18+00:00</lastmod>
   </url>
@@ -140,8 +150,20 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/categories/golang/</loc>
+    <lastmod>2019-06-16T16:07:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/categories/iso/</loc>
     <lastmod>2019-06-12T04:39:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/categories/linux/</loc>
+    <lastmod>2019-06-16T16:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -165,7 +187,7 @@
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-14T23:31:18+00:00</lastmod>
+    <lastmod>2019-06-16T16:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,7 +233,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-14T23:31:18+00:00</lastmod>
+    <lastmod>2019-06-16T16:49:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   

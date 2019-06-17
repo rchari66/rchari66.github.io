@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Categories</title>
+        <title>Golang Setup on Ubuntu</title>
         
         <link rel="icon" href="https://techtaste.me/img/logo.jpg">
         
@@ -63,9 +63,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://techtaste.me/categories/index.xml" rel="alternate" type="application/rss+xml" title="Techtaste" />
-        <link href="https://techtaste.me/categories/index.xml" rel="feed" type="application/rss+xml" title="Techtaste" />
-        
 
         
     </head>
@@ -85,7 +82,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Categories</a>
+                    <a class="navbar-brand visible-xs" href="#">Golang Setup on Ubuntu</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,9 +133,7 @@
 
 <main>
 
-    <h2>Categories</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -147,224 +142,87 @@
     
     
 
-    <h4><a href="/categories/basic-linux-cmds-1/">Basic Linux Cmds 1</a></h4>
-    <h5>June 11, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/debug/">Debug</a></h4>
-    <h5>June 11, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/file-system/">File System</a></h4>
-    <h5>June 14, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/golang/">Golang</a></h4>
+    <h4><a href="/post/golang-setup/">Golang Setup on Ubuntu</a></h4>
     <h5>June 16, 2019</h5>
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/categories/iso/">Iso</a></h4>
-    <h5>June 12, 2019</h5>
-    
+<h4 id="installing-golang-on-ubuntu"><strong>Installing Golang on Ubuntu</strong></h4>
 
+<blockquote>
+<p>We will be using snappy tool to install go on ubuntu.</p>
+</blockquote>
+
+<p>Ref: <a href="https://itsfoss.com/install-snap-linux/">snappy</a></p>
+
+<ul>
+<li><p>Get info for go packages availabe.
+```
+$ snap info go</p>
+
+<p>name:      go
+summary:   Go programming language compiler, linker, stdlib
+publisher: Michael Hudson-Doyle (mwhudson)
+contact:   michael.hudson@ubuntu.com
+license:   unset
+description: |
+  This snap provides an assembler, compiler, linker, and compiled libraries for the Go programming
+  language.
+commands:</p>
+
+<ul>
+<li>go</li>
+<li>go.gofmt
+snap-id:      Md1HBASHzP4i0bniScAjXGnOII9cEK6e
+tracking:     stable
+refresh-date: 2 days ago, at 07:00 IST
+channels:
+stable:         1.12.6        2019-06-13 (3947) 92MB classic
+candidate:      ^<br />
+beta:           ^<br />
+edge:           devel-7a4d023 2019-06-17 (3978) 92MB classic
+1.12/stable:    1.12.6        2019-06-13 (3947) 92MB classic
+1.12/candidate: ^<br />
+1.12/beta:      ^<br />
+1.12/edge:      ^<br />
+1.11/stable:    1.11.11       2019-06-13 (3945) 82MB classic
+1.11/candidate: 1.11.11       2019-06-12 (3945) 82MB classic
+1.11/beta:      ^<br />
+1.11/edge:      ^<br />
+1.10/stable:    1.10.8        2019-01-24 (3133) 58MB classic
+1.10/candidate: ^<br />
+1.10/beta:      ^<br />
+1.10/edge:      ^<br />
+```</li>
+</ul></li>
+
+<li><p>Install go</p>
+
+<pre><code>$ sudo snap install --classic --channel=1.11/stable go
+    
+-- Option &quot;--classic&quot; disables security confinement; to let go have access to system resources.
+-- Otherwise(without option --classic) 
+    snaps are installed and mounted in a tightly controlled space: they don’t have access to the vast majority of system resources, 
+    they bundle libraries they need and have a read-only file-system. 
+    In the snap world, this is the “strict” confinement policy, which is enforced by default.
+-- Option &quot;--channel&quot;
+  allow you to specify a channel from which the package is downloaded and installed.
+</code></pre></li>
+</ul>
 </div>
-  <div class="item">
-
-    
-    
-    
 
     
     
 
-    <h4><a href="/categories/linux/">Linux</a></h4>
-    <h5>June 16, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
     
 
     
-    
-
-    <h4><a href="/categories/network/">Network</a></h4>
-    <h5>June 12, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/network-cmds-1/">Network Cmds 1</a></h4>
-    <h5>May 19, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/network-cmds-2---telnet/">Network Cmds 2   Telnet</a></h4>
-    <h5>June 14, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/questions/">Questions</a></h4>
-    <h5>June 12, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/sed-vs-awk/">Sed vs Awk</a></h4>
-    <h5>June 14, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/servers/">Servers</a></h4>
-    <h5>June 14, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/stuff/">Stuff</a></h4>
-    <h5>May 14, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/system-admin-cmds/">System Admin Cmds</a></h4>
-    <h5>June 14, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/categories/terminology/">Terminology</a></h4>
-    <h5>June 11, 2019</h5>
-    
-
-</div>
- 
 
 </main>
-
-
-
-<div class="pages">
-
-     
-    <a class="icon pages-icon" href="/categories/page/2/" rel="next">
-        <i class="fa fa-arrow-right"></i>
-    </a>
-    
-
-</div>
-
-
 
         <footer>
 
