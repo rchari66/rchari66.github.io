@@ -199,7 +199,9 @@ For #v : main.rect{height:12, width:15}
 For +v : {height:12 width:15}
 main.rect
 %
-</code></pre>
+</code></pre></li>
+
+<li><p>Boolean</p>
 
 <pre><code class="language-go">func main() {
 flag := true
@@ -217,7 +219,10 @@ Boolean value of flag : true
 Boolean value of flag : true
 </code></pre>
 
-<pre><code class="language-go">-- Integer
+<ul>
+<li>Integer &amp; Float<br />
+``` go
+&ndash; Integer
 %b  base 2
 %c  for char
 %d  base 10(for integer)
@@ -225,25 +230,88 @@ Boolean value of flag : true
 %q  a single-quoted character literal safely escaped with Go syntax.
 %x  base 16, with lower-case letters for a-f
 %X  base 16, with upper-case letters for A-F
-%U  Unicode format: U+1234; same as &quot;U+%04X&quot;
-    
--- Examples
-a := 4
-    
-fmt.Printf(&quot;Binary: %b\n&quot;, a)
-    
-fmt.Printf(&quot;Decimal : %d\n&quot;, a)
-    
-fmt.Printf(&quot;Hexa : %x\n&quot;, a)
-    
-fmt.Printf(&quot;Hexa : %X\n&quot;, a)
-    
--- Output --
+%U  Unicode format: U+1234; same as &ldquo;U+%04X&rdquo;
+<br /></li>
+</ul>
+
+<p>&ndash; Examples
+a := 4</p>
+
+<p>fmt.Printf(&ldquo;Binary: %b\n&rdquo;, a)</p>
+
+<p>fmt.Printf(&ldquo;Decimal : %d\n&rdquo;, a)</p>
+
+<p>fmt.Printf(&ldquo;Hexa : %x\n&rdquo;, a)</p>
+
+<p>fmt.Printf(&ldquo;Hexa : %X\n&rdquo;, a)</p>
+
+<p>&ndash; Output &ndash;
 Binary: 100
 Decimal : 4
 Hexa : 4
-Hexa : 4
-</code></pre></li>
+Hexa : 4</p>
+
+<p>&ndash; Float &ndash;
+f := 10000.800
+fmt.Pritnf(&ldquo;10.2%f&rdquo;) // fit the float in 10 characters</p>
+
+<p>&ndash; Output &ndash;
+      10000.80
+```</p></li>
+
+<li><p>Strings &amp; Slices</p>
+
+<pre><code class="language-go">-- String and slice of bytes
+%s - string
+%q - quoted string
+    
+-- Example
+str := &quot;Hello World!&quot;
+fmt.printf(&quot;%s \n&quot;, str)
+fmt.printf(&quot;%q \n&quot;, str)
+    
+-- Output --
+Hello World!
+&quot;Hello World!&quot;
+</code></pre>
+
+<hr />
+
+<pre><code>-- Pointer
+%p  base 16 notation, with leading 0x
+    
+a := 10
+fmt.Printf(&quot;Pointer of a : %p \n&quot;, &amp;a)
+    
+-- Output --
+Pointer of a : 0xc000064090
+</code></pre>
+
+<p>Note: %v can be used for any of the below types.</p>
+
+<ul>
+<li>int, float, bool, uint, uint8, string,</li>
+<li>chan, float32, pointer</li>
+</ul></li>
+
+<li><p>Other complex Objects</p>
+
+<pre><code class="language-go">Complext objects will be printed like this..
+    
+struct:             {field0 field1 ...}
+array, slice:       [elem0 elem1 ...]
+maps:               map[key1:value1 key2:value2 ...]
+pointer to above:   &amp;{}, &amp;[], &amp;map[]
+</code></pre>
+
+<p>Ref: <a href="https://golang.org/pkg/fmt">https://golang.org/pkg/fmt</a> to know more on</p>
+
+<ul>
+<li>Scan, Scanf, Scanln, Fscan, Fscanf, Fscanln for <strong>Scanning</strong></li>
+<li>Sprint, Sprintf, Sprintln for create and return <strong>strings</strong>
+
+<br /></li>
+</ul></li>
 </ul>
 </div>
 
