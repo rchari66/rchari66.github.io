@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2019 11:30:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2019 16:55:16 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go Types</title>
+      <link>https://techtaste.me/post/go-types/</link>
+      <pubDate>Mon, 17 Jun 2019 16:55:16 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/go-types/</guid>
+      <description>Types  Built-in types
+bool string Numeric: int (either 32 or 64bit) uint (either 32 or 64 bit) uint8, uint16, uint32, uint64 (all Unsigned 8, 16, 32, 64 bit integers respectively) int8, init16, int32 ,int64 (signed integers) float32 float64  Type conversions; T(v) converts value v to T type.
+a := 10 b := float64(a) var u uint = uint(b)  Type Assertion
+Type assertion takes a value and tries to create another version in the specified explicit type.</description>
+    </item>
     
     <item>
       <title>Go Format Output</title>
