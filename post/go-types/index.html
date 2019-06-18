@@ -256,6 +256,41 @@ p := Point{X:1, Y:2}\
 
 <pre><code class="language-go">-- make is used to initialize slices, maps &amp; channels
 </code></pre></li>
+
+<li><p>Arrays</p>
+
+<pre><code class="language-go">// The type [n]T is an array of n values of type T
+var arr [10]int
+var names [20]string
+    
+// Set array entries at the time of declaration
+arr := [5]int{1,2,3,4,5}    // len(a) will be 5
+arr := [...]int{1,2,3,4,5}  // len(a) will be 5; using ellipsis(...)
+    
+names := [2]string{&quot;Hello&quot;, &quot;World&quot;}
+names := [...]string{&quot;Hello&quot;, &quot;World&quot;} // using ellipsis(...)
+</code></pre>
+
+<pre><code class="language-go">// Printing arrays
+a := [...]string{&quot;Hello&quot;, &quot;World!&quot;}
+    
+fmt.Println(a)
+// [hello world!]
+fmt.Printf(&quot;%s\n&quot;, a)
+// [hello world!]
+fmt.Printf(&quot;%q\n&quot;, a)
+// [&quot;hello&quot; &quot;world!&quot;]
+</code></pre>
+
+<pre><code class="language-go">// Multidimentional arrays.
+var a [2][3]string
+var arr [5][5]int
+</code></pre></li>
+
+<li><p>Slices([]T is a slice with elements of type T)</p>
+
+<pre><code class="language-go">    
+</code></pre></li>
 </ul>
 </div>
 
