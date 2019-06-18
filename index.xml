@@ -42,6 +42,18 @@ Type assertion takes a value and tries to create another version in the specifie
     </item>
     
     <item>
+      <title>Go Functions</title>
+      <link>https://techtaste.me/post/go-functions/</link>
+      <pubDate>Mon, 17 Jun 2019 16:08:53 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/go-functions/</guid>
+      <description> function declaration  Syntaxt
+func &amp;lt;nameOfTheFunction&amp;gt;(arg1 typ1, arg2 type2) &amp;lt;returnType&amp;gt; () { ... }  e.g.
+func add(a int, b int) int { return a+b } -- Above function can be written as func add(a, b int) int { }  e.g.
+func location(city string) (state, country string) { ... ... return &amp;quot;BLR&amp;quot;, &amp;quot;India&amp;quot; }   </description>
+    </item>
+    
+    <item>
       <title>Go Format Output</title>
       <link>https://techtaste.me/post/go-format-output/</link>
       <pubDate>Mon, 17 Jun 2019 11:30:18 +0000</pubDate>
