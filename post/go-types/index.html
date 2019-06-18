@@ -228,13 +228,29 @@ var (
     r = Point{X: 1}  // Y:0 is implicit
     s = Point{}      // X:0 and Y:0
 )
+    
+</code></pre>
+
+<pre><code class="language-go">// Structs can be initialized in two ways.
+-- Using dot notation
+    
+p := Point{}
+p.X = 1
+p.Y = 2
+    
+-- Using struct literal
+    
+p := Point{X:1, Y:2}\
+    
 </code></pre></li>
 
 <li><p>Initializing(using <strong>new</strong> keyword)</p>
 
 <pre><code class="language-go">x := new(int) // x value is = 0
     
-</code></pre></li>
+</code></pre>
+
+<p>Note: Go uses <strong>new</strong> expression to allocate a zeroed value of the requested type and to return a pointer to it</p></li>
 
 <li><p>Initializing(using <strong>make</strong> keyword)</p>
 
