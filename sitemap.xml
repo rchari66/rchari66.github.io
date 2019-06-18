@@ -21,11 +21,6 @@
   </url>
   
   <url>
-    <loc>https://techtaste.me/post/zsh-setup/</loc>
-    <lastmod>2019-06-17T06:47:31+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://techtaste.me/post/golang-setup/</loc>
     <lastmod>2019-06-16T16:07:54+00:00</lastmod>
   </url>
@@ -167,12 +162,6 @@
   </url>
   
   <url>
-    <loc>https://techtaste.me/categories/linux/</loc>
-    <lastmod>2019-06-17T06:47:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://techtaste.me/categories/network/</loc>
     <lastmod>2019-06-12T04:39:33+00:00</lastmod>
     <priority>0</priority>
@@ -262,12 +251,6 @@
   <url>
     <loc>https://techtaste.me/categories/windows-10-networks/</loc>
     <lastmod>2019-06-11T17:48:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.me/categories/zsh/</loc>
-    <lastmod>2019-06-17T06:47:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   

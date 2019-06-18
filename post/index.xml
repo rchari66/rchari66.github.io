@@ -32,15 +32,6 @@ package main import ( &amp;quot;os&amp;quot; &amp;quot;fmt&amp;quot; ) func main
     </item>
     
     <item>
-      <title>Zsh Setup</title>
-      <link>https://techtaste.me/post/zsh-setup/</link>
-      <pubDate>Mon, 17 Jun 2019 06:47:31 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/zsh-setup/</guid>
-      <description> Setup zsh </description>
-    </item>
-    
-    <item>
       <title>Golang Setup on Ubuntu</title>
       <link>https://techtaste.me/post/golang-setup/</link>
       <pubDate>Sun, 16 Jun 2019 16:07:54 +0000</pubDate>
