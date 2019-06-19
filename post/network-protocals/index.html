@@ -162,6 +162,8 @@
 <pre><code>TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network
 </code></pre></li>
 
+<li><p>Its a persistent connection</p></li>
+
 <li><p>Three way handshare(at the begining)</p>
 
 <pre><code>step1 : Client sends -&gt; I want to talk -&gt; Server
@@ -270,13 +272,18 @@ Note: All browsers enforce SSL certs to be used with HTTP/2.0 protocal.</li>
 <li><p>Ping</p>
 
 <ul>
-<li><p>protocal -  Internet Control Message Protocol (ICMP)</p>
+<li>protocal -  Internet Control Message Protocol (ICMP)</li>
+<li>Sends echo request packet to an address, then waits for a reply.</li>
+<li>The ping is successful only if:
 
-<pre><code>It uses ICMP. 
-To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports! 
-</code></pre></li>
-
-<li><p>port - Does not use TCP or UDP.</p></li>
+<ul>
+<li>the echo request gets to the destination, and</li>
+<li>the destination is able to get an echo reply back to the source within a predetermined time called a timeout.
+<code>
+To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports!
+</code></li>
+</ul></li>
+<li>port - No Ports. Does not use TCP or UDP.</li>
 </ul></li>
 
 <li><p>SSH</p>

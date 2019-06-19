@@ -19,7 +19,8 @@
       <guid>https://techtaste.me/post/network-protocals/</guid>
       <description>In Progress..  TCP(Transmission Control Protocal)
  Description :
-TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network  Three way handshare(at the begining)
+TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network  Its a persistent connection
+ Three way handshare(at the begining)
 step1 : Client sends -&amp;gt; I want to talk -&amp;gt; Server step2 : Client recieves &amp;lt;- &amp;quot;Sure. Are you Ready? &amp;lt;- Server step3 : Client sends -&amp;gt; &amp;quot;Yes I am Ready&amp;quot; -&amp;gt; Server &amp;lt;- TCP Connection established -&amp;gt;  Its Dominant protocal &amp;amp; Used for</description>
     </item>
     
