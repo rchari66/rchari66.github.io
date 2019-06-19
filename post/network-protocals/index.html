@@ -161,23 +161,106 @@
 
 <pre><code>TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network
 </code></pre></li>
+
+<li><p>Three way handshare(at the begining)</p>
+
+<pre><code>step1 : Client sends -&gt; I want to talk -&gt; Server
+step2 : Client recieves &lt;- &quot;Sure. Are you Ready? &lt;- Server
+step3 : Client sends -&gt; &quot;Yes I am Ready&quot; -&gt; Server
+        
+    &lt;- TCP Connection established -&gt;
+</code></pre></li>
+
+<li><p>Its Dominant protocal &amp; Used for</p>
+
+<ul>
+<li>Web (http and https)</li>
+<li>Telnet</li>
+<li>FTP</li>
+<li>email
+<br /></li>
+</ul></li>
 </ul></li>
 
 <li><p>UDP(User Datagram Protocal)</p>
 
 <ul>
 <li>Description - provides a connectionless datagram service that emphasizes reduced latency over reliability.</li>
-<li>protocal - UDP</li>
-<li>port - NA</li>
-<li>Encryption -</li>
+<li>Sends Data to server; does not care whether it reached destination or not;</li>
+
+<li><p>Its faster.</p>
+
+<p><img src="https://techtaste.me/img/tcp-udp.png" alt="TCP vs IDP" /></p></li>
+
+<li><p>Used for</p>
+
+<ul>
+<li>Live streaming audio or video</li>
+<li>DNS Queries, VoiceOverIP(VoIP),  Dynamic Host Configuration Protocol (DHCP)
+
+<br /></li>
 </ul></li>
+</ul></li>
+
+<li><p>HTTP</p>
+
+<ul>
+<li><p>verion : HTTP/1.x (aka H1)</p>
+
+<ul>
+<li><p>Features</p>
+
+<ul>
+<li>Contents of each stream are HTTP 1.1 requests and responses</li>
+<li>Single persistent connection(TCP)</li>
+<li>Semantics like HTTP methods, HTTP Headers &amp; Response Status Codes
+<br /></li>
+</ul></li>
+
+<li><p>Flaws</p>
+
+<ul>
+<li>No Server Push; Low performance</li>
+<li>Messages are not converted to binary format
+<br /></li>
+</ul></li>
+</ul></li>
+
+<li><p>version : HTTP/2.0 (aka H2; supports only with SSL/TLS)</p>
+
+<ul>
+<li><p>Features</p>
+
+<ul>
+<li>Server push</li>
+<li>Compression of request headers(Using HPACK)</li>
+<li>Multiplexing</li>
+<li>Supports Single TLS encrypted(With use of SSL cert)<br /></li>
+
+<li><p>The conversion of messages into binary allows HTTP/2 to try new approaches to data delivery not available in HTTP/1.</p></li>
+
+<li><p>Stream concurrency: Carrying multiple streams over a single TCP connection</p></li>
+
+<li><p>Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)</p></li>
+
+<li><p>Stream priority: Sender signals the receiver for the priority of this stream, compared to others</p></li>
+
+<li><p>Stream dependency: Sender signals the receiver on recommended order for processing the streams</p></li>
+</ul></li>
+</ul>
+
+<p><img src="https://techtaste.me/img/tcp-udp.png" alt="HTTP/1.0 vs HTTP/2.0" /></p></li>
+</ul></li>
+
+<li><p>HTTPS(SSL/TLS)</p></li>
 
 <li><p>Ping</p>
 
 <ul>
 <li><p>protocal -  Internet Control Message Protocol (ICMP)</p>
 
-<pre><code>It uses ICMP. To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports! 
+<pre><code>It uses ICMP. 
+To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports! 
 </code></pre></li>
 
 <li><p>port - Does not use TCP or UDP.</p></li>
@@ -191,41 +274,11 @@
 <li>Encryption -</li>
 </ul></li>
 
-<li><p>nslookup</p>
+<li><p>ftp</p></li>
 
-<ul>
-<li>protocal -</li>
-<li>port -</li>
-</ul></li>
+<li><p>telnet</p></li>
 
-<li><p>dig</p>
-
-<ul>
-<li>protocal -</li>
-<li>port -</li>
-</ul></li>
-
-<li><p>telnet</p>
-
-<ul>
-<li>protocal -</li>
-<li>port -</li>
-</ul></li>
-
-<li><p>http</p>
-
-<ul>
-<li>protocal -</li>
-<li>port -</li>
-</ul></li>
-
-<li><p>https</p>
-
-<ul>
-<li>protocal -</li>
-<li>port -
-<br /></li>
-</ul></li>
+<li><p>smtp</p></li>
 
 <li><p>gRPC</p>
 
