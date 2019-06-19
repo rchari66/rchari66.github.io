@@ -11,11 +11,6 @@
   </url>
   
   <url>
-    <loc>https://techtaste.me/post/network-protocals/</loc>
-    <lastmod>2019-06-19T09:00:58+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://techtaste.me/post/go-types/</loc>
     <lastmod>2019-06-17T16:55:16+00:00</lastmod>
   </url>
@@ -200,14 +195,8 @@
   </url>
   
   <url>
-    <loc>https://techtaste.me/categories/new_post/</loc>
-    <lastmod>2019-06-19T09:00:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-19T09:00:58+00:00</lastmod>
+    <lastmod>2019-06-17T16:55:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -253,7 +242,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-19T09:00:58+00:00</lastmod>
+    <lastmod>2019-06-17T16:55:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
