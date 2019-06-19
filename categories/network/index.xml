@@ -6,10 +6,22 @@
     <description>Recent content in Network on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2019 04:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 09:00:58 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/categories/network/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Network Protocals</title>
+      <link>https://techtaste.me/post/network-protocals/</link>
+      <pubDate>Wed, 19 Jun 2019 09:00:58 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/network-protocals/</guid>
+      <description>In Progress..  TCP(Transmission Control Protocal)
+ Description :
+TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network  Three way handshare(at the begining)
+step1 : Client sends -&amp;gt; I want to talk -&amp;gt; Server step2 : Client recieves &amp;lt;- &amp;quot;Sure. Are you Ready? &amp;lt;- Server step3 : Client sends -&amp;gt; &amp;quot;Yes I am Ready&amp;quot; -&amp;gt; Server &amp;lt;- TCP Connection established -&amp;gt;  Its Dominant protocal &amp;amp; Used for</description>
+    </item>
     
     <item>
       <title>ISO Model</title>
