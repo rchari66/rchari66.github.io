@@ -232,9 +232,10 @@ step3 : Client sends -&gt; &quot;Yes I am Ready&quot; -&gt; Server
 <li>Features
 
 <ul>
+<li>Protocol negotiation mechanism — protocol electing, eg. HTTP/1.1, HTTP/2 or other.</li>
 <li>Server push</li>
 <li>Compression of request headers(Using HPACK)</li>
-<li>Supports Single TLS encrypted(With use of SSL cert) &amp; Multiplexing</li>
+<li>Multiplexing over a single TCP connection</li>
 <li>Binary protocal</li>
 <li>Stream concurrency: Carrying multiple streams over a single TCP connection</li>
 <li>Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)</li>
@@ -244,7 +245,12 @@ step3 : Client sends -&gt; &quot;Yes I am Ready&quot; -&gt; Server
 </ul></li>
 </ul>
 
-<p><img src="https://techtaste.me/img/tcp-udp.png" alt="HTTP/1.0 vs HTTP/2.0" /></p></li>
+<p>e.g.
+<img src="https://techtaste.me/img/http1-http2.png" alt="HTTP/1.0 vs HTTP/2.0" />
+e.g.
+<img src="https://techtaste.me/img/http1-http2-2.png" alt="HTTP/1.0 vs HTTP/2.0" /></p></li>
+
+<li><p>Ref : <a href="https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b">https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b</a></p></li>
 </ul></li>
 
 <li><p>HTTPS(SSL/TLS)</p></li>
