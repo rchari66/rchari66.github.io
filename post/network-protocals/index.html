@@ -229,23 +229,18 @@ step3 : Client sends -&gt; &quot;Yes I am Ready&quot; -&gt; Server
 <li><p>version : HTTP/2.0 (aka H2; supports only with SSL/TLS)</p>
 
 <ul>
-<li><p>Features</p>
+<li>Features
 
 <ul>
 <li>Server push</li>
 <li>Compression of request headers(Using HPACK)</li>
-<li>Multiplexing</li>
-<li>Supports Single TLS encrypted(With use of SSL cert)<br /></li>
-
-<li><p>The conversion of messages into binary allows HTTP/2 to try new approaches to data delivery not available in HTTP/1.</p></li>
-
-<li><p>Stream concurrency: Carrying multiple streams over a single TCP connection</p></li>
-
-<li><p>Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)</p></li>
-
-<li><p>Stream priority: Sender signals the receiver for the priority of this stream, compared to others</p></li>
-
-<li><p>Stream dependency: Sender signals the receiver on recommended order for processing the streams</p></li>
+<li>Supports Single TLS encrypted(With use of SSL cert) &amp; Multiplexing</li>
+<li>Binary protocal</li>
+<li>Stream concurrency: Carrying multiple streams over a single TCP connection</li>
+<li>Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)</li>
+<li>Stream priority: Sender signals the receiver for the priority of this stream, compared to others</li>
+<li>Stream dependency: Sender signals the receiver on recommended order for processing the streams
+<br /></li>
 </ul></li>
 </ul>
 
