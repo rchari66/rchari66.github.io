@@ -17,15 +17,11 @@
       <pubDate>Wed, 19 Jun 2019 09:00:58 +0000</pubDate>
       
       <guid>https://techtaste.me/post/network-protocals/</guid>
-      <description> In Progress..  Ping
- protocal - port - Ref:  ssh
- protocal - port - Encryption -  nslookup
- protocal - port -  dig
- protocal - port -  telnet
- protocal - port -  http
- protocal - port -  https
- protocal - port -   gRPC
- protocal - port -   </description>
+      <description>In Progress..  TCP(Transmission Control Protocal)
+ Description :
+TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network   UDP(User Datagram Protocal)
+ Description - provides a connectionless datagram service that emphasizes reduced latency over reliability. protocal - UDP port - NA Encryption -  Ping
+ protocal - Internet Control Message Protocol (ICMP)</description>
     </item>
     
   </channel>
