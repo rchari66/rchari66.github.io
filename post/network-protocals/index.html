@@ -276,8 +276,6 @@ e.g.
 <li>Multidomain SLL certs
 Note: All browsers enforce SSL certs to be used with HTTP/2.0 protocal.</li>
 </ul></li>
-
-<li></li>
 </ul></li>
 
 <li><p>Ping</p>
@@ -300,9 +298,48 @@ To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) ar
 <li><p>SSH</p>
 
 <ul>
-<li>protocal - SSH</li>
-<li>port - 22</li>
-<li>Encryption -</li>
+<li>protocal - SSH (its a communication protocal just like http, https, ftp&hellip;etc)</li>
+<li>SSH is client(/usr/bin/ssh)</li>
+
+<li><p>SSHD is server(openssh-server)</p>
+
+<pre><code>-- Install openssh-server
+$ sudo apt-get install openssh-server
+        
+-- sshd (ssh daemon server)
+$ systemctl start ssh
+</code></pre></li>
+
+<li><p>Authenticatoin methods(ssh user@192.168.56.101)</p>
+
+<ul>
+<li>password</li>
+
+<li><p>Public &amp; Private key</p>
+
+<ul>
+<li>ssh-keygen to generate ssh public &amp; private keys</li>
+<li>~/.ssh/id_rsa     (Private Key)</li>
+<li>~/.ssh/id_rsa.pub (public Key)</li>
+<li>public key goes into &ldquo;authorized_keys&rdquo; file
+<br /></li>
+</ul>
+
+<pre><code> $cat ~/.ssh/authorized_keys
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC6rsvFUW/CD3x/HLp/6WJKPFwqMqex5LnEvMsQvrPtOs4rarQs4JZqwfBOhGpBB3MGU8OfDvBYjL2JMOyw/YqNtbhnSH2n5/Sco5Sge11SJuy1HbjrkVJE/fyZqxzyypsI8/7HqOYRxArCHHdg56Oz0MAZfeTLNIkvvL7CDyoc5snoiCWrLaQnDmOkKArrdVq6VoABWUFHfEN3/AERh6SOfwSHl5y/7uvcW7Yaemv6mm1MnEqCqi/Wo8ratQ9WFEvm2md8a4Hk4gD+VVyqNTr/P8dAnLqCYY9XpAczHAOp9NFqAeTo9LhLOXfm7/d89kB5ZIbobiuo6GfdOR9Nb0EpRsN8Pr3MYYFxj06N0+FoQJjL/1BNnvjrbSS4BA7KX/Z3c08lcpxPUc7QoAuS8qkEIJyhPtVc4jtEBT7CkyKvi3UVFFLRawSbAwjrLYxdL1HwXCcpTw3iw0QAK5CYPklXphikiPTPy7JnvkxE9hH3/ALioWD8LG4rwYWf24iT+yM= INTEL@DESKTOP-G5I1PT9
+</code></pre>
+
+<ul>
+<li>Refer : ssh-add command</li>
+</ul></li>
+
+<li><p>host based</p></li>
+</ul></li>
+
+<li><p>port - 22</p></li>
+
+<li><p>Encryption -
+y</p></li>
 </ul></li>
 
 <li><p>ftp</p></li>
