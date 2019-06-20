@@ -250,7 +250,7 @@ list processes by group $ ps -G groupname1 groupname2 e.g. $ ps -G root  Inverse
     </item>
     
     <item>
-      <title>Linux network commands 1</title>
+      <title>Network Debug Commands</title>
       <link>https://techtaste.me/post/linux-network-commands-1/</link>
       <pubDate>Sat, 18 May 2019 05:30:33 +0000</pubDate>
       
