@@ -258,8 +258,17 @@ e.g.
 <li><p>HTTPS(SSL/TLS)</p>
 
 <ul>
-<li>Works on HTTP protocal with encrypted TLS/SSL connection</li>
-<li>Some of SSL cert types
+<li><p>Works on HTTP protocal with encrypted TLS/SSL connection</p>
+
+<ul>
+<li>Browser requests https cert &amp; gets certficate &amp; signature of the ssl cert.</li>
+<li>Browser verifies the cert&rsquo;s integrity &amp; identity</li>
+<li>Browser creates a symetric key, encrypts it usnig server&rsquo;s public key and sends to server.</li>
+<li>Both Browser &amp; Server uses this symetric key to encrypt the messages.
+<br /></li>
+</ul></li>
+
+<li><p>Some of SSL cert types</p>
 
 <ul>
 <li>Domain Validation SSL</li>
@@ -267,6 +276,8 @@ e.g.
 <li>Multidomain SLL certs
 Note: All browsers enforce SSL certs to be used with HTTP/2.0 protocal.</li>
 </ul></li>
+
+<li></li>
 </ul></li>
 
 <li><p>Ping</p>
