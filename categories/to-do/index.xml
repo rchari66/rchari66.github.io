@@ -17,7 +17,9 @@
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>  Http protocal(2.0)   Runtime - JVM Engine-- nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com
+      <description> java coding, Elastic Search basics, PostgreSQL,
+Sql coding(basics),
+nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com
 /var/www/html/example-2.com </description>
     </item>
     

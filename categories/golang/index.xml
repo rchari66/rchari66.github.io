@@ -36,6 +36,17 @@ func location(city string) (state, country string) { ... ... return &amp;quot;BL
     </item>
     
     <item>
+      <title>Go Variables Declaratoin</title>
+      <link>https://techtaste.me/post/go-variables/</link>
+      <pubDate>Mon, 17 Jun 2019 14:44:35 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/go-variables/</guid>
+      <description>Variables declaration in go  Declaratoin
+var ( name string age int city string ) -- var ( name, city string age int ) -- var name string var city string var age int  Initialization
+var ( name string = &amp;quot;Chari&amp;quot; city string = &amp;quot;BLR&amp;quot; mobile int = 12345 ) -- Inferred typing var ( name = &amp;quot;Chari&amp;quot; city = &amp;quot;BLR&amp;quot; mobile = 12345 ) -- var ( name, city, mobile = &amp;quot;Chari&amp;quot;, &amp;quot;BLR&amp;quot;, 12345 )  Short assignment &amp;ldquo;:=&amp;rdquo; (Inside a function only)</description>
+    </item>
+    
+    <item>
       <title>Go Format Output</title>
       <link>https://techtaste.me/post/go-format-output/</link>
       <pubDate>Mon, 17 Jun 2019 11:30:18 +0000</pubDate>

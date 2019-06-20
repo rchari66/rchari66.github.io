@@ -45,6 +45,17 @@ func location(city string) (state, country string) { ... ... return &amp;quot;BL
     </item>
     
     <item>
+      <title>Go Variables Declaratoin</title>
+      <link>https://techtaste.me/post/go-variables/</link>
+      <pubDate>Mon, 17 Jun 2019 14:44:35 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/go-variables/</guid>
+      <description>Variables declaration in go  Declaratoin
+var ( name string age int city string ) -- var ( name, city string age int ) -- var name string var city string var age int  Initialization
+var ( name string = &amp;quot;Chari&amp;quot; city string = &amp;quot;BLR&amp;quot; mobile int = 12345 ) -- Inferred typing var ( name = &amp;quot;Chari&amp;quot; city = &amp;quot;BLR&amp;quot; mobile = 12345 ) -- var ( name, city, mobile = &amp;quot;Chari&amp;quot;, &amp;quot;BLR&amp;quot;, 12345 )  Short assignment &amp;ldquo;:=&amp;rdquo; (Inside a function only)</description>
+    </item>
+    
+    <item>
       <title>Go Format Output</title>
       <link>https://techtaste.me/post/go-format-output/</link>
       <pubDate>Mon, 17 Jun 2019 11:30:18 +0000</pubDate>
@@ -187,7 +198,9 @@ mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 moun
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
       <guid>https://techtaste.me/post/to-do/</guid>
-      <description>  Http protocal(2.0)   Runtime - JVM Engine-- nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com
+      <description> java coding, Elastic Search basics, PostgreSQL,
+Sql coding(basics),
+nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com
 /var/www/html/example-2.com </description>
     </item>
     
