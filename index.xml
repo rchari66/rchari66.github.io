@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Elastic Search Basics</title>
+      <link>https://techtaste.me/post/elastic-search-basics/</link>
+      <pubDate>Mon, 17 Jun 2019 17:15:15 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/elastic-search-basics/</guid>
+      <description>Elastic Search Concepts  Cluster Node Index Type Document Shard Replica  Cluster  It&amp;rsquo;s a collection of one or more nodes and holds entire data and provides indexing &amp;amp; search capabilities. Nodes can join a cluster by cluster&amp;rsquo;s name.  Node  A node is a single server(part of the cluster) and participates in indexing and search capabilities. Node can be configured to join specific cluster by the cluster name.</description>
+    </item>
+    
+    <item>
       <title>Go Types</title>
       <link>https://techtaste.me/post/go-types/</link>
       <pubDate>Mon, 17 Jun 2019 16:55:16 +0000</pubDate>

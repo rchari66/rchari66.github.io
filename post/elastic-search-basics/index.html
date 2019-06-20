@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Posts</title>
+        <title>Elastic Search Basics</title>
         
         <link rel="icon" href="https://techtaste.me/img/logo.jpg">
         
@@ -63,9 +63,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://techtaste.me/post/index.xml" rel="alternate" type="application/rss+xml" title="Techtaste" />
-        <link href="https://techtaste.me/post/index.xml" rel="feed" type="application/rss+xml" title="Techtaste" />
-        
 
         
     </head>
@@ -85,7 +82,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Posts</a>
+                    <a class="navbar-brand visible-xs" href="#">Elastic Search Basics</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,9 +133,7 @@
 
 <main>
 
-    <h2>Posts</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -147,182 +142,101 @@
     
     
 
-    <h4><a href="/post/iso-model/">ISO Model</a></h4>
-    <h5>June 12, 2019</h5>
+    <h4><a href="/post/elastic-search-basics/">Elastic Search Basics</a></h4>
+    <h5>June 17, 2019</h5>
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/post/questions/">Questions</a></h4>
-    <h5>June 12, 2019</h5>
-    
+<h3 id="elastic-search-concepts">Elastic Search Concepts</h3>
 
+<ol>
+<li><a href="#cluster">Cluster</a></li>
+<li><a href="#node">Node</a></li>
+<li><a href="#index">Index</a></li>
+<li><a href="#type">Type</a></li>
+<li><a href="#document">Document</a></li>
+<li><a href="#shard">Shard</a></li>
+<li><a href="#replica">Replica</a></li>
+</ol>
+
+<h4 id="cluster">Cluster</h4>
+
+<ul>
+<li>It&rsquo;s a collection of one or more nodes and holds entire data and provides indexing &amp; search capabilities.</li>
+<li>Nodes can join a cluster by cluster&rsquo;s name.</li>
+</ul>
+
+<h4 id="node">Node</h4>
+
+<ul>
+<li>A node is a single server(part of the cluster) and participates in indexing and search capabilities.</li>
+<li>Node can be configured to join specific cluster by the cluster name.</li>
+</ul>
+
+<h4 id="index">Index</h4>
+
+<ul>
+<li>Collectin of documents that have somewhat similar characteristics.</li>
+<li>one index for reports and another index for meta_data.</li>
+<li>In a single cluster, you can define as many indexes as you want.</li>
+</ul>
+
+<h4 id="type">Type</h4>
+
+<ul>
+<li><strong>Deprecated in 6.0.0</strong></li>
+<li>A type used to be a logical category/partition of your index to allow you to store different types of documents in the same index</li>
+</ul>
+
+<h4 id="document">Document</h4>
+
+<ul>
+<li>Basic unit of JSON blog that can be indexed.</li>
+<li>Within an index, you can store as many documents as you want.</li>
+</ul>
+
+<h4 id="shard">Shard</h4>
+
+<ul>
+<li>Index can store large amounts of data, which can exceed hardware limits of a single node.</li>
+<li>A single index of a billion documents taking up 1TB of disk space may not fit on the disk of a single node or may be too slow to serve search requests from a single node alone.</li>
+<li>An index can be subdivide into multiple pieces called shards.</li>
+<li>When you create an index, you can simply define the number of shards that you want</li>
+<li>Each shard is in itself a fully-functional and independent &ldquo;index&rdquo; that can be hosted on any node in the cluster.</li>
+<li>Sharding is important for two primary reasons:
+
+<ul>
+<li>It allows you to horizontally split/scale your content volume</li>
+<li>It allows you to distribute and parallelize operations across shards (potentially on multiple nodes) thus increasing performance/throughput</li>
+</ul></li>
+</ul>
+
+<p>Ref:<a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-concepts.html">https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-concepts.html</a></p>
+
+<h4 id="replica">Replica</h4>
+
+<ul>
+<li>Replication is important for two primary reasons:
+
+<ul>
+<li>It provides high availability in case a shard/node fails. For this reason, it is important to note that a replica shard is never allocated on the same node as the original/primary shard that it was copied from.</li>
+<li>It allows you to scale out your search volume/throughput since searches can be executed on all replicas in parallel.</li>
+</ul></li>
+</ul>
 </div>
-  <div class="item">
-
-    
-    
-    
 
     
     
 
-    <h4><a href="/post/sys-admin-cmds-2/">Sys Admin Cmds 2</a></h4>
-    <h5>June 12, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
     
 
     
-    
-
-    <h4><a href="/post/terminology/">Terminology 1</a></h4>
-    <h5>June 11, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/to-do/">To Do</a></h4>
-    <h5>June 11, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/windows-portforward/">Portforward on Windows 10</a></h4>
-    <h5>June 11, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/process/">Process(ps) cmd in linux</a></h4>
-    <h5>June 11, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/tcpdump/">TCPDUMP cmd</a></h4>
-    <h5>May 19, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/sys-admin-cmds-1/">Sys Admin Cmds 1</a></h4>
-    <h5>May 19, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/linux-network-commands-1/">Network Debug Commands</a></h4>
-    <h5>May 18, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/reasons/">Reasons</a></h4>
-    <h5>May 14, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/vdock-tool/">How To Use Vdock Tool</a></h4>
-    <h5>December 6, 2018</h5>
-    
-
-</div>
- 
 
 </main>
-
-
-
-<div class="pages">
-
-    
-    <a class="icon pages-icon" href="/post/" rel="prev">
-        <i class="fa fa-arrow-left"></i>
-    </a>
-     
-
-</div>
-
-
 
         <footer>
 

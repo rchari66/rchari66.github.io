@@ -16,6 +16,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/elastic-search-basics/</loc>
+    <lastmod>2019-06-17T17:15:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/go-types/</loc>
     <lastmod>2019-06-17T16:55:16+00:00</lastmod>
   </url>
@@ -165,6 +170,12 @@
   
   <url>
     <loc>https://techtaste.me/tags/docker-cloud9/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://techtaste.me/categories/elastic-search/</loc>
+    <lastmod>2019-06-17T17:15:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
