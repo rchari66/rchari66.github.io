@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/java-collections/</loc>
+    <lastmod>2019-06-20T19:23:25+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/network-protocals/</loc>
     <lastmod>2019-06-19T09:00:58+00:00</lastmod>
   </url>
@@ -198,6 +203,12 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/categories/java/</loc>
+    <lastmod>2019-06-20T19:23:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/categories/network/</loc>
     <lastmod>2019-06-19T09:00:58+00:00</lastmod>
     <priority>0</priority>
@@ -211,7 +222,7 @@
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2019-06-19T09:00:58+00:00</lastmod>
+    <lastmod>2019-06-20T19:23:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -257,7 +268,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2019-06-19T09:00:58+00:00</lastmod>
+    <lastmod>2019-06-20T19:23:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   

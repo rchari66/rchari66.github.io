@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jun 2019 09:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2019 19:23:25 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java Collections</title>
+      <link>https://techtaste.me/post/java-collections/</link>
+      <pubDate>Thu, 20 Jun 2019 19:23:25 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/java-collections/</guid>
+      <description>Collections  Map entry
+Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;String, String&amp;gt;(); for (Map.Entry&amp;lt;String,String&amp;gt; entry : gfg.entrySet()) System.out.println(&amp;quot;Key = &amp;quot; + entry.getKey() + &amp;quot;, Value = &amp;quot; + entry.getValue());  Loops
+for(String str : strArray) { System.out.println(str); }  Array to list
+List&amp;lt;Integer&amp;gt; list = Arrays.asList(integerArray)  List to Array int[] arr = list.toArray();  Streams
+Stream&amp;lt;Integer&amp;gt; stream = list.stream(); List&amp;lt;Integer&amp;gt; evenNumbersList = list.stream() .filter(i -&amp;gt; i%2 == 0) .collect(Collectors.toList());  memberNames.</description>
+    </item>
     
     <item>
       <title>Network Protocals</title>
