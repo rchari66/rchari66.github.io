@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2019 19:23:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 07:23:07 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Python Basics</title>
+      <link>https://techtaste.me/post/python-basics/</link>
+      <pubDate>Tue, 02 Jul 2019 07:23:07 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/python-basics/</guid>
+      <description>Open file and Display the whole content f = open(&amp;quot;file.txt&amp;quot;) print(f.read()) Note: by default the opens in &amp;quot;r&amp;quot;(read) mode; Above code is same as below code f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.read())  Read first 5 bites of a file f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.read(5))  Read 10 bites After first 100 bytes f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.tell()) f.seek(100) print(f.tell()) print(f.read(10))  List all files(recursively) for the directory #!/usr/bin/python import subprocess, os p = subprocess.</description>
     </item>
     
     <item>
