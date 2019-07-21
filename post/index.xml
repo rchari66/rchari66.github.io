@@ -202,7 +202,7 @@ mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 moun
       <pubDate>Wed, 12 Jun 2019 04:04:44 +0000</pubDate>
       
       <guid>https://techtaste.me/post/questions/</guid>
-      <description>$ Who does SRE stuff? $ Day to day work ? * Is there performance team? * SLO, SLA who decides? * whats the deployment strategy do u use? * People are migrating to it from slack? * Do you have disaster recovery feature in place?  </description>
+      <description>$ Do you any framework for go apps or just go&#39;s standard library? $ Whats base image for all your go application? $ * Is there performance team? * SLO, SLA who decides? * whats the deployment strategy do u use? * People are migrating to it from slack? * Do you have disaster recovery feature in place?  </description>
     </item>
     
     <item>
