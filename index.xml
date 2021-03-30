@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Mar 2021 05:17:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 02:24:33 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,26 +27,6 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Sunny Post</title>
-      <link>https://techtaste.me/post/sunny-post/</link>
-      <pubDate>Tue, 30 Mar 2021 05:17:34 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/sunny-post/</guid>
-      <description>Hi this heading public static void main(String arg[]) ..     Hi Sunny How are you.</description>
-    </item>
-    
-    <item>
-      <title>New Post</title>
-      <link>https://techtaste.me/post/new-post/</link>
-      <pubDate>Fri, 26 Mar 2021 12:13:36 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/new-post/</guid>
-      <description> In Progress.. Hi Zahoor
-col1 | col2 | hello | hello
-public static void main(String arg[]) ..  </description>
     </item>
     
     <item>
