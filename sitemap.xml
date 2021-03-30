@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/post/sunny-post/</loc>
+    <lastmod>2021-03-30T05:17:34+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/post/new-post/</loc>
     <lastmod>2021-03-26T12:13:36+00:00</lastmod>
   </url>
@@ -237,13 +242,13 @@
   
   <url>
     <loc>https://techtaste.me/categories/new_post/</loc>
-    <lastmod>2021-03-26T12:13:36+00:00</lastmod>
+    <lastmod>2021-03-30T05:17:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2021-03-26T12:13:36+00:00</lastmod>
+    <lastmod>2021-03-30T05:17:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -289,7 +294,7 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2021-03-26T12:13:36+00:00</lastmod>
+    <lastmod>2021-03-30T05:17:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
