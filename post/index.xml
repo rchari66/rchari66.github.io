@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Apr 2021 07:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 18:26:03 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fix Reload Post</title>
+      <link>https://techtaste.me/post/fix-reload-post/</link>
+      <pubDate>Wed, 07 Apr 2021 18:26:03 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/fix-reload-post/</guid>
+      <description>In Progress.. How are you doing. hello world</description>
+    </item>
     
     <item>
       <title>Chari Post</title>
