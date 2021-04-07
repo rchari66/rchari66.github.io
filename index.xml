@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 19:03:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 02:24:33 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,16 +27,6 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Table Layout</title>
-      <link>https://techtaste.me/post/table-layout/</link>
-      <pubDate>Wed, 07 Apr 2021 19:03:57 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/table-layout/</guid>
-      <description> In Progress..   Firstname Lastname Savings   Peter Griffin $100   Lois Griffin $150   Joe Swanson $300   Cleveland Brown $250   
-   Tables Are Cool     col 1 is left-aligned $1600   col 2 is centered $12   col 3 is right-aligned $1    </description>
     </item>
     
     <item>
