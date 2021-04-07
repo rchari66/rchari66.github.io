@@ -11,18 +11,8 @@
   </url>
   
   <url>
-    <loc>https://techtaste.me/post/fix-reload-post/</loc>
-    <lastmod>2021-04-07T18:26:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.me/post/chari-post/</loc>
-    <lastmod>2021-04-01T07:11:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.me/post/test-post/</loc>
-    <lastmod>2021-03-30T14:21:27+00:00</lastmod>
+    <loc>https://techtaste.me/post/table-layout/</loc>
+    <lastmod>2021-04-07T19:03:57+00:00</lastmod>
   </url>
   
   <url>
@@ -193,6 +183,12 @@
   </url>
   
   <url>
+    <loc>https://techtaste.me/categories/css-styles/</loc>
+    <lastmod>2021-04-07T19:03:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.me/categories/debug/</loc>
     <lastmod>2019-06-11T16:51:00+00:00</lastmod>
     <priority>0</priority>
@@ -247,13 +243,13 @@
   
   <url>
     <loc>https://techtaste.me/categories/new_post/</loc>
-    <lastmod>2021-04-01T07:11:54+00:00</lastmod>
+    <lastmod>2019-07-02T07:23:07+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techtaste.me/post/</loc>
-    <lastmod>2021-04-07T18:26:03+00:00</lastmod>
+    <lastmod>2021-04-07T19:03:57+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,19 +295,13 @@
   
   <url>
     <loc>https://techtaste.me/</loc>
-    <lastmod>2021-04-07T18:26:03+00:00</lastmod>
+    <lastmod>2021-04-07T19:03:57+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://techtaste.me/categories/terminology/</loc>
     <lastmod>2019-06-11T22:28:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.me/categories/testing/</loc>
-    <lastmod>2021-04-07T18:26:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
