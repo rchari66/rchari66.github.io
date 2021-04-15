@@ -99,21 +99,26 @@ img {
     max-width: 100%;
 }
 
-
-/* table layout */
 table {
-  /*border-collapse: collapse;*/
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
   width: 100%;
 }
 
-th, td {
-  text-align: left;
+td, th {
+  border: 1px solid #ddd;
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
 
 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
   background-color: royalblue;
   color: white;
 }
+
