@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Apr 2021 08:42:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 02:24:33 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,15 +27,6 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Demo Post</title>
-      <link>https://techtaste.me/post/demo-post/</link>
-      <pubDate>Thu, 15 Apr 2021 08:42:07 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/demo-post/</guid>
-      <description> In Progress..      Column 1 Column 2      </description>
     </item>
     
     <item>
@@ -233,15 +224,6 @@ mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 moun
     </item>
     
     <item>
-      <title>Questions</title>
-      <link>https://techtaste.me/post/questions/</link>
-      <pubDate>Wed, 12 Jun 2019 04:04:44 +0000</pubDate>
-      
-      <guid>https://techtaste.me/post/questions/</guid>
-      <description>$ Whats base image for all your go application? $ what backend persistant storage is being used in your distributed application.. * How does interservice communication is secured? * secret keeping(Using vault or any alternative?) * Tech talks internally? * RBAC stuff how are you managing.. * Interservice communication? * How are doing DR strategy * Is there performance team? * SLO, SLA who decides? * whats the deployment strategy do u use?</description>
-    </item>
-    
-    <item>
       <title>Sys Admin Cmds 2</title>
       <link>https://techtaste.me/post/sys-admin-cmds-2/</link>
       <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
@@ -328,6 +310,24 @@ list processes by group $ ps -G groupname1 groupname2 e.g. $ ps -G root  Inverse
       <guid>https://techtaste.me/post/vdock-tool/</guid>
       <description> Vdock for quickly deploying a site on to Github   Go to Vdock Github project
  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://techtaste.me/post/interview-questions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/interview-questions/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://techtaste.me/post/questions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/questions/</guid>
+      <description>   </description>
     </item>
     
   </channel>
