@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 11:58:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jun 2021 11:46:25 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Demo Tetrate</title>
+      <link>https://techtaste.me/post/demo-tetra/</link>
+      <pubDate>Fri, 18 Jun 2021 11:46:25 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/demo-tetra/</guid>
+      <description> In Progress..     Column 1 Column 2     table-data table-data    public static void main(String arg[]) ..  </description>
+    </item>
     
     <item>
       <title>Sample Blog</title>
