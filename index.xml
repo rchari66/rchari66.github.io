@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jun 2021 07:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jun 2021 09:23:45 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Sample Post3</title>
+      <link>https://techtaste.me/post/sample-post3/</link>
+      <pubDate>Mon, 21 Jun 2021 09:23:45 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/sample-post3/</guid>
+      <description>In Progress..      Column 1 Column 2     table-data table-data    Name</description>
     </item>
     
     <item>
