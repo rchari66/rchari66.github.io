@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jun 2021 07:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Aug 2021 06:00:52 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>https://techtaste.me/projects/project2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>My Personal Branding</title>
+      <link>https://techtaste.me/post/personal-branding/</link>
+      <pubDate>Wed, 11 Aug 2021 06:00:52 +0000</pubDate>
+      
+      <guid>https://techtaste.me/post/personal-branding/</guid>
+      <description>SWOT Analysis  Strengths  What are you really good at?  quickly learning new things Critical thinking Focus on customer use cases  Which of the leadership behaviors aligns with your strengths?    What skills do other people recognize in you? What do you do better than most people you work with? What do you get recognized or rewarded for? What, about yourself, are you most proud of or satisfied with?</description>
     </item>
     
     <item>
