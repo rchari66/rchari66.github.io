@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>System Admin Cmds on Techtaste</title>
-    <link>https://techtaste.me/categories/system-admin-cmds/</link>
+    <link>https://techtaste.in/categories/system-admin-cmds/</link>
     <description>Recent content in System Admin Cmds on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2019 09:20:00 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.me/categories/system-admin-cmds/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techtaste.in/categories/system-admin-cmds/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash Shortcuts</title>
-      <link>https://techtaste.me/post/bash-shortcuts/</link>
+      <link>https://techtaste.in/post/bash-shortcuts/</link>
       <pubDate>Fri, 14 Jun 2019 09:20:00 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/bash-shortcuts/</guid>
+      <guid>https://techtaste.in/post/bash-shortcuts/</guid>
       <description>Show and execute most recent command $ echo Hello World! $ !! echo Hello World! Hello World!  Execute/View most recent command that starts with given key word $ echo Hello World! $ !echo echo Hello World! Hello World! -- Only view the command(Do not execute) $ !echo:p Option &amp;quot;:p&amp;quot; only prints the command without executing it.  Arguments of last command can be referred using &amp;lsquo;!*&amp;rsquo; $ echo Hello World!</description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 4</title>
-      <link>https://techtaste.me/post/sys-admin-cmds-4/</link>
+      <link>https://techtaste.in/post/sys-admin-cmds-4/</link>
       <pubDate>Wed, 12 Jun 2019 17:57:21 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/sys-admin-cmds-4/</guid>
+      <guid>https://techtaste.in/post/sys-admin-cmds-4/</guid>
       <description>Run levels are Run level 0 is matched by poweroff.target (and runlevel0.target is a symbolic link to poweroff.target). Run level 1 is matched by rescue.target (and runlevel1.target is a symbolic link to rescue.target). Run level 3 is emulated by multi-user.target (and runlevel3.target is a symbolic link to multi-user.target). Run level 5 is emulated by graphical.target (and runlevel5.target is a symbolic link to graphical.target). Run level 6 is emulated by reboot.</description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 3</title>
-      <link>https://techtaste.me/post/sys-admin-cmds-3/</link>
+      <link>https://techtaste.in/post/sys-admin-cmds-3/</link>
       <pubDate>Wed, 12 Jun 2019 15:53:19 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/sys-admin-cmds-3/</guid>
+      <guid>https://techtaste.in/post/sys-admin-cmds-3/</guid>
       <description>TODO : extend existing volumes
 mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 mountDestDir --- list all mount points $ mount -l --- list all mount points of given type. $ mount -l -t &amp;lt;type&amp;gt;  find -- find by name $ find -name &amp;lt;name&amp;gt; -- find not matching name $ find -not -name &amp;lt;name-to-avoid&amp;gt; -- find by type $ find / -type &amp;lt;type&amp;gt; &amp;lt;name&amp;gt; &amp;lt;type&amp;gt; could be one of f = file d = directory l = symbolic link c = character devices b = block devices e.</description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 2</title>
-      <link>https://techtaste.me/post/sys-admin-cmds-2/</link>
+      <link>https://techtaste.in/post/sys-admin-cmds-2/</link>
       <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/sys-admin-cmds-2/</guid>
+      <guid>https://techtaste.in/post/sys-admin-cmds-2/</guid>
       <description>display inode details for a file $ stat &amp;lt;file&amp;gt;  $ stat /etc/passwd --- Output --- File: `/etc/passwd&#39; Size: 2026 Blocks: 8 IO Block: 4096 regular file Device: 811h/2065d Inode: 752010 Links: 1 Access: (0644/-rw-r--r--) Uid: ( 0/ root) Gid: ( 0/ root) Access: 2007-08-20 23:19:20.000000000 +0530 Modify: 2007-07-07 00:06:56.000000000 +0530 Change: 2007-07-07 00:06:56.000000000 +0530  Create a user &amp;amp; group --- create a user &amp;amp; group $ sudo useradd -m testuser --- set passwd for the user $ sudo passwd testuser --- create a group sudo groupadd &amp;lt;groupname&amp;gt; $ sudo groupadd testgroup  Adding user to a group sudo usermod -a -G &amp;lt;group&amp;gt; &amp;lt;user&amp;gt; $ sudo usermod -a -G testgroup testuser  list users for a given group $ grep &amp;lt;username&amp;gt; /etc/group $ grep testuser /etc/group  User passwords User encrypted passwords are stored in /etc/shadow.</description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 1</title>
-      <link>https://techtaste.me/post/sys-admin-cmds-1/</link>
+      <link>https://techtaste.in/post/sys-admin-cmds-1/</link>
       <pubDate>Sun, 19 May 2019 06:34:32 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/sys-admin-cmds-1/</guid>
+      <guid>https://techtaste.in/post/sys-admin-cmds-1/</guid>
       <description>lscpu list of cpus.  lsmem list of memory.  lsof (list open files) lsof -i tcp:80  df (disk free space) Display free disk space Filesystem Size Used Avail Use% Mounted on /dev/xvda1 32G 4.7G 26G 16% / tmpfs 1.9G 0 1.9G 0% /dev/shm  du (disk space usage) du - estimate file space usage du -sh /var/*  id $ id uid=501(operations) gid=100(users) groups=100(users)  curl curl -I -s google.</description>
     </item>
     

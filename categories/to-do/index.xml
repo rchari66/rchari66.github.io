@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>To Do on Techtaste</title>
-    <link>https://techtaste.me/categories/to-do/</link>
+    <link>https://techtaste.in/categories/to-do/</link>
     <description>Recent content in To Do on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 19:14:32 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.me/categories/to-do/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techtaste.in/categories/to-do/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>To Do</title>
-      <link>https://techtaste.me/post/to-do/</link>
+      <link>https://techtaste.in/post/to-do/</link>
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/to-do/</guid>
+      <guid>https://techtaste.in/post/to-do/</guid>
       <description> java coding, Elastic Search basics, PostgreSQL,
 Sql coding(basics),
 nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com

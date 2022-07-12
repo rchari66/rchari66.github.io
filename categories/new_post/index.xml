@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New_post on Techtaste</title>
-    <link>https://techtaste.me/categories/new_post/</link>
+    <link>https://techtaste.in/categories/new_post/</link>
     <description>Recent content in New_post on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Jun 2021 07:13:50 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.me/categories/new_post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techtaste.in/categories/new_post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Testing Post</title>
-      <link>https://techtaste.me/post/testing-post/</link>
+      <link>https://techtaste.in/post/testing-post/</link>
       <pubDate>Sat, 19 Jun 2021 07:13:50 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/testing-post/</guid>
+      <guid>https://techtaste.in/post/testing-post/</guid>
       <description> In Progress..    Column 1 Column 2     table-data table-data   table-data table-data      </description>
     </item>
     
     <item>
       <title>Sample Blog</title>
-      <link>https://techtaste.me/post/sample-blog/</link>
+      <link>https://techtaste.in/post/sample-blog/</link>
       <pubDate>Thu, 17 Jun 2021 11:58:41 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/sample-blog/</guid>
+      <guid>https://techtaste.in/post/sample-blog/</guid>
       <description> In Progress.. asdfas
      h1 h3     table-data table-data    </description>
     </item>
     
     <item>
       <title>Python Basics</title>
-      <link>https://techtaste.me/post/python-basics/</link>
+      <link>https://techtaste.in/post/python-basics/</link>
       <pubDate>Tue, 02 Jul 2019 07:23:07 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/python-basics/</guid>
+      <guid>https://techtaste.in/post/python-basics/</guid>
       <description>Open file and Display the whole content f = open(&amp;quot;file.txt&amp;quot;) print(f.read()) Note: by default the opens in &amp;quot;r&amp;quot;(read) mode; Above code is same as below code f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.read())  Read first 5 bites of a file f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.read(5))  Read 10 bites After first 100 bytes f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.tell()) f.seek(100) print(f.tell()) print(f.read(10))  List all files(recursively) for the directory #!/usr/bin/python import subprocess, os p = subprocess.</description>
     </item>
     

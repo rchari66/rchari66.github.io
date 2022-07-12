@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on Techtaste</title>
-    <link>https://techtaste.me/categories/golang/</link>
+    <link>https://techtaste.in/categories/golang/</link>
     <description>Recent content in Golang on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Jul 2019 02:24:33 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.me/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techtaste.in/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go Synchronization</title>
-      <link>https://techtaste.me/post/go-synchronization/</link>
+      <link>https://techtaste.in/post/go-synchronization/</link>
       <pubDate>Tue, 16 Jul 2019 02:24:33 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/go-synchronization/</guid>
+      <guid>https://techtaste.in/post/go-synchronization/</guid>
       <description> *sync.Mutex m := sync.Mutex m.Lock() // for locking m.Unlock() // for unlocking  sync.RWMutex m := sync.RWMutex // Read lock &amp;amp; Read unlock. m.RLock() m.RUnlock() // for Write locks &amp;amp; write unlocks m.Lock() m.Unlock()  sync.WaitGroup e.g. func main() { var wg sync.WaitGroup wg.Add(1) go func() { fmt.Println(&amp;quot;Inside my goroutine&amp;quot;) wg.Done() }() wg.Wait() fmt.Println(&amp;quot;Finished Execution&amp;quot;) }  </description>
     </item>
     
     <item>
       <title>Go Types</title>
-      <link>https://techtaste.me/post/go-types/</link>
+      <link>https://techtaste.in/post/go-types/</link>
       <pubDate>Mon, 17 Jun 2019 16:55:16 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/go-types/</guid>
+      <guid>https://techtaste.in/post/go-types/</guid>
       <description>Types  Built-in types
 bool string Numeric: int (either 32 or 64bit) uint (either 32 or 64 bit) uint8, uint16, uint32, uint64 (all Unsigned 8, 16, 32, 64 bit integers respectively) int8, init16, int32 ,int64 (signed integers) float32 float64  Type conversions; T(v) converts value v to T type.
 a := 10 b := float64(a) var u uint = uint(b)  Type Assertion
@@ -34,10 +34,10 @@ Type assertion takes a value and tries to create another version in the specifie
     
     <item>
       <title>Go Functions</title>
-      <link>https://techtaste.me/post/go-functions/</link>
+      <link>https://techtaste.in/post/go-functions/</link>
       <pubDate>Mon, 17 Jun 2019 16:08:53 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/go-functions/</guid>
+      <guid>https://techtaste.in/post/go-functions/</guid>
       <description> function declaration  Syntaxt
 func &amp;lt;nameOfTheFunction&amp;gt;(arg1 typ1, arg2 type2) &amp;lt;returnType&amp;gt; () { ... }  e.g.
 func add(a int, b int) int { return a+b } -- Above function can be written as func add(a, b int) int { }  e.g.
@@ -46,10 +46,10 @@ func location(city string) (state, country string) { ... ... return &amp;quot;BL
     
     <item>
       <title>Go Variables Declaratoin</title>
-      <link>https://techtaste.me/post/go-variables/</link>
+      <link>https://techtaste.in/post/go-variables/</link>
       <pubDate>Mon, 17 Jun 2019 14:44:35 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/go-variables/</guid>
+      <guid>https://techtaste.in/post/go-variables/</guid>
       <description>Variables declaration in go  Declaratoin
 var ( name string age int city string ) -- var ( name, city string age int ) -- var name string var city string var age int  Initialization
 var ( name string = &amp;quot;Chari&amp;quot; city string = &amp;quot;BLR&amp;quot; mobile int = 12345 ) -- Inferred typing var ( name = &amp;quot;Chari&amp;quot; city = &amp;quot;BLR&amp;quot; mobile = 12345 ) -- var ( name, city, mobile = &amp;quot;Chari&amp;quot;, &amp;quot;BLR&amp;quot;, 12345 )  Short assignment &amp;ldquo;:=&amp;rdquo; (Inside a function only)</description>
@@ -57,30 +57,30 @@ var ( name string = &amp;quot;Chari&amp;quot; city string = &amp;quot;BLR&amp;qu
     
     <item>
       <title>Go Format Output</title>
-      <link>https://techtaste.me/post/go-format-output/</link>
+      <link>https://techtaste.in/post/go-format-output/</link>
       <pubDate>Mon, 17 Jun 2019 11:30:18 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/go-format-output/</guid>
+      <guid>https://techtaste.in/post/go-format-output/</guid>
       <description>Printing the verbs  General
 %v the value in a default format when printing structs, the plus flag (%+v) adds field names %#v a Go-syntax representation of the value %T a Go-syntax representation of the type of the value %% a literal percent sign; consumes no value  // Examples package main import ( &amp;quot;fmt&amp;quot; ) type rect struct { height float64 width float64 } func main() { r := rect{height : 12, width: 15} fmt.</description>
     </item>
     
     <item>
       <title>Go Basics</title>
-      <link>https://techtaste.me/post/go-basics/</link>
+      <link>https://techtaste.in/post/go-basics/</link>
       <pubDate>Mon, 17 Jun 2019 06:49:18 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/go-basics/</guid>
+      <guid>https://techtaste.in/post/go-basics/</guid>
       <description>command line args &amp;ndash; main.go
 package main import ( &amp;quot;os&amp;quot; &amp;quot;fmt&amp;quot; ) func main() { argsWithProgramName := os.Args argsWithoutProgramName := os.Args[1:] fmt.Println(argsWithProg) fmt.Println(argsWithoutProg) }  -- OUTPUT -- PS C:\Users\INTEL\Desktop\golang&amp;gt; go run .\main.go &amp;quot;a b c&amp;quot; &amp;quot;sdf&amp;quot; [C:\Users\INTEL\AppData\Local\Temp\go-build928898898\b001\exe\main.exe a b c sdf] [a b c sdf]  Reading Files package main import ( &amp;quot;os&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;bufio&amp;quot; &amp;quot;log&amp;quot; ) func main() { f, err := os.Open(&amp;quot;logfile.log&amp;quot;) if err != nil { log.</description>
     </item>
     
     <item>
       <title>Golang Setup on Ubuntu</title>
-      <link>https://techtaste.me/post/golang-setup/</link>
+      <link>https://techtaste.in/post/golang-setup/</link>
       <pubDate>Sun, 16 Jun 2019 16:07:54 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/golang-setup/</guid>
+      <guid>https://techtaste.in/post/golang-setup/</guid>
       <description>Installing Golang on Ubuntu  We will be using snappy tool to install go on ubuntu.
  Ref: snappy
  Get info for go packages availabe. ``` $ snap info go

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basic Linux Cmds 1 on Techtaste</title>
-    <link>https://techtaste.me/categories/basic-linux-cmds-1/</link>
+    <link>https://techtaste.in/categories/basic-linux-cmds-1/</link>
     <description>Recent content in Basic Linux Cmds 1 on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 16:51:00 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.me/categories/basic-linux-cmds-1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://techtaste.in/categories/basic-linux-cmds-1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Process(ps) cmd in linux</title>
-      <link>https://techtaste.me/post/process/</link>
+      <link>https://techtaste.in/post/process/</link>
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
-      <guid>https://techtaste.me/post/process/</guid>
+      <guid>https://techtaste.in/post/process/</guid>
       <description>fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
 child process gets zero as returned value from fork.
  list by user $ ps -u $USER  Ref: https://fedoramagazine.org/inspect-manage-processes-ps/
