@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.in/post/july13/</loc>
+    <lastmod>2022-07-13T13:23:32+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.in/post/demo-july/</loc>
     <lastmod>2022-07-12T18:57:03+00:00</lastmod>
   </url>
@@ -254,6 +259,12 @@
   </url>
   
   <url>
+    <loc>https://techtaste.in/categories/july/</loc>
+    <lastmod>2022-07-13T13:23:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.in/categories/network/</loc>
     <lastmod>2019-06-19T09:00:58+00:00</lastmod>
     <priority>0</priority>
@@ -273,7 +284,7 @@
   
   <url>
     <loc>https://techtaste.in/post/</loc>
-    <lastmod>2022-07-12T18:57:03+00:00</lastmod>
+    <lastmod>2022-07-13T13:23:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -307,7 +318,7 @@
   
   <url>
     <loc>https://techtaste.in/</loc>
-    <lastmod>2022-07-12T18:57:03+00:00</lastmod>
+    <lastmod>2022-07-13T13:23:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
