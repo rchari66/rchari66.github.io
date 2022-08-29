@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jul 2022 09:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Aug 2022 15:29:42 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.in/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,23 @@
       
       <guid>https://techtaste.in/projects/project2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Cluster Management</title>
+      <link>https://techtaste.in/post/cluster-management/</link>
+      <pubDate>Sun, 28 Aug 2022 15:29:42 +0000</pubDate>
+      
+      <guid>https://techtaste.in/post/cluster-management/</guid>
+      <description> Upgrading Kubeadm clusters https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
+https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#call-kubeadm-upgrade-1
+Install Network solution https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/
+Rolling updates of DaemonSets https://kubernetes.io/docs/tasks/manage-daemon/update-daemon-set/
+Debug workder nodes  Check Kubelet service in worker nodes
+service kubelet status service kubelet start journalctl -u kubelet  Check kubelet service&amp;rsquo;s certifcates
+check config file for certs path: /var/lib/kubelet/config.yaml  Check kubelet service logs
+[sudo] journalctl -u kubelet[.service]  Note: Any monidifications to kubelet service, pls restart kubelet
+service kubelet restart   </description>
     </item>
     
     <item>
