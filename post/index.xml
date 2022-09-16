@@ -17,7 +17,8 @@
       <pubDate>Wed, 14 Sep 2022 05:02:26 +0000</pubDate>
       
       <guid>https://techtaste.in/post/cks/</guid>
-      <description> SSH security Restrict Kernal modules Open Ports &amp;amp; Listening ports netstat -an | grep -w LISTEN  Check ports are used by which services cat /etc/services | grep -w 53  List processes and thier ports netstat -natp netstat -natp | grep &amp;quot;9090&amp;quot;  </description>
+      <description> // TODO: Refer mkDoks
+SSH security Restrict Kernal modules Open Ports &amp;amp; Listening ports netstat -an | grep -w LISTEN  Check ports are used by which services cat /etc/services | grep -w 53  List processes and thier ports netstat -natp netstat -natp | grep &amp;quot;9090&amp;quot;  </description>
     </item>
     
     <item>
