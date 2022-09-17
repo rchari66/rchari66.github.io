@@ -172,6 +172,37 @@
 <pre><code class="language-bash">netstat -natp 
 netstat -natp | grep &quot;9090&quot;
 </code></pre>
+
+<h2 id="certificates">Certificates</h2>
+
+<p>Check .csr certs information</p>
+
+<pre><code class="language-bash">openssl req -text -noout -verify -in CSR.csr
+</code></pre>
+
+<h2 id="ssh">SSH</h2>
+
+<pre><code class="language-bash">adduser username [enter password on the prompt]
+
+# Add user to sudo
+visudo
+raghav ALL=(ALL:ALL) ALL
+
+# Allow passwordless sudo execution
+raghav ALL=(ALL) NOPASSWD:ALL
+
+# Modify user group
+usermod &lt;user&gt; -G admin
+
+# List members of a group
+groupmems -g &lt;group&gt; -l
+
+# SSH config file 
+cat /etc/ssh/sshd_config
+
+# Copy public key to remote host
+ssh-copy-id -i ~/.ssh/id_rsa.pub raghav@hostname
+</code></pre>
 </div>
 
     

@@ -17,8 +17,9 @@
       <pubDate>Wed, 14 Sep 2022 05:02:26 +0000</pubDate>
       
       <guid>https://techtaste.in/post/cks/</guid>
-      <description> // TODO: Refer mkDoks
-SSH security Restrict Kernal modules Open Ports &amp;amp; Listening ports netstat -an | grep -w LISTEN  Check ports are used by which services cat /etc/services | grep -w 53  List processes and thier ports netstat -natp netstat -natp | grep &amp;quot;9090&amp;quot;  </description>
+      <description>// TODO: Refer mkDoks
+SSH security Restrict Kernal modules Open Ports &amp;amp; Listening ports netstat -an | grep -w LISTEN  Check ports are used by which services cat /etc/services | grep -w 53  List processes and thier ports netstat -natp netstat -natp | grep &amp;quot;9090&amp;quot;  Certificates Check .csr certs information
+openssl req -text -noout -verify -in CSR.csr  SSH adduser username [enter password on the prompt] # Add user to sudo visudo raghav ALL=(ALL:ALL) ALL # Allow passwordless sudo execution raghav ALL=(ALL) NOPASSWD:ALL # Modify user group usermod &amp;lt;user&amp;gt; -G admin # List members of a group groupmems -g &amp;lt;group&amp;gt; -l # SSH config file cat /etc/ssh/sshd_config # Copy public key to remote host ssh-copy-id -i ~/.</description>
     </item>
     
     <item>
