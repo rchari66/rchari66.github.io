@@ -11,11 +11,6 @@
   </url>
   
   <url>
-    <loc>https://techtaste.in/post/test-demo/</loc>
-    <lastmod>2022-12-29T15:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://techtaste.in/post/cks/</loc>
     <lastmod>2022-09-14T05:02:26+00:00</lastmod>
   </url>
@@ -235,12 +230,6 @@
   </url>
   
   <url>
-    <loc>https://techtaste.in/categories/demo/</loc>
-    <lastmod>2022-12-29T15:44:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://techtaste.in/tags/docker-cloud9/</loc>
     <priority>0</priority>
   </url>
@@ -301,7 +290,7 @@
   
   <url>
     <loc>https://techtaste.in/post/</loc>
-    <lastmod>2022-12-29T15:44:30+00:00</lastmod>
+    <lastmod>2022-09-14T05:02:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -335,7 +324,7 @@
   
   <url>
     <loc>https://techtaste.in/</loc>
-    <lastmod>2022-12-29T15:44:30+00:00</lastmod>
+    <lastmod>2022-09-14T05:02:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
