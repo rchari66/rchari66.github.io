@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>Demo</title>
+      <link>https://techtaste.in/categories/demo/</link>
+      <pubDate>Thu, 29 Dec 2022 15:44:30 +0000</pubDate>
+      
+      <guid>https://techtaste.in/categories/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Elastic Search</title>
       <link>https://techtaste.in/categories/elastic-search/</link>
       <pubDate>Mon, 17 Jun 2019 17:15:15 +0000</pubDate>
@@ -131,7 +140,7 @@
     <item>
       <title>New_post</title>
       <link>https://techtaste.in/categories/new_post/</link>
-      <pubDate>Thu, 29 Dec 2022 15:44:30 +0000</pubDate>
+      <pubDate>Wed, 27 Jul 2022 09:09:29 +0000</pubDate>
       
       <guid>https://techtaste.in/categories/new_post/</guid>
       <description></description>
