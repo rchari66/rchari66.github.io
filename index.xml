@@ -6,7 +6,7 @@
     <description>Recent content on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Dec 2022 09:05:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Sep 2022 05:02:26 +0000</lastBuildDate>
     
 	<atom:link href="https://techtaste.in/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,15 +27,6 @@
       
       <guid>https://techtaste.in/projects/project2/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Demo Dec</title>
-      <link>https://techtaste.in/post/demo-dec/</link>
-      <pubDate>Mon, 12 Dec 2022 09:05:59 +0000</pubDate>
-      
-      <guid>https://techtaste.in/post/demo-dec/</guid>
-      <description> In Progress..  Heading1 </description>
     </item>
     
     <item>
@@ -91,15 +82,6 @@ service kubelet restart   </description>
       
       <guid>https://techtaste.in/post/personal-branding/</guid>
       <description>SWOT Analysis  Strengths  What are you really good at?  learn &amp;amp; adapt quickly Critical thinking Focus on customer use cases task and time management Cross team collaboration  Which of the leadership behaviors aligns with your strengths?  focus on customer&amp;rsquo;s use cases task management  What skills do other people recognize in you?  very sincere &amp;amp; independent Innovative &amp;amp; very focused good thinker &amp;amp; good team player  What do you do better than most people you work with?</description>
-    </item>
-    
-    <item>
-      <title>Testing Post</title>
-      <link>https://techtaste.in/post/testing-post/</link>
-      <pubDate>Sat, 19 Jun 2021 07:13:50 +0000</pubDate>
-      
-      <guid>https://techtaste.in/post/testing-post/</guid>
-      <description> In Progress..    Column 1 Column 2     table-data table-data   table-data table-data      </description>
     </item>
     
     <item>
