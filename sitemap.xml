@@ -16,11 +16,6 @@
   </url>
   
   <url>
-    <loc>https://techtaste.in/post/demo-post/</loc>
-    <lastmod>2022-12-29T17:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://techtaste.in/post/cks/</loc>
     <lastmod>2022-09-14T05:02:26+00:00</lastmod>
   </url>
@@ -236,12 +231,6 @@
   <url>
     <loc>https://techtaste.in/categories/debug/</loc>
     <lastmod>2019-06-11T16:51:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.in/categories/demo/</loc>
-    <lastmod>2022-12-29T17:26:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
