@@ -40,15 +40,6 @@ service kubelet restart   </description>
     </item>
     
     <item>
-      <title>Acquia Demo</title>
-      <link>https://techtaste.in/post/acquia-demo/</link>
-      <pubDate>Wed, 27 Jul 2022 09:09:29 +0000</pubDate>
-      
-      <guid>https://techtaste.in/post/acquia-demo/</guid>
-      <description> In Progress..     Column 1 Column 2     table-data table-data    </description>
-    </item>
-    
-    <item>
       <title>Personal Branding Workshop</title>
       <link>https://techtaste.in/post/personal-branding-workshop/</link>
       <pubDate>Wed, 11 Aug 2021 12:53:45 +0000</pubDate>
