@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.in/post/onprem-k8s-setup/</loc>
+    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.in/post/cks/</loc>
     <lastmod>2022-09-14T05:02:26+00:00</lastmod>
   </url>
@@ -284,8 +289,14 @@
   </url>
   
   <url>
+    <loc>https://techtaste.in/categories/onpremise/</loc>
+    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.in/post/</loc>
-    <lastmod>2022-09-14T05:02:26+00:00</lastmod>
+    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -319,7 +330,7 @@
   
   <url>
     <loc>https://techtaste.in/</loc>
-    <lastmod>2022-09-14T05:02:26+00:00</lastmod>
+    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   

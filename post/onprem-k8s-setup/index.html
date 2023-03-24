@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Posts</title>
+        <title>How to setup K8s on premise</title>
         
         <link rel="icon" href="https://techtaste.in/img/logo.jpg">
         
@@ -63,9 +63,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://techtaste.in/post/index.xml" rel="alternate" type="application/rss+xml" title="Techtaste" />
-        <link href="https://techtaste.in/post/index.xml" rel="feed" type="application/rss+xml" title="Techtaste" />
-        
 
         
     </head>
@@ -85,7 +82,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Posts</a>
+                    <a class="navbar-brand visible-xs" href="#">How to setup K8s on premise</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,9 +133,7 @@
 
 <main>
 
-    <h2>Posts</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -147,98 +142,109 @@
     
     
 
-    <h4><a href="/post/tcpdump/">TCPDUMP cmd</a></h4>
-    <h5>May 19, 2019</h5>
+    <h4><a href="/post/onprem-k8s-setup/">How to setup K8s on premise</a></h4>
+    <h5>March 23, 2023</h5>
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/post/sys-admin-cmds-1/">Sys Admin Cmds 1</a></h4>
-    <h5>May 19, 2019</h5>
-    
+<p>This doc covers steps to bring up Kubernetes cluster in on premise environment using ansible.
+Also deploy custom services(own services)</p>
 
+<h4 id="pre-requisites">Pre-requisites</h4>
+
+<ul>
+<li>Keep ssh creds(username &amp; ssh_password) for all on premise VMs(master and worker nodes)</li>
+<li>install ansible (to setup and configure kubernetes)</li>
+</ul>
+
+<p>Note: SSH keys provide better security over shh_passwords.</p>
+
+<h4 id="approach-at-high-level">Approach (at high level)</h4>
+
+<ul>
+<li>Create inventory file and add details of master and worker nodes</li>
+</ul>
+
+<p>Sample:</p>
+
+<pre><code class="language-yaml">master1 &lt;ip-1/master-node01&gt; ansible_password=&lt;???&gt;
+
+worker1 &lt;ip-2/worker-node01&gt; ansible_password=&lt;???&gt;
+worker2 &lt;ip-3/worker-node03&gt; ansible_password=&lt;???&gt;
+</code></pre>
+
+<ul>
+<li><p>Define playbooks to installing kubernetes on both Master and Worker nodes</p>
+
+<ul>
+<li>Create kube user with sudo permissions</li>
+<li>container runtime(containerd) and it&rsquo;s dependencies</li>
+<li>install kubernetes components(kubeadm, kubelet, kubectl)</li>
+<li>Configure kubernetes master node using kubeadm</li>
+</ul></li>
+
+<li><p>Playbook to configure master node alone</p>
+
+<ul>
+<li>execute &ldquo;kubeadm init <cidr block>&ldquo;</li>
+<li>copy kubeadm join cmd to locally (This cmd should have a token, used for joining woker node to master node)</li>
+</ul></li>
+
+<li><p>Playbook to join worker nodes to master node</p>
+
+<ul>
+<li>Copy and execute the &ldquo;kubeadm join cmd&rdquo; in each worker node</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<p>Now that we have the cluster up &amp; running.. lets setup our custom services.</p>
+
+<hr />
+
+<p>We can deploy them in one of following ways&hellip;</p>
+
+<ol>
+<li>Deploy kubernetes spec through ansible playbook (this would copy the files to master node, then kubectl applies them)</li>
+<li>If we want deploy our services as a helm chart, we can deploy it via ansible playbook. Pls, note that we need to have helm available in master node to run <code>helm install &lt;our-chart&gt;</code></li>
+<li>Deploy an agent pod with (mTLS cert), which can pull latest kubernetes spec files from remote server(ours) and deploys them in the cluster</li>
+</ol>
+
+<p>We can also copy kube.config file locally(from master node), then run <code>kubectl</code> or <code>helm</code> cmd direclty to deploy.</p>
+
+<p>Note: Based pros &amp; cons we can conclude on one approach which suits best.</p>
+
+<h4 id="other-considerations">Other Considerations</h4>
+
+<ul>
+<li>Our service images may need to be pushed to customer&rsquo;s registry and update the image reference in our helm chart.</li>
+
+<li><p>Copying images, updating them in our helm chart can be automated as well.</p></li>
+
+<li><p>We may have to use local storage if cloud storage is not an option</p>
+
+<ul>
+<li>we could use kubernetes native storage solutions like (GlusterFS, longhorn, and etc..)
+<br /></li>
+</ul></li>
+
+<li><p>We may have to look for solutions/implementations as alternatives to cloud servies like(SQS, IAM, etc..) if any of them are used in our applications</p></li>
+</ul>
 </div>
-  <div class="item">
-
-    
-    
-    
 
     
     
 
-    <h4><a href="/post/linux-network-commands-1/">Network Debug Commands</a></h4>
-    <h5>May 18, 2019</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
     
 
     
-    
-
-    <h4><a href="/post/vdock-tool/">How To Use Vdock Tool</a></h4>
-    <h5>December 6, 2018</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/interview-questions/"></a></h4>
-    <h5>January 1, 0001</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/questions/"></a></h4>
-    <h5>January 1, 0001</h5>
-    
-
-</div>
- 
 
 </main>
-
-
-
-<div class="pages">
-
-    
-    <a class="icon pages-icon" href="/post/page/2/" rel="prev">
-        <i class="fa fa-arrow-left"></i>
-    </a>
-     
-
-</div>
-
-
 
         <footer>
 
