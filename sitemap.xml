@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://techtaste.in/post/demo2/</loc>
+    <lastmod>2023-05-11T04:57:52+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techtaste.in/post/onprem-k8s-setup/</loc>
     <lastmod>2023-03-23T23:53:58+00:00</lastmod>
   </url>
@@ -230,6 +235,12 @@
   </url>
   
   <url>
+    <loc>https://techtaste.in/categories/demo/</loc>
+    <lastmod>2023-05-11T04:57:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtaste.in/tags/docker-cloud9/</loc>
     <priority>0</priority>
   </url>
@@ -296,7 +307,7 @@
   
   <url>
     <loc>https://techtaste.in/post/</loc>
-    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
+    <lastmod>2023-05-11T04:57:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -330,7 +341,7 @@
   
   <url>
     <loc>https://techtaste.in/</loc>
-    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
+    <lastmod>2023-05-11T04:57:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
