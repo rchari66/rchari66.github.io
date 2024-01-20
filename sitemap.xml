@@ -11,21 +11,6 @@
   </url>
   
   <url>
-    <loc>https://techtaste.in/post/demo7/</loc>
-    <lastmod>2023-10-13T05:38:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.in/post/od-demo2/</loc>
-    <lastmod>2023-09-22T17:14:27+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techtaste.in/post/od-demo/</loc>
-    <lastmod>2023-09-22T06:53:03+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://techtaste.in/post/onprem-k8s-setup/</loc>
     <lastmod>2023-03-23T23:53:58+00:00</lastmod>
   </url>
@@ -299,7 +284,7 @@
   
   <url>
     <loc>https://techtaste.in/categories/new_post/</loc>
-    <lastmod>2023-10-13T05:38:47+00:00</lastmod>
+    <lastmod>2021-06-17T11:58:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -311,7 +296,7 @@
   
   <url>
     <loc>https://techtaste.in/post/</loc>
-    <lastmod>2023-10-13T05:38:47+00:00</lastmod>
+    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -345,7 +330,7 @@
   
   <url>
     <loc>https://techtaste.in/</loc>
-    <lastmod>2023-10-13T05:38:47+00:00</lastmod>
+    <lastmod>2023-03-23T23:53:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
