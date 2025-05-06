@@ -2,210 +2,210 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Techtaste</title>
-    <link>https://techtaste.in/categories/</link>
+    <link>https://sharemygo.in/categories/</link>
     <description>Recent content in Categories on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 16:51:00 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.in/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sharemygo.in/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basic Linux Cmds 1</title>
-      <link>https://techtaste.in/categories/basic-linux-cmds-1/</link>
+      <link>https://sharemygo.in/categories/basic-linux-cmds-1/</link>
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/basic-linux-cmds-1/</guid>
+      <guid>https://sharemygo.in/categories/basic-linux-cmds-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cka</title>
-      <link>https://techtaste.in/categories/cka/</link>
+      <link>https://sharemygo.in/categories/cka/</link>
       <pubDate>Sun, 28 Aug 2022 15:29:42 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/cka/</guid>
+      <guid>https://sharemygo.in/categories/cka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cluster Management</title>
-      <link>https://techtaste.in/categories/cluster-management/</link>
+      <link>https://sharemygo.in/categories/cluster-management/</link>
       <pubDate>Sun, 28 Aug 2022 15:29:42 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/cluster-management/</guid>
+      <guid>https://sharemygo.in/categories/cluster-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Compass Program</title>
-      <link>https://techtaste.in/categories/compass-program/</link>
+      <link>https://sharemygo.in/categories/compass-program/</link>
       <pubDate>Wed, 11 Aug 2021 12:53:45 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/compass-program/</guid>
+      <guid>https://sharemygo.in/categories/compass-program/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Debug</title>
-      <link>https://techtaste.in/categories/debug/</link>
+      <link>https://sharemygo.in/categories/debug/</link>
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/debug/</guid>
+      <guid>https://sharemygo.in/categories/debug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elastic Search</title>
-      <link>https://techtaste.in/categories/elastic-search/</link>
+      <link>https://sharemygo.in/categories/elastic-search/</link>
       <pubDate>Mon, 17 Jun 2019 17:15:15 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/elastic-search/</guid>
+      <guid>https://sharemygo.in/categories/elastic-search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File System</title>
-      <link>https://techtaste.in/categories/file-system/</link>
+      <link>https://sharemygo.in/categories/file-system/</link>
       <pubDate>Fri, 14 Jun 2019 22:54:41 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/file-system/</guid>
+      <guid>https://sharemygo.in/categories/file-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://techtaste.in/categories/golang/</link>
+      <link>https://sharemygo.in/categories/golang/</link>
       <pubDate>Tue, 16 Jul 2019 02:24:33 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/golang/</guid>
+      <guid>https://sharemygo.in/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iso</title>
-      <link>https://techtaste.in/categories/iso/</link>
+      <link>https://sharemygo.in/categories/iso/</link>
       <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/iso/</guid>
+      <guid>https://sharemygo.in/categories/iso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://techtaste.in/categories/java/</link>
+      <link>https://sharemygo.in/categories/java/</link>
       <pubDate>Thu, 20 Jun 2019 19:23:25 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/java/</guid>
+      <guid>https://sharemygo.in/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>K8s</title>
-      <link>https://techtaste.in/categories/k8s/</link>
+      <link>https://sharemygo.in/categories/k8s/</link>
       <pubDate>Wed, 14 Sep 2022 05:02:26 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/k8s/</guid>
+      <guid>https://sharemygo.in/categories/k8s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network</title>
-      <link>https://techtaste.in/categories/network/</link>
+      <link>https://sharemygo.in/categories/network/</link>
       <pubDate>Wed, 19 Jun 2019 09:00:58 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/network/</guid>
+      <guid>https://sharemygo.in/categories/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network Cmds 2   Telnet</title>
-      <link>https://techtaste.in/categories/network-cmds-2---telnet/</link>
+      <link>https://sharemygo.in/categories/network-cmds-2---telnet/</link>
       <pubDate>Fri, 14 Jun 2019 23:31:18 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/network-cmds-2---telnet/</guid>
+      <guid>https://sharemygo.in/categories/network-cmds-2---telnet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New_post</title>
-      <link>https://techtaste.in/categories/new_post/</link>
-      <pubDate>Tue, 23 Jan 2024 12:27:39 +0000</pubDate>
+      <link>https://sharemygo.in/categories/new_post/</link>
+      <pubDate>Thu, 17 Jun 2021 11:58:41 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/new_post/</guid>
+      <guid>https://sharemygo.in/categories/new_post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Onpremise</title>
-      <link>https://techtaste.in/categories/onpremise/</link>
+      <link>https://sharemygo.in/categories/onpremise/</link>
       <pubDate>Thu, 23 Mar 2023 23:53:58 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/onpremise/</guid>
+      <guid>https://sharemygo.in/categories/onpremise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sed vs Awk</title>
-      <link>https://techtaste.in/categories/sed-vs-awk/</link>
+      <link>https://sharemygo.in/categories/sed-vs-awk/</link>
       <pubDate>Fri, 14 Jun 2019 16:45:35 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/sed-vs-awk/</guid>
+      <guid>https://sharemygo.in/categories/sed-vs-awk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Servers</title>
-      <link>https://techtaste.in/categories/servers/</link>
+      <link>https://sharemygo.in/categories/servers/</link>
       <pubDate>Fri, 14 Jun 2019 12:04:21 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/servers/</guid>
+      <guid>https://sharemygo.in/categories/servers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>System Admin Cmds</title>
-      <link>https://techtaste.in/categories/system-admin-cmds/</link>
+      <link>https://sharemygo.in/categories/system-admin-cmds/</link>
       <pubDate>Fri, 14 Jun 2019 09:20:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/system-admin-cmds/</guid>
+      <guid>https://sharemygo.in/categories/system-admin-cmds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminology</title>
-      <link>https://techtaste.in/categories/terminology/</link>
+      <link>https://sharemygo.in/categories/terminology/</link>
       <pubDate>Tue, 11 Jun 2019 22:28:52 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/terminology/</guid>
+      <guid>https://sharemygo.in/categories/terminology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>To Do</title>
-      <link>https://techtaste.in/categories/to-do/</link>
+      <link>https://sharemygo.in/categories/to-do/</link>
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/to-do/</guid>
+      <guid>https://sharemygo.in/categories/to-do/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vdock</title>
-      <link>https://techtaste.in/categories/vdock/</link>
+      <link>https://sharemygo.in/categories/vdock/</link>
       <pubDate>Thu, 06 Dec 2018 21:19:55 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/vdock/</guid>
+      <guid>https://sharemygo.in/categories/vdock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows 10 Networks</title>
-      <link>https://techtaste.in/categories/windows-10-networks/</link>
+      <link>https://sharemygo.in/categories/windows-10-networks/</link>
       <pubDate>Tue, 11 Jun 2019 17:48:16 +0000</pubDate>
       
-      <guid>https://techtaste.in/categories/windows-10-networks/</guid>
+      <guid>https://sharemygo.in/categories/windows-10-networks/</guid>
       <description></description>
     </item>
     

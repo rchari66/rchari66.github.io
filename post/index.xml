@@ -2,30 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Techtaste</title>
-    <link>https://techtaste.in/post/</link>
+    <link>https://sharemygo.in/post/</link>
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jan 2024 12:27:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Mar 2023 23:53:58 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.in/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sharemygo.in/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Demo</title>
-      <link>https://techtaste.in/post/demo/</link>
-      <pubDate>Tue, 23 Jan 2024 12:27:39 +0000</pubDate>
-      
-      <guid>https://techtaste.in/post/demo/</guid>
-      <description> In Progress..     Name City     R BLR    </description>
-    </item>
     
     <item>
       <title>How to setup K8s on premise</title>
-      <link>https://techtaste.in/post/onprem-k8s-setup/</link>
+      <link>https://sharemygo.in/post/onprem-k8s-setup/</link>
       <pubDate>Thu, 23 Mar 2023 23:53:58 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/onprem-k8s-setup/</guid>
+      <guid>https://sharemygo.in/post/onprem-k8s-setup/</guid>
       <description>This doc covers steps to bring up Kubernetes cluster in on premise environment using ansible. Also deploy custom services(own services)
 Pre-requisites  Keep ssh creds(username &amp;amp; ssh_password) for all on premise VMs(master and worker nodes) install ansible (to setup and configure kubernetes)  Note: SSH keys provide better security over shh_passwords.
 Approach (at high level)  Create inventory file and add details of master and worker nodes  Sample:</description>
@@ -33,10 +24,10 @@ Approach (at high level)  Create inventory file and add details of master and wo
     
     <item>
       <title>CKS</title>
-      <link>https://techtaste.in/post/cks/</link>
+      <link>https://sharemygo.in/post/cks/</link>
       <pubDate>Wed, 14 Sep 2022 05:02:26 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/cks/</guid>
+      <guid>https://sharemygo.in/post/cks/</guid>
       <description>// TODO: Refer mkDoks
 SSH security Restrict Kernal modules Open Ports &amp;amp; Listening ports netstat -an | grep -w LISTEN  Check ports are used by which services cat /etc/services | grep -w 53  List processes and thier ports netstat -natp netstat -natp | grep &amp;quot;9090&amp;quot;  Certificates Check .csr certs information
 openssl req -text -noout -verify -in CSR.csr  SSH adduser username [enter password on the prompt] # Add user to sudo visudo raghav ALL=(ALL:ALL) ALL # Allow passwordless sudo execution raghav ALL=(ALL) NOPASSWD:ALL # Modify user group usermod &amp;lt;user&amp;gt; -G admin # List members of a group groupmems -g &amp;lt;group&amp;gt; -l # SSH config file cat /etc/ssh/sshd_config # Copy public key to remote host ssh-copy-id -i ~/.</description>
@@ -44,10 +35,10 @@ openssl req -text -noout -verify -in CSR.csr  SSH adduser username [enter passwo
     
     <item>
       <title>Cluster Management</title>
-      <link>https://techtaste.in/post/cluster-management/</link>
+      <link>https://sharemygo.in/post/cluster-management/</link>
       <pubDate>Sun, 28 Aug 2022 15:29:42 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/cluster-management/</guid>
+      <guid>https://sharemygo.in/post/cluster-management/</guid>
       <description> Upgrading Kubeadm clusters https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
 https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#call-kubeadm-upgrade-1
 Install Network solution https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/
@@ -61,56 +52,56 @@ service kubelet restart   </description>
     
     <item>
       <title>Personal Branding Workshop</title>
-      <link>https://techtaste.in/post/personal-branding-workshop/</link>
+      <link>https://sharemygo.in/post/personal-branding-workshop/</link>
       <pubDate>Wed, 11 Aug 2021 12:53:45 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/personal-branding-workshop/</guid>
+      <guid>https://sharemygo.in/post/personal-branding-workshop/</guid>
       <description>SWOT Analysis  Strengths  What are you really good at?  learn &amp;amp; adapt quickly Critical thinking Focus on customer use cases task and time management Cross team collaboration  Which of the leadership behaviors aligns with your strengths?  focus on customer&amp;rsquo;s use cases task management  What skills do other people recognize in you?  very sincere &amp;amp; independent Innovative &amp;amp; very focused good thinker &amp;amp; good team player  What do you do better than most people you work with?</description>
     </item>
     
     <item>
       <title>My Personal Branding</title>
-      <link>https://techtaste.in/post/personal-branding/</link>
+      <link>https://sharemygo.in/post/personal-branding/</link>
       <pubDate>Wed, 11 Aug 2021 06:00:52 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/personal-branding/</guid>
+      <guid>https://sharemygo.in/post/personal-branding/</guid>
       <description>SWOT Analysis  Strengths  What are you really good at?  learn &amp;amp; adapt quickly Critical thinking Focus on customer use cases task and time management Cross team collaboration  Which of the leadership behaviors aligns with your strengths?  focus on customer&amp;rsquo;s use cases task management  What skills do other people recognize in you?  very sincere &amp;amp; independent Innovative &amp;amp; very focused good thinker &amp;amp; good team player  What do you do better than most people you work with?</description>
     </item>
     
     <item>
       <title>Sample Blog</title>
-      <link>https://techtaste.in/post/sample-blog/</link>
+      <link>https://sharemygo.in/post/sample-blog/</link>
       <pubDate>Thu, 17 Jun 2021 11:58:41 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/sample-blog/</guid>
+      <guid>https://sharemygo.in/post/sample-blog/</guid>
       <description> In Progress.. asdfas
      h1 h3     table-data table-data    </description>
     </item>
     
     <item>
       <title>Go Synchronization</title>
-      <link>https://techtaste.in/post/go-synchronization/</link>
+      <link>https://sharemygo.in/post/go-synchronization/</link>
       <pubDate>Tue, 16 Jul 2019 02:24:33 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/go-synchronization/</guid>
+      <guid>https://sharemygo.in/post/go-synchronization/</guid>
       <description> *sync.Mutex m := sync.Mutex m.Lock() // for locking m.Unlock() // for unlocking  sync.RWMutex m := sync.RWMutex // Read lock &amp;amp; Read unlock. m.RLock() m.RUnlock() // for Write locks &amp;amp; write unlocks m.Lock() m.Unlock()  sync.WaitGroup e.g. func main() { var wg sync.WaitGroup wg.Add(1) go func() { fmt.Println(&amp;quot;Inside my goroutine&amp;quot;) wg.Done() }() wg.Wait() fmt.Println(&amp;quot;Finished Execution&amp;quot;) }  </description>
     </item>
     
     <item>
       <title>Python Basics</title>
-      <link>https://techtaste.in/post/python-basics/</link>
+      <link>https://sharemygo.in/post/python-basics/</link>
       <pubDate>Tue, 02 Jul 2019 07:23:07 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/python-basics/</guid>
+      <guid>https://sharemygo.in/post/python-basics/</guid>
       <description>Open file and Display the whole content f = open(&amp;quot;file.txt&amp;quot;) print(f.read()) Note: by default the opens in &amp;quot;r&amp;quot;(read) mode; Above code is same as below code f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.read())  Read first 5 bites of a file f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.read(5))  Read 10 bites After first 100 bytes f = open(&amp;quot;file.txt&amp;quot;, &amp;quot;r&amp;quot;) print(f.tell()) f.seek(100) print(f.tell()) print(f.read(10))  List all files(recursively) for the directory #!/usr/bin/python import subprocess, os p = subprocess.</description>
     </item>
     
     <item>
       <title>Java Collections</title>
-      <link>https://techtaste.in/post/java-collections/</link>
+      <link>https://sharemygo.in/post/java-collections/</link>
       <pubDate>Thu, 20 Jun 2019 19:23:25 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/java-collections/</guid>
+      <guid>https://sharemygo.in/post/java-collections/</guid>
       <description>Collections  Map entry
 Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;String, String&amp;gt;(); for (Map.Entry&amp;lt;String,String&amp;gt; entry : gfg.entrySet()) System.out.println(&amp;quot;Key = &amp;quot; + entry.getKey() + &amp;quot;, Value = &amp;quot; + entry.getValue());  Loops
 for(String str : strArray) { System.out.println(str); }  Array to list
@@ -120,28 +111,28 @@ Stream&amp;lt;Integer&amp;gt; stream = list.stream(); List&amp;lt;Integer&amp;gt
     
     <item>
       <title>Network Protocals</title>
-      <link>https://techtaste.in/post/network-protocals/</link>
+      <link>https://sharemygo.in/post/network-protocals/</link>
       <pubDate>Wed, 19 Jun 2019 09:00:58 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/network-protocals/</guid>
+      <guid>https://sharemygo.in/post/network-protocals/</guid>
       <description>Table of Contents  TCP UDP  TCP (Transmission Control Protocal) * Description : ``` TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network ``` * Its a persistent connection * Three way handshare(at the begining) ``` step1 : Client sends -&amp;gt; I want to talk -&amp;gt; Server step2 : Client recieves &amp;lt;- &amp;quot;Sure. Are you Ready?</description>
     </item>
     
     <item>
       <title>Elastic Search Basics</title>
-      <link>https://techtaste.in/post/elastic-search-basics/</link>
+      <link>https://sharemygo.in/post/elastic-search-basics/</link>
       <pubDate>Mon, 17 Jun 2019 17:15:15 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/elastic-search-basics/</guid>
+      <guid>https://sharemygo.in/post/elastic-search-basics/</guid>
       <description>Elastic Search Concepts  Cluster Node Index Type Document Shard Replica  Cluster  It&amp;rsquo;s a collection of one or more nodes and holds entire data and provides indexing &amp;amp; search capabilities. Nodes can join a cluster by cluster&amp;rsquo;s name.  Node  A node is a single server(part of the cluster) and participates in indexing and search capabilities. Node can be configured to join specific cluster by the cluster name.</description>
     </item>
     
     <item>
       <title>Go Types</title>
-      <link>https://techtaste.in/post/go-types/</link>
+      <link>https://sharemygo.in/post/go-types/</link>
       <pubDate>Mon, 17 Jun 2019 16:55:16 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/go-types/</guid>
+      <guid>https://sharemygo.in/post/go-types/</guid>
       <description>Types  Built-in types
 bool string Numeric: int (either 32 or 64bit) uint (either 32 or 64 bit) uint8, uint16, uint32, uint64 (all Unsigned 8, 16, 32, 64 bit integers respectively) int8, init16, int32 ,int64 (signed integers) float32 float64  Type conversions; T(v) converts value v to T type.
 a := 10 b := float64(a) var u uint = uint(b)  Type Assertion
@@ -150,10 +141,10 @@ Type assertion takes a value and tries to create another version in the specifie
     
     <item>
       <title>Go Functions</title>
-      <link>https://techtaste.in/post/go-functions/</link>
+      <link>https://sharemygo.in/post/go-functions/</link>
       <pubDate>Mon, 17 Jun 2019 16:08:53 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/go-functions/</guid>
+      <guid>https://sharemygo.in/post/go-functions/</guid>
       <description> function declaration  Syntaxt
 func &amp;lt;nameOfTheFunction&amp;gt;(arg1 typ1, arg2 type2) &amp;lt;returnType&amp;gt; () { ... }  e.g.
 func add(a int, b int) int { return a+b } -- Above function can be written as func add(a, b int) int { }  e.g.
@@ -162,10 +153,10 @@ func location(city string) (state, country string) { ... ... return &amp;quot;BL
     
     <item>
       <title>Go Variables Declaratoin</title>
-      <link>https://techtaste.in/post/go-variables/</link>
+      <link>https://sharemygo.in/post/go-variables/</link>
       <pubDate>Mon, 17 Jun 2019 14:44:35 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/go-variables/</guid>
+      <guid>https://sharemygo.in/post/go-variables/</guid>
       <description>Variables declaration in go  Declaratoin
 var ( name string age int city string ) -- var ( name, city string age int ) -- var name string var city string var age int  Initialization
 var ( name string = &amp;quot;Chari&amp;quot; city string = &amp;quot;BLR&amp;quot; mobile int = 12345 ) -- Inferred typing var ( name = &amp;quot;Chari&amp;quot; city = &amp;quot;BLR&amp;quot; mobile = 12345 ) -- var ( name, city, mobile = &amp;quot;Chari&amp;quot;, &amp;quot;BLR&amp;quot;, 12345 )  Short assignment &amp;ldquo;:=&amp;rdquo; (Inside a function only)</description>
@@ -173,30 +164,30 @@ var ( name string = &amp;quot;Chari&amp;quot; city string = &amp;quot;BLR&amp;qu
     
     <item>
       <title>Go Format Output</title>
-      <link>https://techtaste.in/post/go-format-output/</link>
+      <link>https://sharemygo.in/post/go-format-output/</link>
       <pubDate>Mon, 17 Jun 2019 11:30:18 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/go-format-output/</guid>
+      <guid>https://sharemygo.in/post/go-format-output/</guid>
       <description>Printing the verbs  General
 %v the value in a default format when printing structs, the plus flag (%+v) adds field names %#v a Go-syntax representation of the value %T a Go-syntax representation of the type of the value %% a literal percent sign; consumes no value  // Examples package main import ( &amp;quot;fmt&amp;quot; ) type rect struct { height float64 width float64 } func main() { r := rect{height : 12, width: 15} fmt.</description>
     </item>
     
     <item>
       <title>Go Basics</title>
-      <link>https://techtaste.in/post/go-basics/</link>
+      <link>https://sharemygo.in/post/go-basics/</link>
       <pubDate>Mon, 17 Jun 2019 06:49:18 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/go-basics/</guid>
+      <guid>https://sharemygo.in/post/go-basics/</guid>
       <description>command line args &amp;ndash; main.go
 package main import ( &amp;quot;os&amp;quot; &amp;quot;fmt&amp;quot; ) func main() { argsWithProgramName := os.Args argsWithoutProgramName := os.Args[1:] fmt.Println(argsWithProg) fmt.Println(argsWithoutProg) }  -- OUTPUT -- PS C:\Users\INTEL\Desktop\golang&amp;gt; go run .\main.go &amp;quot;a b c&amp;quot; &amp;quot;sdf&amp;quot; [C:\Users\INTEL\AppData\Local\Temp\go-build928898898\b001\exe\main.exe a b c sdf] [a b c sdf]  Reading Files package main import ( &amp;quot;os&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;bufio&amp;quot; &amp;quot;log&amp;quot; ) func main() { f, err := os.Open(&amp;quot;logfile.log&amp;quot;) if err != nil { log.</description>
     </item>
     
     <item>
       <title>Golang Setup on Ubuntu</title>
-      <link>https://techtaste.in/post/golang-setup/</link>
+      <link>https://sharemygo.in/post/golang-setup/</link>
       <pubDate>Sun, 16 Jun 2019 16:07:54 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/golang-setup/</guid>
+      <guid>https://sharemygo.in/post/golang-setup/</guid>
       <description>Installing Golang on Ubuntu  We will be using snappy tool to install go on ubuntu.
  Ref: snappy
  Get info for go packages availabe. ``` $ snap info go
@@ -206,19 +197,19 @@ name: go summary: Go programming language compiler, linker, stdlib publisher: Mi
     
     <item>
       <title>Telnet</title>
-      <link>https://techtaste.in/post/telnet/</link>
+      <link>https://sharemygo.in/post/telnet/</link>
       <pubDate>Fri, 14 Jun 2019 23:31:18 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/telnet/</guid>
+      <guid>https://sharemygo.in/post/telnet/</guid>
       <description> Write content Here </description>
     </item>
     
     <item>
       <title>File Attributes</title>
-      <link>https://techtaste.in/post/file-attributes/</link>
+      <link>https://sharemygo.in/post/file-attributes/</link>
       <pubDate>Fri, 14 Jun 2019 22:54:41 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/file-attributes/</guid>
+      <guid>https://sharemygo.in/post/file-attributes/</guid>
       <description>Ref:
 https://serverfault.com/questions/74321/what-happens-to-a-deleted-file-still-subject-to-redirection-on-linux
 https://linoxide.com/how-tos/howto-show-file-attributes-in-linux/ https://wiki.archlinux.org/index.php/File_permissions_and_attributes</description>
@@ -226,85 +217,85 @@ https://linoxide.com/how-tos/howto-show-file-attributes-in-linux/ https://wiki.a
     
     <item>
       <title>Sed vs Awk</title>
-      <link>https://techtaste.in/post/sed-vs-awk/</link>
+      <link>https://sharemygo.in/post/sed-vs-awk/</link>
       <pubDate>Fri, 14 Jun 2019 16:45:35 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/sed-vs-awk/</guid>
+      <guid>https://sharemygo.in/post/sed-vs-awk/</guid>
       <description>sed command  Basics
 -- Replace all &#39;foo&#39; with &#39;bar&#39; globally. $ sed -i &#39;s/foo/bar/g&#39; &amp;lt;filename&amp;gt; -- print line from 4 through 15 $ sed -n &#39;4,15p&#39; &amp;lt;file name&amp;gt; -- exclude lines from 10 through 15 $ sed &#39;10,15d&#39; &amp;lt;file-name&amp;gt; -- Display lines from different ranges $ sed -n -e &#39;10,15p&#39;-e &#39;25,35p&#39; &amp;lt;file-name&amp;gt; -- display content of a file after replacing a word $ sed &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/g&#39; &amp;lt;file-name&amp;gt; -- replacing a word in a file $ sed -i &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/g&#39; &amp;lt;file-name&amp;gt; -- replace a word and ignore case $ sed -i &#39;s/&amp;lt;word&amp;gt;/&amp;lt;new-word&amp;gt;/gi&#39; &amp;lt;file-name&amp;gt;  -- Replace a word or characters in a range $ sed &#39;30,50 s/&amp;lt;word&amp;gt;/&amp;lt;new-word/g&#39; $ sed -i &#39;30,50 s/&amp;lt;word&amp;gt;/&amp;lt;new-word/g&#39; -- swiching multiple matches $ sed -i &#39;s/ \(.</description>
     </item>
     
     <item>
       <title>Web Server vs App Server</title>
-      <link>https://techtaste.in/post/web-server-vs-app-server/</link>
+      <link>https://sharemygo.in/post/web-server-vs-app-server/</link>
       <pubDate>Fri, 14 Jun 2019 12:04:21 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/web-server-vs-app-server/</guid>
+      <guid>https://sharemygo.in/post/web-server-vs-app-server/</guid>
       <description>Web Server vs Applicatoin Server Web Server is designed to serve HTTP Content. App Server can also serve HTTP Content but is not limited to just HTTP. It can be provided other protocol support such as RMI/RPC  Web Server  Servers only web pages. Could be static or Dynamic pages  Static Pages  HTML CSS JavaScript(Interactively)  Dynamic Pages  JSP, Servlet (JAVA + HTML + CSS + JavaScript) PHP (PHP + HTML + CSS + JavaScript) ASP.</description>
     </item>
     
     <item>
       <title>Bash Shortcuts</title>
-      <link>https://techtaste.in/post/bash-shortcuts/</link>
+      <link>https://sharemygo.in/post/bash-shortcuts/</link>
       <pubDate>Fri, 14 Jun 2019 09:20:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/bash-shortcuts/</guid>
+      <guid>https://sharemygo.in/post/bash-shortcuts/</guid>
       <description>Show and execute most recent command $ echo Hello World! $ !! echo Hello World! Hello World!  Execute/View most recent command that starts with given key word $ echo Hello World! $ !echo echo Hello World! Hello World! -- Only view the command(Do not execute) $ !echo:p Option &amp;quot;:p&amp;quot; only prints the command without executing it.  Arguments of last command can be referred using &amp;lsquo;!*&amp;rsquo; $ echo Hello World!</description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 4</title>
-      <link>https://techtaste.in/post/sys-admin-cmds-4/</link>
+      <link>https://sharemygo.in/post/sys-admin-cmds-4/</link>
       <pubDate>Wed, 12 Jun 2019 17:57:21 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/sys-admin-cmds-4/</guid>
+      <guid>https://sharemygo.in/post/sys-admin-cmds-4/</guid>
       <description>Run levels are Run level 0 is matched by poweroff.target (and runlevel0.target is a symbolic link to poweroff.target). Run level 1 is matched by rescue.target (and runlevel1.target is a symbolic link to rescue.target). Run level 3 is emulated by multi-user.target (and runlevel3.target is a symbolic link to multi-user.target). Run level 5 is emulated by graphical.target (and runlevel5.target is a symbolic link to graphical.target). Run level 6 is emulated by reboot.</description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 3</title>
-      <link>https://techtaste.in/post/sys-admin-cmds-3/</link>
+      <link>https://sharemygo.in/post/sys-admin-cmds-3/</link>
       <pubDate>Wed, 12 Jun 2019 15:53:19 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/sys-admin-cmds-3/</guid>
+      <guid>https://sharemygo.in/post/sys-admin-cmds-3/</guid>
       <description>TODO : extend existing volumes
 mount $ mount &amp;lt;source&amp;gt; &amp;lt;dest&amp;gt; $ mount /dev/sda2 mountDestDir --- list all mount points $ mount -l --- list all mount points of given type. $ mount -l -t &amp;lt;type&amp;gt;  find -- find by name $ find -name &amp;lt;name&amp;gt; -- find not matching name $ find -not -name &amp;lt;name-to-avoid&amp;gt; -- find by type $ find / -type &amp;lt;type&amp;gt; &amp;lt;name&amp;gt; &amp;lt;type&amp;gt; could be one of f = file d = directory l = symbolic link c = character devices b = block devices e.</description>
     </item>
     
     <item>
       <title>ISO Model</title>
-      <link>https://techtaste.in/post/iso-model/</link>
+      <link>https://sharemygo.in/post/iso-model/</link>
       <pubDate>Wed, 12 Jun 2019 04:39:33 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/iso-model/</guid>
+      <guid>https://sharemygo.in/post/iso-model/</guid>
       <description> Layer 7 to Layer 1 All People Seem To Need Data Processing
  Physical Layer Data Link Lyaer Network Layer Transport Layer Session Presentation Layer Application Layer  </description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 2</title>
-      <link>https://techtaste.in/post/sys-admin-cmds-2/</link>
+      <link>https://sharemygo.in/post/sys-admin-cmds-2/</link>
       <pubDate>Wed, 12 Jun 2019 01:22:21 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/sys-admin-cmds-2/</guid>
+      <guid>https://sharemygo.in/post/sys-admin-cmds-2/</guid>
       <description>display inode details for a file $ stat &amp;lt;file&amp;gt;  $ stat /etc/passwd --- Output --- File: `/etc/passwd&#39; Size: 2026 Blocks: 8 IO Block: 4096 regular file Device: 811h/2065d Inode: 752010 Links: 1 Access: (0644/-rw-r--r--) Uid: ( 0/ root) Gid: ( 0/ root) Access: 2007-08-20 23:19:20.000000000 +0530 Modify: 2007-07-07 00:06:56.000000000 +0530 Change: 2007-07-07 00:06:56.000000000 +0530  Create a user &amp;amp; group --- create a user &amp;amp; group $ sudo useradd -m testuser --- set passwd for the user $ sudo passwd testuser --- create a group sudo groupadd &amp;lt;groupname&amp;gt; $ sudo groupadd testgroup  Adding user to a group sudo usermod -a -G &amp;lt;group&amp;gt; &amp;lt;user&amp;gt; $ sudo usermod -a -G testgroup testuser  list users for a given group $ grep &amp;lt;username&amp;gt; /etc/group $ grep testuser /etc/group  User passwords User encrypted passwords are stored in /etc/shadow.</description>
     </item>
     
     <item>
       <title>Terminology 1</title>
-      <link>https://techtaste.in/post/terminology/</link>
+      <link>https://sharemygo.in/post/terminology/</link>
       <pubDate>Tue, 11 Jun 2019 22:28:52 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/terminology/</guid>
+      <guid>https://sharemygo.in/post/terminology/</guid>
       <description>* placeholder * abstract it out * Symantics of a command  * filesytem is on disk data structure  </description>
     </item>
     
     <item>
       <title>To Do</title>
-      <link>https://techtaste.in/post/to-do/</link>
+      <link>https://sharemygo.in/post/to-do/</link>
       <pubDate>Tue, 11 Jun 2019 19:14:32 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/to-do/</guid>
+      <guid>https://sharemygo.in/post/to-do/</guid>
       <description> java coding, Elastic Search basics, PostgreSQL,
 Sql coding(basics),
 nginx setup and configure for two sites on same host https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/ sites are usually on location: /var/www/html/example-1.com
@@ -313,19 +304,19 @@ nginx setup and configure for two sites on same host https://www.liberiangeek.ne
     
     <item>
       <title>Portforward on Windows 10</title>
-      <link>https://techtaste.in/post/windows-portforward/</link>
+      <link>https://sharemygo.in/post/windows-portforward/</link>
       <pubDate>Tue, 11 Jun 2019 17:48:16 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/windows-portforward/</guid>
+      <guid>https://sharemygo.in/post/windows-portforward/</guid>
       <description>Port forward on Windows 10 &amp;gt; netsh interface portproxy add v4tov4 listenaddress=localhost listenport=8286 connectaddress=192.168.56.101 connectport=8286  List all port forward rules on Windows 10 &amp;gt; netsh interface portproxy show all  Delete specific port forward rule &amp;gt; netsh interface portproxy delete v4tov4 listenaddress=localhost listenport=8286  Clear all port forward rules &amp;gt; netsh interface portproxy reset  Note: netsh is network shell for windows to configure routings/port forwarding(something like iptables is for linux)</description>
     </item>
     
     <item>
       <title>Process(ps) cmd in linux</title>
-      <link>https://techtaste.in/post/process/</link>
+      <link>https://sharemygo.in/post/process/</link>
       <pubDate>Tue, 11 Jun 2019 16:51:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/process/</guid>
+      <guid>https://sharemygo.in/post/process/</guid>
       <description>fork vs exec  fork creates child process and returns child&amp;rsquo;s pid
 child process gets zero as returned value from fork.
  list by user $ ps -u $USER  Ref: https://fedoramagazine.org/inspect-manage-processes-ps/
@@ -335,56 +326,56 @@ list processes by group $ ps -G groupname1 groupname2 e.g. $ ps -G root  Inverse
     
     <item>
       <title>TCPDUMP cmd</title>
-      <link>https://techtaste.in/post/tcpdump/</link>
+      <link>https://sharemygo.in/post/tcpdump/</link>
       <pubDate>Sun, 19 May 2019 07:53:12 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/tcpdump/</guid>
+      <guid>https://sharemygo.in/post/tcpdump/</guid>
       <description>tcpdump -i any To get the network packets from all network interfaces, run the following command,  get packets on localhost with port 8288 tcpdump -i lo0 port 8288  tcpdump -i eth0 get the network packets from a single interface  tcpdump -i eth0 -w wirte_file_name write all the captured packets to a file, use the ‘-w’ option,  tcpdump -r packets_file read an already created, old tcpdump file.</description>
     </item>
     
     <item>
       <title>Sys Admin Cmds 1</title>
-      <link>https://techtaste.in/post/sys-admin-cmds-1/</link>
+      <link>https://sharemygo.in/post/sys-admin-cmds-1/</link>
       <pubDate>Sun, 19 May 2019 06:34:32 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/sys-admin-cmds-1/</guid>
+      <guid>https://sharemygo.in/post/sys-admin-cmds-1/</guid>
       <description>lscpu list of cpus.  lsmem list of memory.  lsof (list open files) lsof -i tcp:80  df (disk free space) Display free disk space Filesystem Size Used Avail Use% Mounted on /dev/xvda1 32G 4.7G 26G 16% / tmpfs 1.9G 0 1.9G 0% /dev/shm  du (disk space usage) du - estimate file space usage du -sh /var/*  id $ id uid=501(operations) gid=100(users) groups=100(users)  curl curl -I -s google.</description>
     </item>
     
     <item>
       <title>Network Debug Commands</title>
-      <link>https://techtaste.in/post/linux-network-commands-1/</link>
+      <link>https://sharemygo.in/post/linux-network-commands-1/</link>
       <pubDate>Sat, 18 May 2019 05:30:33 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/linux-network-commands-1/</guid>
+      <guid>https://sharemygo.in/post/linux-network-commands-1/</guid>
       <description>Ifconfig Used to configure network interface parameters. Checking ip of the machine.  traceroute Print the route packets take to network host.  dig(Domain information groper) Dig (domain information groper) query DNS related information like A Record, CNAME, MX Record etc  telnet Connects to host on given port using telnet protocal. If connection successful then host is working fine.  nslookup It queries internet domain name servers.  Options</description>
     </item>
     
     <item>
       <title>How To Use Vdock Tool</title>
-      <link>https://techtaste.in/post/vdock-tool/</link>
+      <link>https://sharemygo.in/post/vdock-tool/</link>
       <pubDate>Thu, 06 Dec 2018 21:19:55 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/vdock-tool/</guid>
+      <guid>https://sharemygo.in/post/vdock-tool/</guid>
       <description> Vdock for quickly deploying a site on to Github   Go to Vdock Github project
  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://techtaste.in/post/interview-questions/</link>
+      <link>https://sharemygo.in/post/interview-questions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/interview-questions/</guid>
+      <guid>https://sharemygo.in/post/interview-questions/</guid>
       <description>  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://techtaste.in/post/questions/</link>
+      <link>https://sharemygo.in/post/questions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/questions/</guid>
+      <guid>https://sharemygo.in/post/questions/</guid>
       <description>   </description>
     </item>
     

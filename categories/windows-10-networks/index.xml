@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows 10 Networks on Techtaste</title>
-    <link>https://techtaste.in/categories/windows-10-networks/</link>
+    <link>https://sharemygo.in/categories/windows-10-networks/</link>
     <description>Recent content in Windows 10 Networks on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 17:48:16 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.in/categories/windows-10-networks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sharemygo.in/categories/windows-10-networks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Portforward on Windows 10</title>
-      <link>https://techtaste.in/post/windows-portforward/</link>
+      <link>https://sharemygo.in/post/windows-portforward/</link>
       <pubDate>Tue, 11 Jun 2019 17:48:16 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/windows-portforward/</guid>
+      <guid>https://sharemygo.in/post/windows-portforward/</guid>
       <description>Port forward on Windows 10 &amp;gt; netsh interface portproxy add v4tov4 listenaddress=localhost listenport=8286 connectaddress=192.168.56.101 connectport=8286  List all port forward rules on Windows 10 &amp;gt; netsh interface portproxy show all  Delete specific port forward rule &amp;gt; netsh interface portproxy delete v4tov4 listenaddress=localhost listenport=8286  Clear all port forward rules &amp;gt; netsh interface portproxy reset  Note: netsh is network shell for windows to configure routings/port forwarding(something like iptables is for linux)</description>
     </item>
     

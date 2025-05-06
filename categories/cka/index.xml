@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cka on Techtaste</title>
-    <link>https://techtaste.in/categories/cka/</link>
+    <link>https://sharemygo.in/categories/cka/</link>
     <description>Recent content in Cka on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Aug 2022 15:29:42 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.in/categories/cka/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sharemygo.in/categories/cka/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cluster Management</title>
-      <link>https://techtaste.in/post/cluster-management/</link>
+      <link>https://sharemygo.in/post/cluster-management/</link>
       <pubDate>Sun, 28 Aug 2022 15:29:42 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/cluster-management/</guid>
+      <guid>https://sharemygo.in/post/cluster-management/</guid>
       <description> Upgrading Kubeadm clusters https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
 https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/#call-kubeadm-upgrade-1
 Install Network solution https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>File System on Techtaste</title>
-    <link>https://techtaste.in/categories/file-system/</link>
+    <link>https://sharemygo.in/categories/file-system/</link>
     <description>Recent content in File System on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2019 22:54:41 +0000</lastBuildDate>
     
-	<atom:link href="https://techtaste.in/categories/file-system/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sharemygo.in/categories/file-system/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>File Attributes</title>
-      <link>https://techtaste.in/post/file-attributes/</link>
+      <link>https://sharemygo.in/post/file-attributes/</link>
       <pubDate>Fri, 14 Jun 2019 22:54:41 +0000</pubDate>
       
-      <guid>https://techtaste.in/post/file-attributes/</guid>
+      <guid>https://sharemygo.in/post/file-attributes/</guid>
       <description>Ref:
 https://serverfault.com/questions/74321/what-happens-to-a-deleted-file-still-subject-to-redirection-on-linux
 https://linoxide.com/how-tos/howto-show-file-attributes-in-linux/ https://wiki.archlinux.org/index.php/File_permissions_and_attributes</description>
