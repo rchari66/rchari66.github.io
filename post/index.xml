@@ -6,19 +6,10 @@
     <description>Recent content in Posts on Techtaste</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 May 2025 16:43:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Mar 2023 23:53:58 +0000</lastBuildDate>
     
 	<atom:link href="https://sharemygo.in/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Demo</title>
-      <link>https://sharemygo.in/post/demo/</link>
-      <pubDate>Tue, 06 May 2025 16:43:41 +0000</pubDate>
-      
-      <guid>https://sharemygo.in/post/demo/</guid>
-      <description> In Progress..     Name City     Bujji Maadanpolli    </description>
-    </item>
     
     <item>
       <title>How to setup K8s on premise</title>
